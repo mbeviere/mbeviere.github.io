@@ -31,12 +31,14 @@
 <ul>
 <li>J&#39;utilise Chocolatey de Microsoft pour gérer mes applications sur Windows 10</li>
 </ul>
-<p><code>choco install flutter</code></p>
+<pre>choco install flutter</pre>
 <ul>
 <li>Pour une installation plus classique:</li>
 <li>Télécharger le Flutter SDK sur le site de Flutter et extraire le ZIP téléchargé là où vous le souhaitez</li>
 <li><strong>OU</strong></li>
-<li><code>git clone https://github.com/flutter/flutter.git -b stable</code></li>
+</ul>
+<pre>git clone https://github.com/flutter/flutter.git -b stable</pre>
+<ul>
 <li>Mettez à jour votre PATH en ajoutant le chemin complet vers <em>flutter/bin</em></li>
 </ul>
 <h2 is-upgraded><strong>Vérification de l&#39;installation</strong></h2>
@@ -69,17 +71,21 @@
 <p>Le fichier lancé au démarrage de l&#39;application est le fichier <strong><em>main.dart</em></strong> contenu dans <strong><em>/lib </em></strong></p>
 <p>Essayez de lancer votre projet fraîchement créé pour vérifier que tout se passe bien.</p>
 <p>Vous devez obtenir cet affichage :</p>
-<p class="image-container"><img alt="image-20210525201407287" style="width: 560.00px" src="https://lh4.googleusercontent.com/TpmOgZ3f3AYnv-V2ofYdNo7OCAXDPbTpnOvJjldhJj6DvYIq9fXIFLVkO23s4F2P1FJOTXMdoPKdo5lwGDtod9XLX5_-KHuLU_ZFL9h9Wrc-UPy1_B1D8EmlSTtIQJnS21G2nYH8"></p>
+<p class="image-container"><img alt="image-20210525201407287" style="width: 560.00px" src="https://lh4.googleusercontent.com/nn4G7ZeTFlq1LcGX-eVstc-Ju6-Pc81X5gNBYhU6F22HMFR57AxYm5smloPq0CqTpwF429f09873FF1dPNmjF7c7fkhL-oC3z3X-HSlasGOF1Ux2W2vK5rivZHc8enF04pWh-KQc"></p>
 <p><em>image-20210525201407287</em></p>
-<h3 is-upgraded><strong>Système d&#39;authentification</strong></h3>
-<p>Pour réaliser un système d&#39;authentification on a besoin de trois choses :</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Système d&#39;authentification" duration="0">
+        <p>Pour réaliser un système d&#39;authentification on a besoin de trois choses :</p>
 <ul>
 <li>Un <strong>formulaire</strong> de connexion (La vue)</li>
 <li>Un <strong>service</strong> qui permet de se mettre en relation avec l&#39;API</li>
 <li>Un <strong>modèle d&#39;utilisateur</strong> qui permettra de manipuler un objet Utilisateur</li>
 </ul>
 <p>Commençons par le modèle d&#39;utilisateur! </p>
-<h4 is-upgraded><em>Création d&#39;un modèle : L&#39;utilisateur</em></h4>
+<h2 is-upgraded><strong>Création d&#39;un modèle : L&#39;utilisateur</strong></h2>
 <p>On a besoin de créer une classe User qui contient des attributs et des méthodes.</p>
 <p>Nous allons donc créer le fichier <strong>/lib/models/user.model.dart</strong></p>
 <p>Nous créons la classe et nous ajoutons ensuite les attributs : </p>
@@ -133,11 +139,213 @@ class User {
       &#39;token&#39;: token
   };
 }</pre>
-<h4 is-upgraded><em>Création d&#39;un service</em></h4>
+<h2 is-upgraded><strong>Création du service de redirection</strong></h2>
 <p>On peut désormais créer le dossier <strong><em>/lib/services</em></strong> qui contiendra nos différents services.</p>
 <p>Nous allons ensuite créer un fichier <strong><em>locator.service.dart</em></strong> dans le dossier <strong><em>/lib/services</em></strong> qui contiendra le systeme de redirection vers le bon service. Cela nous permettra ensuite de gérer le mode en ligne et hors ligne.</p>
 <p>Juste avant créons ce fichier qui servira a stocker l&#39;URL de l&#39;API :</p>
-<p><code>// /lib/services/locator.service.dart</code><br></p>
+<pre>// /lib/services/const.dart
+
+const API_URL = &#39;dourlens-monchy.fr:8091&#39;;</pre>
+<pre>// /lib/services/locator.service.dart
+
+import &#39;dart:async&#39;;
+
+import &#39;package:get_it/get_it.dart&#39;;
+import &#39;package:http/http.dart&#39; as http;
+
+import &#39;const.dart&#39;;
+
+GetIt locator = GetIt.instance;
+
+// Fonction qui test la réponse du serveur
+Future&lt;bool&gt; ping() async {
+  try {
+    final response = await http.get(Uri.http(API_URL, &#39;ping&#39;)).timeout(
+        new Duration(seconds: 5),
+        onTimeout: () =&gt; throw new TimeoutException(&#39;TimeOut&#39;));
+    return response.body == &#39;pong&#39;;
+  } catch (error) {
+    return false;
+  }
+}
+
+// Fonction permettant d&#39;utiliser le bon service en fonction du cas de figure (Réponse de l&#39;API ou non)
+setupServiceLocator() async {
+  if (await ping()) {
+    // locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserApiService());
+  } else {
+    // locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserOfflineService());
+  }
+}</pre>
+<p>Nous avons besoin du package Get_It et HTTP:</p>
+<pre>flutter pub add get_it
+
+flutter pub add http</pre>
+<h2 is-upgraded><strong>Création d&#39;un service: Le service utilisateur</strong></h2>
+<p>Nous allons désormais créer notre premier service!</p>
+<p>Commençons par créer le dossier qui va l&#39;accueillir : <strong><em>/lib/services/user</em></strong></p>
+<p>Ce dossier va contenir trois fichier :</p>
+<ul>
+<li>La classe abstraite contenant les méthodes à implémenter : <strong><em>user.abstract.service.dart</em></strong></li>
+<li>La classe qui utilisera l&#39;API : <strong><em>user.api.service.dart</em></strong></li>
+<li>La classe qui prendra le relai lorsqu&#39;on n&#39;aura pas accès à l&#39;API : <strong><em>user.offline.service.dart</em></strong></li>
+</ul>
+<h3 is-upgraded><strong>La classe abstraite </strong></h3>
+<p>Cette classe contient toute les méthodes à implémenter dans les classes filles.</p>
+<p>Nous avons donc :</p>
+<pre>// /lib/services/user/user.abstract.service.dart
+
+import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
+
+abstract class UserService {
+  Future&lt;int&gt; createUser(User user);
+  Future&lt;int&gt; login(User user);
+  Future&lt;int&gt; logout();
+  Future&lt;User&gt; getCurrentUser(User user);
+}</pre>
+<h3 is-upgraded><strong>La classe API</strong></h3>
+<p>Cette classe contient les méthodes implémentées qui réalisent des appels à l&#39;API</p>
+<p>On va ajouter le package SharedPreferences qui permet d&#39;accéder au stockage de l&#39;appareil.</p>
+<p><code>flutter pub add shared_preferences</code></p>
+<p>On va ensuite implémenter la classe <strong><em>user.api.service.dart</em></strong></p>
+<p>Voici le résultat final de cette implémentation :</p>
+<pre>// /lib/services/user/user.api.service.dart
+
+import &#39;dart:convert&#39;;
+
+import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
+import &#39;package:tutoriel_flutter/services/user/user.abstract.service.dart&#39;;
+import &#39;package:http/http.dart&#39; as http;
+import &#39;package:shared_preferences/shared_preferences.dart&#39;;
+
+import &#39;../const.dart&#39;;
+
+class UserApiService extends UserService {
+  @override
+  Future&lt;int&gt; createUser(User user) async {
+    print(user.toJson());
+    final response = await http.post(Uri.http(API_URL, &#39;v1/users&#39;),
+        headers: &lt;String, String&gt;{
+          &#39;Content-Type&#39;: &#39;application/json; charset=UTF-8&#39;,
+        },
+        body: jsonEncode(user.toJson()));
+    if (response.statusCode == 201) {
+      // If the server did return a 200 OK response,
+      // then parse the JSON.
+      return 0;
+    } else {
+      // If the server did not return a 200 OK response,
+      // then throw an exception.
+      throw Exception(&#39;Failed to create user&#39;);
+    }
+  }
+
+  @override
+  Future&lt;int&gt; login(User user) async {
+    final prefs = await SharedPreferences.getInstance();
+    final response = await http.post(
+        Uri.http(API_URL, &#39;v1/authentication/login&#39;),
+        headers: &lt;String, String&gt;{
+          &#39;Content-Type&#39;: &#39;application/json; charset=UTF-8&#39;,
+        },
+        body: jsonEncode({
+          &#39;username&#39;: user.name,
+          &#39;password&#39;: user.password
+        }));
+    if (response.statusCode == 200) {
+      // If the server did return a 200 OK response,
+      // then parse the JSON.
+      user.id = jsonDecode(response.body)[&#39;idUser&#39;];
+      user.token = jsonDecode(response.body)[&#39;token&#39;];
+      prefs.setString(&#39;user&#39;, json.encode(user));
+      print(prefs.getString(&#39;user&#39;));
+      return 0;
+    } else {
+      // If the server did not return a 200 OK response,
+      // then throw an exception.
+      print(response.statusCode);
+      print(jsonDecode(response.body));
+      throw Exception(&#39;Failed to login&#39;);
+    }
+  }
+
+  @override
+  Future&lt;int&gt; logout() async {
+    String? token;
+    http.Response response;
+    final prefs = await SharedPreferences.getInstance().then((value) async {
+      token = value.getString(&#39;token&#39;);
+      response = await http.post(Uri.http(API_URL, &#39;v1/authentication/logout&#39;),
+          headers: &lt;String, String&gt;{
+            &#39;Content-Type&#39;: &#39;application/json; charset=UTF-8&#39;,
+            &#39;token&#39;: &#39;$token&#39;
+          });
+
+      if(response.statusCode == 200){
+        return 0;
+      }
+      else{
+        throw Exception(&#39;Failed to login&#39;);
+      }
+    });
+    return 0;
+  }
+
+  @override
+  Future&lt;User&gt; getCurrentUser(User user) {
+    // TODO: implement getCurrentUser
+    throw UnimplementedError();
+  }
+
+}</pre>
+<h3 is-upgraded><strong>La classe offline</strong></h3>
+<p>On peut maintenant créer la classe qui servira à récupérer les données hors connexion</p>
+<pre>import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
+import &#39;package:tutoriel_flutter/services/user/user.abstract.service.dart&#39;;
+
+class UserOfflineService extends UserService {
+  @override
+  Future&lt;int&gt; createUser(User user) {
+    // TODO: implement createUser
+    throw UnimplementedError();
+  }
+
+  @override
+  Future&lt;int&gt; login(User user) {
+    // TODO: implement login
+    throw UnimplementedError();
+  }
+
+  @override
+  Future&lt;int&gt; logout() {
+    // TODO: implement logout
+    throw UnimplementedError();
+  }
+
+  @override
+  Future&lt;User&gt; getCurrentUser(User user) {
+    // TODO: implement getCurrentUser
+    throw UnimplementedError();
+  }
+
+}</pre>
+<p>Les méthodes seront à implémenter plus tard.</p>
+<h3 is-upgraded><strong>Ajout au Locator</strong></h3>
+<p>Nous pouvons désormais ajouter notre service à notre Locator contenu dans <strong><em>/lib/services/locator.service.dart</em></strong></p>
+<p>Voici le contenu de la méthode <strong><em>setupServiceLocator()</em></strong></p>
+<pre>// /lib/services/locator.service.dart
+
+setupServiceLocator() async {
+  if (await ping()) {
+    locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserApiService());
+  } else {
+    locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserOfflineService());
+  }
+}</pre>
+<h2 is-upgraded><strong>Création de notre vue : Le formulaire de connexion</strong></h2>
+<p>Nous allons enfin modifier notre affichage!</p>
+<p>Nous allons réaliser un formulaire de connexion permettant à l&#39;utilisateur de s&#39;identifier.</p>
+<p>Nous allons </p>
 
 
       </google-codelab-step>
