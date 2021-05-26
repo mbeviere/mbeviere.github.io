@@ -102,12 +102,14 @@
       <p>On a besoin de créer une classe User qui contient des attributs et des méthodes.</p>
       <p>Nous allons donc créer le fichier <strong>/lib/models/user.model.dart</strong></p>
       <p>Nous créons la classe et nous ajoutons ensuite les attributs : </p>
-      <pre>class User {
-  int? id;
-  String? name;
-  String? password;
-  String? token;
-}</pre>
+      <devsite-code no-copy="" data-copy-event-label="">
+        <pre translate="no" dir="ltr" is-upgraded="">class User {
+          int? id;
+          String? name;
+          String? password;
+          String? token;
+        }</pre>
+      </devsite-code>
       <p>On ajoute ensuite le constructeur : </p>
       <pre>User({this.id, this.name, this.password, this.token});</pre>
       <p>Puis nous créons deux méthodes qui nous serons utile lors de la création de notre service. En effet l&#39;API
