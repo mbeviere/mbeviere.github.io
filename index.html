@@ -1,103 +1,119 @@
 <!doctype html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
   <title>Tutoriel Flutter</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
   <style>
     .success {
       color: #1e8e3e;
     }
+
     .error {
       color: red;
     }
   </style>
 </head>
+
 <body>
-  <google-codelab title="Tutoriel Flutter"
-                  id="your-first-pwapp"
-                  environment="web"
-                  feedback-link="">
-    
-      <google-codelab-step label="Installation et mise en place de l&#39;environnement" duration="0">
-        <p>Ici les instructions d&#39;installation sont pour un système d&#39;exploitation Windows.</p>
-<p>Pour un autre système d&#39;exploitation suivez les étapes sur le site officiel de Flutter: <a href="https://flutter.dev/docs/get-started/install" target="_blank">https://flutter.dev/docs/get-started/install</a> </p>
-<h2 is-upgraded><strong>Installation de Flutter SDK</strong></h2>
-<ul>
-<li>J&#39;utilise Chocolatey de Microsoft pour gérer mes applications sur Windows 10</li>
-</ul>
-<pre>choco install flutter</pre>
-<ul>
-<li>Pour une installation plus classique:</li>
-<li>Télécharger le Flutter SDK sur le site de Flutter et extraire le ZIP téléchargé là où vous le souhaitez</li>
-<li><strong>OU</strong></li>
-</ul>
-<pre>git clone https://github.com/flutter/flutter.git -b stable</pre>
-<ul>
-<li>Mettez à jour votre PATH en ajoutant le chemin complet vers <em>flutter/bin</em></li>
-</ul>
-<h2 is-upgraded><strong>Vérification de l&#39;installation</strong></h2>
-<pre>flutter doctor</pre>
-<p>Cette commande vérifie la bonne installation et nous donne des conseils si elle détecte un problème.</p>
-<h2 is-upgraded><strong>Installation de l&#39;IDE</strong></h2>
-<p>Android Studio ou IntelliJ sont recommandés pour Flutter.</p>
-<p>J&#39;ai utilisé Android Studio.</p>
-<p><a href="https://developer.android.com/studio" target="_blank">https://developer.android.com/studio</a></p>
-<p>Vous pourrez ajouter le plugin Flutter après avoir installé le SDK Android.</p>
-<h2 is-upgraded><strong>Installation de Android SDK</strong></h2>
-<p>Au démarrage de Android Studio passez par l &#39;«Assistant de configuration d&#39;Android Studio». </p>
-<p>Cela installe le dernier SDK Android, les outils de ligne de commande du SDK Android et les outils de construction du SDK Android, qui sont requis par Flutter lors du développement pour Android.</p>
-<h2 is-upgraded><strong>Initialisation de l&#39;émulateur Android</strong></h2>
-<p>Suivez les démarches sur le site de Flutter ou d&#39;Android Studio pour mettre en place un émulateur Android.</p>
-<p>Si vous utilisez un téléphone Android, vous pouvez utiliser ADB pour installer l&#39;application directement sur votre smartphone. Cela permet d&#39;utiliser l&#39;application dans des conditions réelles et cela soulagera votre ordinateur. </p>
+  <google-codelab title="Tutoriel Flutter" id="your-first-pwapp" environment="web" feedback-link="">
+
+    <google-codelab-step label="Installation et mise en place de l&#39;environnement" duration="0">
+      <p>Ici les instructions d&#39;installation sont pour un système d&#39;exploitation Windows.</p>
+      <p>Pour un autre système d&#39;exploitation suivez les étapes sur le site officiel de Flutter: <a
+          href="https://flutter.dev/docs/get-started/install"
+          target="_blank">https://flutter.dev/docs/get-started/install</a> </p>
+      <h2 is-upgraded><strong>Installation de Flutter SDK</strong></h2>
+      <ul>
+        <li>J&#39;utilise Chocolatey de Microsoft pour gérer mes applications sur Windows 10</li>
+      </ul>
+      <devsite-code no-copy="" data-copy-event-label="">
+        <pre translate="no" dir="ltr" is-upgraded="">choco install flutter</pre>
+      </devsite-code>
+      
+      <ul>
+        <li>Pour une installation plus classique:</li>
+        <li>Télécharger le Flutter SDK sur le site de Flutter et extraire le ZIP téléchargé là où vous le souhaitez</li>
+        <li><strong>OU</strong></li>
+      </ul>
+      <pre>git clone https://github.com/flutter/flutter.git -b stable</pre>
+      <ul>
+        <li>Mettez à jour votre PATH en ajoutant le chemin complet vers <em>flutter/bin</em></li>
+      </ul>
+      <h2 is-upgraded><strong>Vérification de l&#39;installation</strong></h2>
+      <pre>flutter doctor</pre>
+      <p>Cette commande vérifie la bonne installation et nous donne des conseils si elle détecte un problème.</p>
+      <h2 is-upgraded><strong>Installation de l&#39;IDE</strong></h2>
+      <p>Android Studio ou IntelliJ sont recommandés pour Flutter.</p>
+      <p>J&#39;ai utilisé Android Studio.</p>
+      <p><a href="https://developer.android.com/studio" target="_blank">https://developer.android.com/studio</a></p>
+      <p>Vous pourrez ajouter le plugin Flutter après avoir installé le SDK Android.</p>
+      <h2 is-upgraded><strong>Installation de Android SDK</strong></h2>
+      <p>Au démarrage de Android Studio passez par l &#39;«Assistant de configuration d&#39;Android Studio». </p>
+      <p>Cela installe le dernier SDK Android, les outils de ligne de commande du SDK Android et les outils de
+        construction du SDK Android, qui sont requis par Flutter lors du développement pour Android.</p>
+      <h2 is-upgraded><strong>Initialisation de l&#39;émulateur Android</strong></h2>
+      <p>Suivez les démarches sur le site de Flutter ou d&#39;Android Studio pour mettre en place un émulateur Android.
+      </p>
+      <p>Si vous utilisez un téléphone Android, vous pouvez utiliser ADB pour installer l&#39;application directement
+        sur votre smartphone. Cela permet d&#39;utiliser l&#39;application dans des conditions réelles et cela soulagera
+        votre ordinateur. </p>
 
 
-      </google-codelab-step>
-    
-      <google-codelab-step label="Création de l&#39;application Flutter" duration="0">
-        <p>Si vous avez fait le choix d&#39;utiliser Android Studio avec le plugin Flutter suivez ces étapes, sinon renseignez vous sur la façon de créer une application avec votre IDE.</p>
-<p><code>Fichier &gt; Nouveau &gt; Nouvelle application Flutter &gt; Application Flutter</code></p>
-<p>Vous pouvez ensuite suivre les étapes de création.</p>
-<p>Pour ce tutoriel j&#39;ai utilisé:</p>
-<ul>
-<li>Nom du projet : tutoriel_flutter</li>
-<li>Nom du package : ig2i.mobile.tutorielflutter</li>
-</ul>
-<p>Le fichier lancé au démarrage de l&#39;application est le fichier <strong><em>main.dart</em></strong> contenu dans <strong><em>/lib </em></strong></p>
-<p>Essayez de lancer votre projet fraîchement créé pour vérifier que tout se passe bien.</p>
-<p>Vous devez obtenir cet affichage :</p>
-<p class="image-container"><img alt="image-20210525201407287" style="width: 560.00px" src="https://lh4.googleusercontent.com/nn4G7ZeTFlq1LcGX-eVstc-Ju6-Pc81X5gNBYhU6F22HMFR57AxYm5smloPq0CqTpwF429f09873FF1dPNmjF7c7fkhL-oC3z3X-HSlasGOF1Ux2W2vK5rivZHc8enF04pWh-KQc"></p>
-<p><em>image-20210525201407287</em></p>
+    </google-codelab-step>
+
+    <google-codelab-step label="Création de l&#39;application Flutter" duration="0">
+      <p>Si vous avez fait le choix d&#39;utiliser Android Studio avec le plugin Flutter suivez ces étapes, sinon
+        renseignez vous sur la façon de créer une application avec votre IDE.</p>
+      <p><code>Fichier &gt; Nouveau &gt; Nouvelle application Flutter &gt; Application Flutter</code></p>
+      <p>Vous pouvez ensuite suivre les étapes de création.</p>
+      <p>Pour ce tutoriel j&#39;ai utilisé:</p>
+      <ul>
+        <li>Nom du projet : tutoriel_flutter</li>
+        <li>Nom du package : ig2i.mobile.tutorielflutter</li>
+      </ul>
+      <p>Le fichier lancé au démarrage de l&#39;application est le fichier <strong><em>main.dart</em></strong> contenu
+        dans <strong><em>/lib </em></strong></p>
+      <p>Essayez de lancer votre projet fraîchement créé pour vérifier que tout se passe bien.</p>
+      <p>Vous devez obtenir cet affichage :</p>
+      <p class="image-container"><img alt="image-20210525201407287" style="width: 560.00px"
+          src="https://lh4.googleusercontent.com/nn4G7ZeTFlq1LcGX-eVstc-Ju6-Pc81X5gNBYhU6F22HMFR57AxYm5smloPq0CqTpwF429f09873FF1dPNmjF7c7fkhL-oC3z3X-HSlasGOF1Ux2W2vK5rivZHc8enF04pWh-KQc">
+      </p>
+      <p><em>image-20210525201407287</em></p>
 
 
-      </google-codelab-step>
-    
-      <google-codelab-step label="Système d&#39;authentification" duration="0">
-        <p>Pour réaliser un système d&#39;authentification on a besoin de trois choses :</p>
-<ul>
-<li>Un <strong>formulaire</strong> de connexion (La vue)</li>
-<li>Un <strong>service</strong> qui permet de se mettre en relation avec l&#39;API</li>
-<li>Un <strong>modèle d&#39;utilisateur</strong> qui permettra de manipuler un objet Utilisateur</li>
-</ul>
-<p>Commençons par le modèle d&#39;utilisateur! </p>
-<h2 is-upgraded><strong>Création d&#39;un modèle : L&#39;utilisateur</strong></h2>
-<p>On a besoin de créer une classe User qui contient des attributs et des méthodes.</p>
-<p>Nous allons donc créer le fichier <strong>/lib/models/user.model.dart</strong></p>
-<p>Nous créons la classe et nous ajoutons ensuite les attributs : </p>
-<pre>class User {
+    </google-codelab-step>
+
+    <google-codelab-step label="Système d&#39;authentification" duration="0">
+      <p>Pour réaliser un système d&#39;authentification on a besoin de trois choses :</p>
+      <ul>
+        <li>Un <strong>formulaire</strong> de connexion (La vue)</li>
+        <li>Un <strong>service</strong> qui permet de se mettre en relation avec l&#39;API</li>
+        <li>Un <strong>modèle d&#39;utilisateur</strong> qui permettra de manipuler un objet Utilisateur</li>
+      </ul>
+      <p>Commençons par le modèle d&#39;utilisateur! </p>
+      <h2 is-upgraded><strong>Création d&#39;un modèle : L&#39;utilisateur</strong></h2>
+      <p>On a besoin de créer une classe User qui contient des attributs et des méthodes.</p>
+      <p>Nous allons donc créer le fichier <strong>/lib/models/user.model.dart</strong></p>
+      <p>Nous créons la classe et nous ajoutons ensuite les attributs : </p>
+      <pre>class User {
   int? id;
   String? name;
   String? password;
   String? token;
 }</pre>
-<p>On ajoute ensuite le constructeur : </p>
-<pre>User({this.id, this.name, this.password, this.token});</pre>
-<p>Puis nous créons deux méthodes qui nous serons utile lors de la création de notre service. En effet l&#39;API utilise le format JSON, nous allons donc créer une methode qui permet de passer d&#39;un objet Dart à un objet JSON et inversement.</p>
-<pre>  factory User.fromJson(Map&lt;String, dynamic&gt; json) {
+      <p>On ajoute ensuite le constructeur : </p>
+      <pre>User({this.id, this.name, this.password, this.token});</pre>
+      <p>Puis nous créons deux méthodes qui nous serons utile lors de la création de notre service. En effet l&#39;API
+        utilise le format JSON, nous allons donc créer une methode qui permet de passer d&#39;un objet Dart à un objet
+        JSON et inversement.</p>
+      <pre>  factory User.fromJson(Map&lt;String, dynamic&gt; json) {
     return User(
       id: json[&#39;id&#39;],
       name: json[&#39;name&#39;],
@@ -112,8 +128,8 @@
       &#39;password&#39;: password,
       &#39;token&#39;: token
   };</pre>
-<p>On obtient donc le résultat suivant :</p>
-<pre>// /lib/models/user.model.dart
+      <p>On obtient donc le résultat suivant :</p>
+      <pre>// /lib/models/user.model.dart
 class User {
   int? id;
   String? name;
@@ -138,14 +154,18 @@ class User {
       &#39;token&#39;: token
   };
 }</pre>
-<h2 is-upgraded><strong>Création du service de redirection</strong></h2>
-<p>On peut désormais créer le dossier <strong><em>/lib/services</em></strong> qui contiendra nos différents services.</p>
-<p>Nous allons ensuite créer un fichier <strong><em>locator.service.dart</em></strong> dans le dossier <strong><em>/lib/services</em></strong> qui contiendra le systeme de redirection vers le bon service. Cela nous permettra ensuite de gérer le mode en ligne et hors ligne.</p>
-<p>Juste avant créons ce fichier qui servira a stocker l&#39;URL de l&#39;API :</p>
-<pre>// /lib/services/const.dart
+      <h2 is-upgraded><strong>Création du service de redirection</strong></h2>
+      <p>On peut désormais créer le dossier <strong><em>/lib/services</em></strong> qui contiendra nos différents
+        services.</p>
+      <p>Nous allons ensuite créer un fichier <strong><em>locator.service.dart</em></strong> dans le dossier
+        <strong><em>/lib/services</em></strong> qui contiendra le systeme de redirection vers le bon service. Cela nous
+        permettra ensuite de gérer le mode en ligne et hors ligne.
+      </p>
+      <p>Juste avant créons ce fichier qui servira a stocker l&#39;URL de l&#39;API :</p>
+      <pre>// /lib/services/const.dart
 
 const API_URL = &#39;dourlens-monchy.fr:8091&#39;;</pre>
-<pre>// /lib/services/locator.service.dart
+      <pre>// /lib/services/locator.service.dart
 
 import &#39;dart:async&#39;;
 
@@ -176,23 +196,27 @@ setupServiceLocator() async {
     // locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserOfflineService());
   }
 }</pre>
-<p>Nous avons besoin du package Get_It et HTTP:</p>
-<pre>flutter pub add get_it
+      <p>Nous avons besoin du package Get_It et HTTP:</p>
+      <pre>flutter pub add get_it
 
 flutter pub add http</pre>
-<h2 is-upgraded><strong>Création d&#39;un service: Le service utilisateur</strong></h2>
-<p>Nous allons désormais créer notre premier service!</p>
-<p>Commençons par créer le dossier qui va l&#39;accueillir : <strong><em>/lib/services/user</em></strong></p>
-<p>Ce dossier va contenir trois fichier :</p>
-<ul>
-<li>La classe abstraite contenant les méthodes à implémenter : <strong><em>user.abstract.service.dart</em></strong></li>
-<li>La classe qui utilisera l&#39;API : <strong><em>user.api.service.dart</em></strong></li>
-<li>La classe qui prendra le relai lorsqu&#39;on n&#39;aura pas accès à l&#39;API : <strong><em>user.offline.service.dart</em></strong></li>
-</ul>
-<h3 is-upgraded><strong>La classe abstraite </strong></h3>
-<p>Cette classe contient toute les méthodes à implémenter dans les classes filles.</p>
-<p>Nous avons donc :</p>
-<pre>// /lib/services/user/user.abstract.service.dart
+      <h2 is-upgraded><strong>Création d&#39;un service: Le service utilisateur</strong></h2>
+      <p>Nous allons désormais créer notre premier service!</p>
+      <p>Commençons par créer le dossier qui va l&#39;accueillir : <strong><em>/lib/services/user</em></strong></p>
+      <p>Ce dossier va contenir trois fichier :</p>
+      <ul>
+        <li>La classe abstraite contenant les méthodes à implémenter :
+          <strong><em>user.abstract.service.dart</em></strong>
+        </li>
+        <li>La classe qui utilisera l&#39;API : <strong><em>user.api.service.dart</em></strong></li>
+        <li>La classe qui prendra le relai lorsqu&#39;on n&#39;aura pas accès à l&#39;API :
+          <strong><em>user.offline.service.dart</em></strong>
+        </li>
+      </ul>
+      <h3 is-upgraded><strong>La classe abstraite </strong></h3>
+      <p>Cette classe contient toute les méthodes à implémenter dans les classes filles.</p>
+      <p>Nous avons donc :</p>
+      <pre>// /lib/services/user/user.abstract.service.dart
 
 import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
 
@@ -202,13 +226,13 @@ abstract class UserService {
   Future&lt;int&gt; logout();
   Future&lt;User&gt; getCurrentUser(User user);
 }</pre>
-<h3 is-upgraded><strong>La classe API</strong></h3>
-<p>Cette classe contient les méthodes implémentées qui réalisent des appels à l&#39;API</p>
-<p>On va ajouter le package SharedPreferences qui permet d&#39;accéder au stockage de l&#39;appareil.</p>
-<p><code>flutter pub add shared_preferences</code></p>
-<p>On va ensuite implémenter la classe <strong><em>user.api.service.dart</em></strong></p>
-<p>Voici le résultat final de cette implémentation :</p>
-<pre>// /lib/services/user/user.api.service.dart
+      <h3 is-upgraded><strong>La classe API</strong></h3>
+      <p>Cette classe contient les méthodes implémentées qui réalisent des appels à l&#39;API</p>
+      <p>On va ajouter le package SharedPreferences qui permet d&#39;accéder au stockage de l&#39;appareil.</p>
+      <p><code>flutter pub add shared_preferences</code></p>
+      <p>On va ensuite implémenter la classe <strong><em>user.api.service.dart</em></strong></p>
+      <p>Voici le résultat final de cette implémentation :</p>
+      <pre>// /lib/services/user/user.api.service.dart
 
 import &#39;dart:convert&#39;;
 
@@ -297,9 +321,9 @@ class UserApiService extends UserService {
   }
 
 }</pre>
-<h3 is-upgraded><strong>La classe offline</strong></h3>
-<p>On peut maintenant créer la classe qui servira à récupérer les données hors connexion</p>
-<pre>import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
+      <h3 is-upgraded><strong>La classe offline</strong></h3>
+      <p>On peut maintenant créer la classe qui servira à récupérer les données hors connexion</p>
+      <pre>import &#39;package:tutoriel_flutter/models/user.model.dart&#39;;
 import &#39;package:tutoriel_flutter/services/user/user.abstract.service.dart&#39;;
 
 class UserOfflineService extends UserService {
@@ -328,11 +352,13 @@ class UserOfflineService extends UserService {
   }
 
 }</pre>
-<p>Les méthodes seront à implémenter plus tard.</p>
-<h3 is-upgraded><strong>Ajout au Locator</strong></h3>
-<p>Nous pouvons désormais ajouter notre service à notre Locator contenu dans <strong><em>/lib/services/locator.service.dart</em></strong></p>
-<p>Voici le contenu de la méthode <strong><em>setupServiceLocator()</em></strong></p>
-<pre>// /lib/services/locator.service.dart
+      <p>Les méthodes seront à implémenter plus tard.</p>
+      <h3 is-upgraded><strong>Ajout au Locator</strong></h3>
+      <p>Nous pouvons désormais ajouter notre service à notre Locator contenu dans
+        <strong><em>/lib/services/locator.service.dart</em></strong>
+      </p>
+      <p>Voici le contenu de la méthode <strong><em>setupServiceLocator()</em></strong></p>
+      <pre>// /lib/services/locator.service.dart
 
 setupServiceLocator() async {
   if (await ping()) {
@@ -341,26 +367,26 @@ setupServiceLocator() async {
     locator.registerLazySingleton&lt;UserService&gt;(() =&gt; UserOfflineService());
   }
 }</pre>
-<h2 is-upgraded><strong>Création de notre vue : Le formulaire de connexion</strong></h2>
-<p>Nous allons enfin modifier notre affichage!</p>
-<p>Nous allons réaliser un formulaire de connexion permettant à l&#39;utilisateur de s&#39;identifier.</p>
-<p>Nous allons </p>
+      <h2 is-upgraded><strong>Création de notre vue : Le formulaire de connexion</strong></h2>
+      <p>Nous allons enfin modifier notre affichage!</p>
+      <p>Nous allons réaliser un formulaire de connexion permettant à l&#39;utilisateur de s&#39;identifier.</p>
+      <p>Nous allons </p>
 
 
-      </google-codelab-step>
-    
+    </google-codelab-step>
 
-    
+
+
 
   </google-codelab>
 
   <script async>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       var pubBtn = document.getElementById('publishButton');
       var pubForm = document.getElementById('publishForm');
       var pubStatus = document.getElementById('publishButtonStatus');
 
-      pubForm.addEventListener('submit', function(e) {
+      pubForm.addEventListener('submit', function (e) {
         e.preventDefault();
         pubBtn.disabled = true;
         pubStatus.textContent = '';
@@ -369,7 +395,7 @@ setupServiceLocator() async {
 
         var req = new XMLHttpRequest();
 
-        var onError = function() {
+        var onError = function () {
           var msg = 'Request failed';
           if (req.statusText) {
             msg += ' with status "' + req.statusText + '"';
@@ -382,7 +408,7 @@ setupServiceLocator() async {
           pubBtn.disabled = false;
         };
 
-        req.addEventListener('load', function() {
+        req.addEventListener('load', function () {
           if (req.status != 200) {
             onError();
             return;
@@ -405,4 +431,5 @@ setupServiceLocator() async {
   <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
   <script src="//support.google.com/inapp/api.js"></script>
 </body>
+
 </html>
