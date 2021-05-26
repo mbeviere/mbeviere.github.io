@@ -63,7 +63,8 @@
         <li>Télécharger le Flutter SDK sur le site de Flutter et extraire le ZIP téléchargé là où vous le souhaitez</li>
         <li><strong>OU</strong></li>
       </ul>
-      <pre translate="no" dir="ltr"><code translate="no" dir="ltr">git clone https://github.com/flutter/flutter.git -b stable</code></pre>
+      <pre translate="no"
+        dir="ltr"><code translate="no" dir="ltr">git clone https://github.com/flutter/flutter.git -b stable</code></pre>
       <ul>
         <li>Mettez à jour votre PATH en ajoutant le chemin complet vers <em>flutter/bin</em></li>
       </ul>
@@ -110,7 +111,8 @@
         est en HTTP et pas en HTTPS on doit le spécifier avec
         &#34;<em>android:usesCleartextTraffic=&#34;true</em>&#34;&#34;</p>
       <p>Pour ajouter cette permission il faut ajouter dans le fichier les informations manquantes
-        <strong><em>/android/app/src/main/AndroidManifest.xml</em></strong></p>
+        <strong><em>/android/app/src/main/AndroidManifest.xml</em></strong>
+      </p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">&lt;manifest&gt;
     ...
     &lt;!-- Required to fetch data from the internet. --&gt;
@@ -145,7 +147,8 @@
   String? token;
 }</code></pre>
       <p>On ajoute ensuite le constructeur dans la classe : </p>
-      <pre translate="no" dir="ltr"><code translate="no" dir="ltr">User({this.id, this.name, this.password, this.token});</code></pre>
+      <pre translate="no"
+        dir="ltr"><code translate="no" dir="ltr">User({this.id, this.name, this.password, this.token});</code></pre>
       <p>Puis nous créons deux méthodes qui nous seront utiles lors de la création de notre service. En effet l&#39;API
         utilise le format JSON, nous allons donc créer une méthode qui permet de passer d&#39;un objet Dart à un objet
         JSON et inversement.</p>
@@ -169,7 +172,8 @@
         services.</p>
       <p>Nous allons ensuite créer un fichier <strong><em>locator.service.dart</em></strong> dans le dossier
         <strong><em>/lib/services</em></strong> qui contiendra le système de redirection vers le bon service. Cela nous
-        permettra ensuite de gérer le mode en ligne et hors ligne.</p>
+        permettra ensuite de gérer le mode en ligne et hors ligne.
+      </p>
       <p>Juste avant créons ce fichier qui servira à stocker l&#39;URL de l&#39;API :</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">// /lib/services/const.dart
 
@@ -214,10 +218,12 @@ flutter pub add http</code></pre>
       <p>Ce dossier va contenir trois fichier :</p>
       <ul>
         <li>La classe abstraite contenant les méthodes à implémenter :
-          <strong><em>user.abstract.service.dart</em></strong></li>
+          <strong><em>user.abstract.service.dart</em></strong>
+        </li>
         <li>La classe qui utilisera l&#39;API : <strong><em>user.api.service.dart</em></strong></li>
         <li>La classe qui prendra le relai lorsqu&#39;on n&#39;aura pas accès à l&#39;API :
-          <strong><em>user.offline.service.dart</em></strong></li>
+          <strong><em>user.offline.service.dart</em></strong>
+        </li>
       </ul>
       <h3 is-upgraded><strong>La classe abstraite </strong></h3>
       <p>Cette classe contient toutes les méthodes à implémenter dans les classes filles.</p>
@@ -237,7 +243,8 @@ abstract class UserService {
       <p>On va ajouter le package <em>SharedPreferences</em> qui permet d&#39;accéder au stockage de l&#39;appareil.</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">flutter pub add shared_preferences</code></pre>
       <p>On va ensuite implémenter la classe <strong>UserApiService</strong> dans
-        <strong><em>user.api.service.dart</em></strong></p>
+        <strong><em>user.api.service.dart</em></strong>
+      </p>
       <p>Pour effectuer une requête API en HTTP on retrouve un code de cette forme :</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">final response = await http.post(
         Uri.http(API_URL, &#39;v1/authentication/login&#39;),
@@ -352,7 +359,8 @@ class UserApiService extends UserService {
 }</code></pre>
       <h3 is-upgraded><strong>Ajout des services au Locator</strong></h3>
       <p>Nous pouvons désormais ajouter notre service à notre Locator contenu dans
-        <strong><em>/lib/services/locator.service.dart</em></strong></p>
+        <strong><em>/lib/services/locator.service.dart</em></strong>
+      </p>
       <p>Voici le nouveau contenu de la méthode <strong><em>setupServiceLocator()</em></strong></p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">// /lib/services/locator.service.dart
 
@@ -482,7 +490,8 @@ class MyApp extends StatelessWidget {
       </ul>
       <h2 is-upgraded><strong>Création du modèle</strong></h2>
       <p>Nous allons créer le fichier <strong><em>topic.model.dart</em></strong> dans le dossier
-        <strong><em>/lib/models/</em></strong></p>
+        <strong><em>/lib/models/</em></strong>
+      </p>
       <p>Il contiendra les attributs qui lui sont liés et les méthodes de conversion JSON.</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">class Topic {
   int? id;
@@ -495,9 +504,11 @@ class MyApp extends StatelessWidget {
       <p>Une fois de plus nous allons créer trois fichiers :</p>
       <ul>
         <li>La classe <strong>TopicService</strong> abstraite contenant les méthodes à implémenter :
-          <strong><em>topic.abstract.service.dart</em></strong></li>
+          <strong><em>topic.abstract.service.dart</em></strong>
+        </li>
         <li>La classe <strong>TopicApiService</strong> qui utilisera l&#39;API :
-          <strong><em>topic.api.service.dart</em></strong></li>
+          <strong><em>topic.api.service.dart</em></strong>
+        </li>
         <li>La classe <strong>TopicOfflineService</strong> qui prendra le relai lorsqu&#39;on n&#39;aura pas accès à
           l&#39;API : <strong><em>topic.offline.service.dart</em></strong></li>
       </ul>
@@ -613,7 +624,8 @@ class _TopicsPageState extends State&lt;TopicsPage&gt; {
       <h2 is-upgraded><strong>Relier la vue avec l&#39;application</strong></h2>
       <p>Maintenant que tout est prêt nous souhaitons afficher la vue après qu&#39;on se soit connecté.</p>
       <p>Nous allons ajouter dans le <strong>ElevatedButton</strong> de la page
-        <strong><em>login.page.dart</em></strong> un évènement de redirection.</p>
+        <strong><em>login.page.dart</em></strong> un évènement de redirection.
+      </p>
       <p>On ajoute donc ce morceau de code qui permet de naviguer entre les pages:</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">Navigator.push(
     context,
@@ -675,7 +687,7 @@ class _NewTopicsPageState extends State&lt;NewTopicsPage&gt; {
   }
 }</code></pre>
       <p>Complétez pour obtenir un résultat sous cette forme :</p>
-      <pre translate="no" dir="ltr"><code translate="no" dir="ltr">Center &gt; Container &gt; Column &gt; Form &gt; {TextFormField; ElevatedButton}</code></pre>
+      <p><code>Center &gt; Container &gt; Column &gt; Form &gt; {TextFormField; ElevatedButton}</code></p>
       <h2 is-upgraded><strong>Implantation dans le système existant</strong></h2>
       <p>Nous allons simplement ajouter un bouton permettant de créer un topic sur notre page affichant l&#39;ensemble
         des topics.</p>
@@ -714,7 +726,8 @@ class _NewTopicsPageState extends State&lt;NewTopicsPage&gt; {
       <p>Pour accéder au stockage du téléphone nous avons utilisé le package <strong>SharedPreferences</strong></p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">flutter pub add shared_preferences</code></pre>
       <p>Pour l&#39;utiliser il faut l&#39;importer</p>
-      <pre translate="no" dir="ltr"><code translate="no" dir="ltr">import &#39;package:shared_preferences/shared_preferences.dart&#39;;</code></pre>
+      <pre translate="no"
+        dir="ltr"><code translate="no" dir="ltr">import &#39;package:shared_preferences/shared_preferences.dart&#39;;</code></pre>
       <p>Puis dans une méthode on peut :</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">// Récupérer l&#39;instance
 final prefs = await SharedPreferences.getInstance();
@@ -750,10 +763,12 @@ prefs.getString(&#39;user&#39;);</code></pre>
 &lt;/receiver&gt;</code></pre>
       <h2 is-upgraded><strong>Installation du package flutter_local_notifications</strong></h2>
       <p>Exécutez la commande ci-dessous pour ajouter le package en dépendance du projet</p>
-      <pre translate="no" dir="ltr"><code translate="no" dir="ltr">flutter pub add flutter_local_notifications</code></pre>
+      <pre translate="no"
+        dir="ltr"><code translate="no" dir="ltr">flutter pub add flutter_local_notifications</code></pre>
       <p>Ou ajoutez la directement dans le fichier <code>pubspec.yaml</code>.</p>
       <p><code>dependencies</code><strong><code>:</code></strong><br>
-        <code>flutter_local_notifications</code><strong><code>:</code></strong><code> ^6.0.0</code></p>
+        <code>flutter_local_notifications</code><strong><code>:</code></strong><code> ^6.0.0</code>
+      </p>
       <p>Puis installez les dépendances avec la commande suivante</p>
       <pre translate="no" dir="ltr"><code translate="no" dir="ltr">dart pub get</code></pre>
       <h2 is-upgraded><strong>Configuration des paramètres des notification pour Android, IOS et MacOS</strong></h2>
