@@ -1,0 +1,47 @@
+#event-part-1 {
+  float: left;
+  color: #EDEAD0;
+  font-family: Roboto;
+}
+
+#event-part-2 {
+  float: right;
+  color: #EDEAD0;
+  font-family: Roboto;
+}
+
+h1{
+  font-family: RobotoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FF775C;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-family: RobotoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  background-color: #E16952;
+  color: #EDEAD0;
+  padding: 3px 9px;
+  margin:0 0 30px 0;
+  border-radius: 2px;
+}
+
+th {
+  font-style: italic;
+  font-weight: lighter;
+  text-align:  left;
+}
+
+td {
+  font-family: RobotoBold;
+  font-weight: 200;
+  padding-left: 20px;
+
+}

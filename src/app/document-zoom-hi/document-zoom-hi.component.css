@@ -1,0 +1,61 @@
+.document-zoom-hi{
+    background-color:#3F4757;
+    border:5px solid #C4C4C4;
+    font-family:Roboto;
+    padding:25px;
+    font-size:16px;
+    max-height:70vh;
+    z-index:100;
+}
+
+.document-zoom-hi-flex{
+    display:flex;
+    justify-content:space-between;
+}
+
+.documentZoomData{
+    display:flex;
+    flex-direction:column;
+    max-width:40%;
+    color:#EDEACF;
+    margin-left:3%;
+}
+
+.documentZoomImage{
+    display:flex;
+    max-width:60%;
+}
+
+.documentZoomClose{
+    position:absolute;
+    left:97.6%;
+    bottom:95%;
+    cursor:pointer;
+}
+
+.docDataName{
+    font-style:italic;
+}
+
+.docTypeDiv, .docAuthorsDiv, .docDateDiv, .docArkDiv{
+    margin-bottom:2.5vh;
+}
+
+.docData{
+    margin-left:15px;
+}
+
+.docTitle{
+    display:flex;
+    justify-content:flex-start;
+    color:#FF775C;
+    font-size:21px;
+    font-weight:600;
+    margin-bottom:2.5vh;
+}
+
+.docImg{
+    max-height:70vh;
+}
+
+

@@ -1,0 +1,64 @@
+h1{
+    font-family: RobotoBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    background-color: #E16952;
+    padding: 8px
+  }
+
+#document-list {
+    height: 100vh;
+    color: #EDEAD0;
+    font-family: Roboto;
+  }
+
+  .block {
+    height: 30%;
+    margin-right: 4px;
+  }
+
+  .list{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color:  #A6AAB1 #626A78;
+  }
+
+  .doc{
+    height: 89vh;
+  }
+
+  .work_name_item{
+      list-style:none;
+      margin-left:10px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  ::-webkit-scrollbar-track {
+    background: #626A78;        /* color of the tracking area */
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #A6AAB1;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #626A78;  /* creates padding around scroll thumb */
+  }
+  
+.folderDocItem{
+  text-align : center;
+  margin-top : 8px;
+}
+
+.work_name_item{
+  margin-top : 10px;
+}
+
+.clickableElement{
+  cursor:pointer;
+}
+
+.clickableElement:hover{
+  color:#E16952;
+}

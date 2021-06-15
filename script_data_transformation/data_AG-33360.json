@@ -1,0 +1,1798 @@
+{
+   "work_of_art": {
+      "id": "oeuvre-33360",
+      "label": "Etude pour un satyr sur le point d'attaquer",
+      "represented_by": "http://karl-pineau.fr/cdv-ontology/cdv-33360"
+   },
+   "documents": [
+      {
+         "id": "document-D7",
+         "label": "Figure drawing, the structure, anatomy and expressive design of human form",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Nathan Goldstein",
+         "date": {
+            "timestamp": 536454000.0,
+            "precision": "9"
+         },
+         "type": "Catalogue",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D7.jpg"
+      },
+      {
+         "id": "document-D40",
+         "label": "Constat d'état et de convoiement",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 1293836400.0,
+            "precision": "9"
+         },
+         "type": "Constrat d'état",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D40.jpg"
+      },
+      {
+         "id": "document-D42",
+         "label": "D42",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D42.jpg"
+      },
+      {
+         "id": "document-D12",
+         "label": "Manuel de l'amateur de dessins - Etude d'homme nu agenouillé",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Louis Godefroy et Lucien Huteau",
+         "date": {
+            "timestamp": -1262304000.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D12.jpg"
+      },
+      {
+         "id": "document-D6",
+         "label": "Une amitié paradoxale : Antoine Watteau et le comte de Caylus (1712-1719)",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Marc Funaroli",
+         "date": {
+            "timestamp": 820450800.0,
+            "precision": "9"
+         },
+         "type": "Article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D6.jpg"
+      },
+      {
+         "id": "document-D31",
+         "label": "Van Dyck: a complete catalogue of the paintings",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Susan Barnes",
+         "date": {
+            "timestamp": 1072911600.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D31.jpg"
+      },
+      {
+         "id": "document-D44",
+         "label": "D44",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D44.jpg"
+      },
+      {
+         "id": "document-D2",
+         "label": "Lugt 1285: From Gabriel Huquier to Peter Adolf Hall",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Marie-Anne Dupuy-Vachey",
+         "date": {
+            "timestamp": 1483225200.0,
+            "precision": "8"
+         },
+         "type": "Monographie",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D2.jpg"
+      },
+      {
+         "id": "document-D33",
+         "label": "L'opera completa di Van Dyck",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Erik Larsen",
+         "date": {
+            "timestamp": 599612400.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D33.jpg"
+      },
+      {
+         "id": "document-D10",
+         "label": "The drawings of Antoine Watteau",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "K.T. Parker",
+         "date": {
+            "timestamp": -1230768000.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D10.jpg"
+      },
+      {
+         "id": "document-D25",
+         "label": "Du corps et son visage",
+         "linked_events": [
+            "event-7"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": "Geneviève Monnier",
+         "date": {
+            "timestamp": 220921200.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D25.jpg"
+      },
+      {
+         "id": "document-D41",
+         "label": "D41",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D41.jpg"
+      },
+      {
+         "id": "document-D29",
+         "label": "Anton Van Dick - A man reaching foward with an outstretched arm: with four studies of the arm and hand",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "Notice de catalogue",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D29.jpg"
+      },
+      {
+         "id": "document-D26",
+         "label": "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette",
+         "linked_events": [
+            "event-6"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": -94698000.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D26.jpg"
+      },
+      {
+         "id": "document-D23",
+         "label": "Watteau",
+         "linked_events": [
+            "event-8"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 441759600.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D23.jpg"
+      },
+      {
+         "id": "document-D5",
+         "label": "Antoine Watteau. 1684-1721. Catalogue raisonné de dessins",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Pierre Rosenberg, Louis-Antoine Prat",
+         "date": {
+            "timestamp": 820450800.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D5.jpg"
+      },
+      {
+         "id": "document-D27",
+         "label": "Le dessin français dans les collections du XVIIIe siècle",
+         "linked_events": [
+            "event-5"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": "J. Lejeaux",
+         "date": {
+            "timestamp": -1104537600.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D27.jpg"
+      },
+      {
+         "id": "document-D13",
+         "label": "P.J. Mariette et autres notes inédites de cet amateur",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Ph. de Chennevières et A. de Montaiglon",
+         "date": {
+            "timestamp": -3502829361.0,
+            "precision": "9"
+         },
+         "type": "Recueil",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D13.jpg"
+      },
+      {
+         "id": "document-D1",
+         "label": "Les marques de collections de dessins et d'estampes",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Frits Lugt",
+         "date": {
+            "timestamp": 1514761200.0,
+            "precision": "9"
+         },
+         "type": "Monographie",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D1.jpg"
+      },
+      {
+         "id": "document-D18",
+         "label": "Posséder et détruire : Un art du viol",
+         "linked_events": [
+            "event-11"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": "Michel R.",
+         "date": {
+            "timestamp": 946681200.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D18.jpg"
+      },
+      {
+         "id": "document-D15",
+         "label": "Satyre soulevant une draperie",
+         "linked_events": [
+            "event-11",
+            "event-10",
+            "event-9",
+            "event-8",
+            "event-15",
+            "event-5",
+            "event-6",
+            "event-12",
+            "event-14",
+            "event-2",
+            "event-4",
+            "event-3"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL",
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Hélène Meyer",
+         "date": {
+            "timestamp": 1609455600.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D15.jpg"
+      },
+      {
+         "id": "document-D9",
+         "label": "Antoine Watteau, catalogue complet de son oeuvre dessiné",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "K.T. Parker et J. Mathry",
+         "date": {
+            "timestamp": -410230800.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D9.jpg"
+      },
+      {
+         "id": "document-D30",
+         "label": "D30",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 662684400.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D30.jpg"
+      },
+      {
+         "id": "document-D35",
+         "label": "Watteau",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 441759600.0,
+            "precision": "9"
+         },
+         "type": "Catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D35.jpg"
+      },
+      {
+         "id": "document-D16",
+         "label": "Antoine Watteau: the drawings - Nude man kneeling, holding fabric in his right hand",
+         "linked_events": [
+            "event-14"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 1293836400.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D16.jpg"
+      },
+      {
+         "id": "document-D21",
+         "label": "Dessins français du XVIIIe siècle: De Watteau à Lemoyne",
+         "linked_events": [
+            "event-9"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 536454000.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D21.jpg"
+      },
+      {
+         "id": "document-D8",
+         "label": "Antoine Watteau",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Donald Posner",
+         "date": {
+            "timestamp": 441759600.0,
+            "precision": "9"
+         },
+         "type": "Article de revue",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D8.jpg"
+      },
+      {
+         "id": "document-D14",
+         "label": "The Drawings of Watteau",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Malcom Cornach",
+         "date": {
+            "timestamp": -3600.0,
+            "precision": "9"
+         },
+         "type": "Catalogue raisonné",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D14.jpg"
+      },
+      {
+         "id": "document-D3",
+         "label": "De Watteau à Degas : Dessins français de la collection Frits Lugt",
+         "linked_events": [
+            "event-1",
+            "event-13"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "MATÉRIEL",
+            "CULTUREL"
+         ],
+         "creator": null,
+         "date": {
+            "timestamp": 1230764400.0,
+            "precision": "9"
+         },
+         "type": "Catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D3.jpg"
+      },
+      {
+         "id": "document-D19",
+         "label": "Le beau idéal",
+         "linked_events": [
+            "event-10",
+            "event-12"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": "Régis Michel",
+         "date": {
+            "timestamp": 599612400.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D19.jpg"
+      },
+      {
+         "id": "document-D43",
+         "label": "D43",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D43.jpg"
+      },
+      {
+         "id": "document-D17",
+         "label": "From Poussin to David: French master drawings from the Louvre",
+         "linked_events": [
+            "event-12"
+         ],
+         "linked_documents": [],
+         "linked_stratums": [
+            "CULTUREL"
+         ],
+         "creator": "Jean-François Méjanès, Christophe Leribault, Véronique Goarin, Catherine Scheck",
+         "date": {
+            "timestamp": 1199142000.0,
+            "precision": "9"
+         },
+         "type": "Notice de catalogue d'exposition",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D17.jpg"
+      }
+   ],
+   "stratums": [
+      {
+         "id": "strate-materielle",
+         "label": "MATÉRIEL",
+         "linked_events": [
+            "event-1"
+         ],
+         "type": "Matérielle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/necessaire-objet-physique",
+         "linked_documents": [
+            {
+               "id": "document-D3",
+               "label": "De Watteau à Degas : Dessins français de la collection Frits Lugt"
+            }
+         ]
+      },
+      {
+         "id": "strate-culturelle",
+         "label": "CULTUREL",
+         "linked_events": [
+            "event-7",
+            "event-11",
+            "event-13",
+            "event-10",
+            "event-9",
+            "event-8",
+            "event-15",
+            "event-5",
+            "event-6",
+            "event-12",
+            "event-14"
+         ],
+         "type": "Culturelle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/necessaire-objet-discursif",
+         "linked_documents": [
+            {
+               "id": "document-D25",
+               "label": "Du corps et son visage"
+            },
+            {
+               "id": "document-D15",
+               "label": "Satyre soulevant une draperie"
+            },
+            {
+               "id": "document-D18",
+               "label": "Posséder et détruire : Un art du viol"
+            },
+            {
+               "id": "document-D3",
+               "label": "De Watteau à Degas : Dessins français de la collection Frits Lugt"
+            },
+            {
+               "id": "document-D19",
+               "label": "Le beau idéal"
+            },
+            {
+               "id": "document-D21",
+               "label": "Dessins français du XVIIIe siècle: De Watteau à Lemoyne"
+            },
+            {
+               "id": "document-D4",
+               "label": ""
+            },
+            {
+               "id": "document-D23",
+               "label": "Watteau"
+            },
+            {
+               "id": "document-D27",
+               "label": "Le dessin français dans les collections du XVIIIe siècle"
+            },
+            {
+               "id": "document-D26",
+               "label": "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette"
+            },
+            {
+               "id": "document-D17",
+               "label": "From Poussin to David: French master drawings from the Louvre"
+            },
+            {
+               "id": "document-D16",
+               "label": "Antoine Watteau: the drawings - Nude man kneeling, holding fabric in his right hand"
+            }
+         ]
+      },
+      {
+         "id": "strate-institutionnelle",
+         "label": "INSTITUTIONNEL",
+         "linked_events": [
+            "event-2",
+            "event-4",
+            "event-3"
+         ],
+         "type": "Institutionnelle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/dossier-oeuvre-33360",
+         "linked_documents": [
+            {
+               "id": "document-D15",
+               "label": "Satyre soulevant une draperie"
+            },
+            {
+               "id": "document-D4",
+               "label": ""
+            },
+            {
+               "id": "document-D7",
+               "label": "Figure drawing, the structure, anatomy and expressive design of human form"
+            },
+            {
+               "id": "document-D40",
+               "label": "Constat d'état et de convoiement"
+            },
+            {
+               "id": "document-D42",
+               "label": "D42"
+            },
+            {
+               "id": "document-D12",
+               "label": "Manuel de l'amateur de dessins - Etude d'homme nu agenouillé"
+            },
+            {
+               "id": "document-D6",
+               "label": "Une amitié paradoxale : Antoine Watteau et le comte de Caylus (1712-1719)"
+            },
+            {
+               "id": "document-D31",
+               "label": "Van Dyck: a complete catalogue of the paintings"
+            },
+            {
+               "id": "document-D44",
+               "label": "D44"
+            },
+            {
+               "id": "document-D2",
+               "label": "Lugt 1285: From Gabriel Huquier to Peter Adolf Hall"
+            },
+            {
+               "id": "document-D33",
+               "label": "L'opera completa di Van Dyck"
+            },
+            {
+               "id": "document-D10",
+               "label": "The drawings of Antoine Watteau"
+            },
+            {
+               "id": "document-D41",
+               "label": "D41"
+            },
+            {
+               "id": "document-D29",
+               "label": "Anton Van Dick - A man reaching foward with an outstretched arm: with four studies of the arm and hand"
+            },
+            {
+               "id": "document-D5",
+               "label": "Antoine Watteau. 1684-1721. Catalogue raisonné de dessins"
+            },
+            {
+               "id": "document-D13",
+               "label": "P.J. Mariette et autres notes inédites de cet amateur"
+            },
+            {
+               "id": "document-D1",
+               "label": "Les marques de collections de dessins et d'estampes"
+            },
+            {
+               "id": "document-D9",
+               "label": "Antoine Watteau, catalogue complet de son oeuvre dessiné"
+            },
+            {
+               "id": "document-D30",
+               "label": "D30"
+            },
+            {
+               "id": "document-D35",
+               "label": "Watteau"
+            },
+            {
+               "id": "document-D8",
+               "label": "Antoine Watteau"
+            },
+            {
+               "id": "document-D14",
+               "label": "The Drawings of Watteau"
+            },
+            {
+               "id": "document-D43",
+               "label": "D43"
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "id": "event-2",
+         "label": "Vente de Gabriel Huguier à Charles Paul Jean Bapstie Bourgevin",
+         "start_time": {
+            "timestamp": -6221232561.0,
+            "precision": "11"
+         },
+         "end_time": {
+            "timestamp": -6221232561.0,
+            "precision": "11"
+         },
+         "type": "Vente",
+         "participants": [
+            "Charles Paul Jean Bapstie Bourgevin",
+            "Gabriel Huguier"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D15",
+            "document-D4"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-15",
+         "label": "L'empire des nus, musée Cognac-Jay",
+         "start_time": {
+            "timestamp": 1609455600.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1609455600.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D15"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-8",
+         "label": "Watteau (1684-1721), Washington, Paris, Berlin",
+         "start_time": {
+            "timestamp": 441759600.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 504918000.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D4",
+            "document-D23",
+            "document-D15",
+            "document-D23"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-11",
+         "label": "Posséder et détruire, musée du Louvre",
+         "start_time": {
+            "timestamp": 946681200.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 946681200.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D15",
+            "document-D18"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-9",
+         "label": "Dessins français du XVIIIe siècle: de Watteau à Lemoyne - musée du Louvre",
+         "start_time": {
+            "timestamp": 536454000.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 536454000.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D21",
+            "document-D15",
+            "document-D21"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-5",
+         "label": "Le dessin français dans les collection du XVIIIe siècle, musée du Louvre",
+         "start_time": {
+            "timestamp": -1104537600.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -1104537600.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D4",
+            "document-D15",
+            "document-D27"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-12",
+         "label": "From Poussin to David: French master drawings from the Louvre, Museum of Fine Arts, Budapest",
+         "start_time": {
+            "timestamp": 1199142000.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1199142000.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D17",
+            "document-D19",
+            "document-D15"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-13",
+         "label": "De Watteau à Degas : Dessins français de la collection Frits Lugt",
+         "start_time": {
+            "timestamp": 1230764400.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1262300400.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D3"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-10",
+         "label": "Le beau idéal, musée du Louvre",
+         "start_time": {
+            "timestamp": 599612400.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 599612400.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D15",
+            "document-D19"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-6",
+         "label": "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette, musée du Louvre",
+         "start_time": {
+            "timestamp": -94698000.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -94698000.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D26",
+            "document-D15"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-1",
+         "label": "Réalisation du dessin",
+         "start_time": {
+            "timestamp": -7983878961.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -7983878961.0,
+            "precision": "9"
+         },
+         "type": "Conception",
+         "participants": [
+            "Antoine Watteau"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D3"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-7",
+         "label": "Du corps et son visage, musée du Louvre",
+         "start_time": {
+            "timestamp": 220921200.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 220921200.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D25"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-4",
+         "label": "Legs La Caze",
+         "start_time": {
+            "timestamp": -2556058161.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -2556058161.0,
+            "precision": "9"
+         },
+         "type": "Acquisition",
+         "participants": [
+            "La Caze",
+            "Musée du Louvre"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D15"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-14",
+         "label": "Antoine Watteau: the drawings, Londres",
+         "start_time": {
+            "timestamp": 1293836400.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1293836400.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D15",
+            "document-D16"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-3",
+         "label": "Saisie des biens des émigrés",
+         "start_time": {
+            "timestamp": -5585501361.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -5585501361.0,
+            "precision": "9"
+         },
+         "type": "Evénement historique",
+         "participants": [],
+         "place": null,
+         "linked_documents": [
+            "document-D15",
+            "document-D4"
+         ],
+         "linked_events": null
+      }
+   ],
+   "types_of_event": [
+      {
+         "label": "Vente",
+         "linked_events": [
+            "event-2"
+         ]
+      },
+      {
+         "label": "Exposition",
+         "linked_events": [
+            "event-15",
+            "event-8",
+            "event-11",
+            "event-9",
+            "event-5",
+            "event-12",
+            "event-13",
+            "event-10",
+            "event-6",
+            "event-7",
+            "event-14"
+         ]
+      },
+      {
+         "label": "Conception",
+         "linked_events": [
+            "event-1"
+         ]
+      },
+      {
+         "label": "Acquisition",
+         "linked_events": [
+            "event-4"
+         ]
+      },
+      {
+         "label": "Evénement historique",
+         "linked_events": [
+            "event-3"
+         ]
+      }
+   ],
+   "records": [
+      {
+         "id": "dossier-1",
+         "label": "#1 Bibliographie",
+         "composed_of": [
+            {
+               "id": "extrait-D12",
+               "type": "extrait",
+               "extractedFrom": "document-D12",
+               "detailFrom": {
+                  "id": "document-D12",
+                  "label": "Manuel de l'amateur de dessins - Etude d'homme nu agenouillé",
+                  "creator": "Louis Godefroy et Lucien Huteau",
+                  "type": "Notice de catalogue",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D12.jpg",
+                  "date": {
+                     "timestamp": -1262304000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D8",
+               "type": "extrait",
+               "extractedFrom": "document-D7",
+               "detailFrom": {
+                  "id": "document-D7",
+                  "label": "Figure drawing, the structure, anatomy and expressive design of human form",
+                  "creator": "Nathan Goldstein",
+                  "type": "Catalogue",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D7.jpg",
+                  "date": {
+                     "timestamp": 536454000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D1",
+               "type": "extrait",
+               "extractedFrom": "document-D1",
+               "detailFrom": {
+                  "id": "document-D1",
+                  "label": "Les marques de collections de dessins et d'estampes",
+                  "creator": "Frits Lugt",
+                  "type": "Monographie",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D1.jpg",
+                  "date": {
+                     "timestamp": 1514761200.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D11",
+               "type": "extrait",
+               "extractedFrom": "document-D12",
+               "detailFrom": {
+                  "id": "document-D12",
+                  "label": "Manuel de l'amateur de dessins - Etude d'homme nu agenouillé",
+                  "creator": "Louis Godefroy et Lucien Huteau",
+                  "type": "Notice de catalogue",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D12.jpg",
+                  "date": {
+                     "timestamp": -1262304000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D10",
+               "type": "extrait",
+               "extractedFrom": "document-D10",
+               "detailFrom": {
+                  "id": "document-D10",
+                  "label": "The drawings of Antoine Watteau",
+                  "creator": "K.T. Parker",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D10.jpg",
+                  "date": {
+                     "timestamp": -1230768000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D13",
+               "type": "extrait",
+               "extractedFrom": "document-D13",
+               "detailFrom": {
+                  "id": "document-D13",
+                  "label": "P.J. Mariette et autres notes inédites de cet amateur",
+                  "creator": "Ph. de Chennevières et A. de Montaiglon",
+                  "type": "Recueil",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D13.jpg",
+                  "date": {
+                     "timestamp": -3502829361.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D3",
+               "type": "extrait",
+               "extractedFrom": "document-D3",
+               "detailFrom": {
+                  "id": "document-D3",
+                  "label": "De Watteau à Degas : Dessins français de la collection Frits Lugt",
+                  "creator": null,
+                  "type": "Catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D3.jpg",
+                  "date": {
+                     "timestamp": 1230764400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D6",
+               "type": "extrait",
+               "extractedFrom": "document-D5",
+               "detailFrom": {
+                  "id": "document-D5",
+                  "label": "Antoine Watteau. 1684-1721. Catalogue raisonné de dessins",
+                  "creator": "Pierre Rosenberg, Louis-Antoine Prat",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D5.jpg",
+                  "date": {
+                     "timestamp": 820450800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D2",
+               "type": "extrait",
+               "extractedFrom": "document-D2",
+               "detailFrom": {
+                  "id": "document-D2",
+                  "label": "Lugt 1285: From Gabriel Huquier to Peter Adolf Hall",
+                  "creator": "Marie-Anne Dupuy-Vachey",
+                  "type": "Monographie",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D2.jpg",
+                  "date": {
+                     "timestamp": 1483225200.0,
+                     "precision": "8"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D9",
+               "type": "extrait",
+               "extractedFrom": "document-D9",
+               "detailFrom": {
+                  "id": "document-D9",
+                  "label": "Antoine Watteau, catalogue complet de son oeuvre dessiné",
+                  "creator": "K.T. Parker et J. Mathry",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D9.jpg",
+                  "date": {
+                     "timestamp": -410230800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D4",
+               "type": "extrait",
+               "extractedFrom": "",
+               "detailFrom": ""
+            },
+            {
+               "id": "extrait-D5",
+               "type": "extrait",
+               "extractedFrom": "document-D4",
+               "detailFrom": ""
+            },
+            {
+               "id": "extrait-D7",
+               "type": "extrait",
+               "extractedFrom": "document-D6",
+               "detailFrom": {
+                  "id": "document-D6",
+                  "label": "Une amitié paradoxale : Antoine Watteau et le comte de Caylus (1712-1719)",
+                  "creator": "Marc Funaroli",
+                  "type": "Article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D6.jpg",
+                  "date": {
+                     "timestamp": 820450800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D14",
+               "type": "extrait",
+               "extractedFrom": "document-D14",
+               "detailFrom": {
+                  "id": "document-D14",
+                  "label": "The Drawings of Watteau",
+                  "creator": "Malcom Cornach",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D14.jpg",
+                  "date": {
+                     "timestamp": -3600.0,
+                     "precision": "9"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-3",
+         "label": "#3 Analogies",
+         "composed_of": [
+            {
+               "id": "extrait-D33",
+               "type": "extrait",
+               "extractedFrom": "document-D33",
+               "detailFrom": {
+                  "id": "document-D33",
+                  "label": "L'opera completa di Van Dyck",
+                  "creator": "Erik Larsen",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D33.jpg",
+                  "date": {
+                     "timestamp": 599612400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D36",
+               "type": "extrait",
+               "extractedFrom": "document-D4",
+               "detailFrom": ""
+            },
+            {
+               "id": "extrait-D32",
+               "type": "extrait",
+               "extractedFrom": "document-D31",
+               "detailFrom": {
+                  "id": "document-D31",
+                  "label": "Van Dyck: a complete catalogue of the paintings",
+                  "creator": "Susan Barnes",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D31.jpg",
+                  "date": {
+                     "timestamp": 1072911600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D30",
+               "type": "extrait",
+               "extractedFrom": "document-D30",
+               "detailFrom": {
+                  "id": "document-D30",
+                  "label": "D30",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D30.jpg",
+                  "date": {
+                     "timestamp": 662684400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D29",
+               "type": "extrait",
+               "extractedFrom": "document-D29",
+               "detailFrom": {
+                  "id": "document-D29",
+                  "label": "Anton Van Dick - A man reaching foward with an outstretched arm: with four studies of the arm and hand",
+                  "creator": null,
+                  "type": "Notice de catalogue",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D29.jpg",
+                  "date": null
+               }
+            },
+            {
+               "id": "extrait-D37",
+               "type": "extrait",
+               "extractedFrom": "document-D4",
+               "detailFrom": ""
+            },
+            {
+               "id": "extrait-D35",
+               "type": "extrait",
+               "extractedFrom": "document-D35",
+               "detailFrom": {
+                  "id": "document-D35",
+                  "label": "Watteau",
+                  "creator": null,
+                  "type": "Catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D35.jpg",
+                  "date": {
+                     "timestamp": 441759600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D38",
+               "type": "extrait",
+               "extractedFrom": "document-D35",
+               "detailFrom": {
+                  "id": "document-D35",
+                  "label": "Watteau",
+                  "creator": null,
+                  "type": "Catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D35.jpg",
+                  "date": {
+                     "timestamp": 441759600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D39",
+               "type": "extrait",
+               "extractedFrom": "document-D35",
+               "detailFrom": {
+                  "id": "document-D35",
+                  "label": "Watteau",
+                  "creator": null,
+                  "type": "Catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D35.jpg",
+                  "date": {
+                     "timestamp": 441759600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D31",
+               "type": "extrait",
+               "extractedFrom": "document-D31",
+               "detailFrom": {
+                  "id": "document-D31",
+                  "label": "Van Dyck: a complete catalogue of the paintings",
+                  "creator": "Susan Barnes",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D31.jpg",
+                  "date": {
+                     "timestamp": 1072911600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D34",
+               "type": "extrait",
+               "extractedFrom": "document-D33",
+               "detailFrom": {
+                  "id": "document-D33",
+                  "label": "L'opera completa di Van Dyck",
+                  "creator": "Erik Larsen",
+                  "type": "Catalogue raisonné",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D33.jpg",
+                  "date": {
+                     "timestamp": 599612400.0,
+                     "precision": "9"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-2",
+         "label": "#2 Expositions",
+         "composed_of": [
+            {
+               "id": "extrait-D28",
+               "type": "extrait",
+               "extractedFrom": "document-D27",
+               "detailFrom": {
+                  "id": "document-D27",
+                  "label": "Le dessin français dans les collections du XVIIIe siècle",
+                  "creator": "J. Lejeaux",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D27.jpg",
+                  "date": {
+                     "timestamp": -1104537600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D22",
+               "type": "extrait",
+               "extractedFrom": "document-D21",
+               "detailFrom": {
+                  "id": "document-D21",
+                  "label": "Dessins français du XVIIIe siècle: De Watteau à Lemoyne",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D21.jpg",
+                  "date": {
+                     "timestamp": 536454000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D23",
+               "type": "extrait",
+               "extractedFrom": "document-D23",
+               "detailFrom": {
+                  "id": "document-D23",
+                  "label": "Watteau",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D23.jpg",
+                  "date": {
+                     "timestamp": 441759600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D17",
+               "type": "extrait",
+               "extractedFrom": "document-D17",
+               "detailFrom": {
+                  "id": "document-D17",
+                  "label": "From Poussin to David: French master drawings from the Louvre",
+                  "creator": "Jean-François Méjanès, Christophe Leribault, Véronique Goarin, Catherine Scheck",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D17.jpg",
+                  "date": {
+                     "timestamp": 1199142000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D21",
+               "type": "extrait",
+               "extractedFrom": "document-D21",
+               "detailFrom": {
+                  "id": "document-D21",
+                  "label": "Dessins français du XVIIIe siècle: De Watteau à Lemoyne",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D21.jpg",
+                  "date": {
+                     "timestamp": 536454000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D19",
+               "type": "extrait",
+               "extractedFrom": "document-D19",
+               "detailFrom": {
+                  "id": "document-D19",
+                  "label": "Le beau idéal",
+                  "creator": "Régis Michel",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D19.jpg",
+                  "date": {
+                     "timestamp": 599612400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D16",
+               "type": "extrait",
+               "extractedFrom": "document-D16",
+               "detailFrom": {
+                  "id": "document-D16",
+                  "label": "Antoine Watteau: the drawings - Nude man kneeling, holding fabric in his right hand",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D16.jpg",
+                  "date": {
+                     "timestamp": 1293836400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D15",
+               "type": "extrait",
+               "extractedFrom": "document-D15",
+               "detailFrom": {
+                  "id": "document-D15",
+                  "label": "Satyre soulevant une draperie",
+                  "creator": "Hélène Meyer",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D15.jpg",
+                  "date": {
+                     "timestamp": 1609455600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D24",
+               "type": "extrait",
+               "extractedFrom": "document-D23",
+               "detailFrom": {
+                  "id": "document-D23",
+                  "label": "Watteau",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D23.jpg",
+                  "date": {
+                     "timestamp": 441759600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D27",
+               "type": "extrait",
+               "extractedFrom": "document-D27",
+               "detailFrom": {
+                  "id": "document-D27",
+                  "label": "Le dessin français dans les collections du XVIIIe siècle",
+                  "creator": "J. Lejeaux",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D27.jpg",
+                  "date": {
+                     "timestamp": -1104537600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D20",
+               "type": "extrait",
+               "extractedFrom": "document-D19",
+               "detailFrom": {
+                  "id": "document-D19",
+                  "label": "Le beau idéal",
+                  "creator": "Régis Michel",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D19.jpg",
+                  "date": {
+                     "timestamp": 599612400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D26",
+               "type": "extrait",
+               "extractedFrom": "document-D26",
+               "detailFrom": {
+                  "id": "document-D26",
+                  "label": "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette",
+                  "creator": null,
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D26.jpg",
+                  "date": {
+                     "timestamp": -94698000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D18",
+               "type": "extrait",
+               "extractedFrom": "document-D18",
+               "detailFrom": {
+                  "id": "document-D18",
+                  "label": "Posséder et détruire : Un art du viol",
+                  "creator": "Michel R.",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D18.jpg",
+                  "date": {
+                     "timestamp": 946681200.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D25",
+               "type": "extrait",
+               "extractedFrom": "document-D25",
+               "detailFrom": {
+                  "id": "document-D25",
+                  "label": "Du corps et son visage",
+                  "creator": "Geneviève Monnier",
+                  "type": "Notice de catalogue d'exposition",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D25.jpg",
+                  "date": {
+                     "timestamp": 220921200.0,
+                     "precision": "9"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-5",
+         "label": "#5 Photographies",
+         "composed_of": [
+            {
+               "id": "extrait-D41",
+               "type": "extrait",
+               "extractedFrom": "document-D41",
+               "detailFrom": {
+                  "id": "document-D41",
+                  "label": "D41",
+                  "creator": null,
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D41.jpg",
+                  "date": null
+               }
+            },
+            {
+               "id": "extrait-D43",
+               "type": "extrait",
+               "extractedFrom": "document-D43",
+               "detailFrom": {
+                  "id": "document-D43",
+                  "label": "D43",
+                  "creator": null,
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D43.jpg",
+                  "date": null
+               }
+            },
+            {
+               "id": "extrait-D44",
+               "type": "extrait",
+               "extractedFrom": "document-D44",
+               "detailFrom": {
+                  "id": "document-D44",
+                  "label": "D44",
+                  "creator": null,
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D44.jpg",
+                  "date": null
+               }
+            },
+            {
+               "id": "extrait-D42",
+               "type": "extrait",
+               "extractedFrom": "document-D42",
+               "detailFrom": {
+                  "id": "document-D42",
+                  "label": "D42",
+                  "creator": null,
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D42.jpg",
+                  "date": null
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-4",
+         "label": "#4 Constats d'état",
+         "composed_of": [
+            {
+               "id": "extrait-D40",
+               "type": "extrait",
+               "extractedFrom": "document-D40",
+               "detailFrom": {
+                  "id": "document-D40",
+                  "label": "Constat d'état et de convoiement",
+                  "creator": null,
+                  "type": "Constrat d'état",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D40.jpg",
+                  "date": {
+                     "timestamp": 1293836400.0,
+                     "precision": "9"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-oeuvre-33360",
+         "label": "DO 33360",
+         "composed_of": [
+            {
+               "id": "dossier-2",
+               "label": "#2 Expositions",
+               "type": "dossier"
+            },
+            {
+               "id": "dossier-1",
+               "label": "#1 Bibliographie",
+               "type": "dossier"
+            },
+            {
+               "id": "dossier-5",
+               "label": "#5 Photographies",
+               "type": "dossier"
+            },
+            {
+               "id": "dossier-3",
+               "label": "#3 Analogies",
+               "type": "dossier"
+            },
+            {
+               "id": "dossier-4",
+               "label": "#4 Constats d'état",
+               "type": "dossier"
+            }
+         ]
+      }
+   ]
+}

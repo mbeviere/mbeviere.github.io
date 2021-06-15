@@ -1,0 +1,236 @@
+@prefix : <http://karl-pineau.fr/cdv-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://erlangen-crm.org/current/>.
+@base <http://karl-pineau.fr/cdv-ontology/> .
+
+<http://karl-pineau.fr/cdv-ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+<http://karl-pineau.fr/cdv-ontology/X1-est-represente-par> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/C1-bien-culturel> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/C2-cycle-de-vie> ;
+                                                         rdfs:label "X1 est représenté par"@fr ,
+                                                                    "X1 represented by"@en .
+
+<http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/D3-dossier> ,
+                                                                     <http://karl-pineau.fr/cdv-ontology/C3-strate> ,
+                                                                     <http://karl-pineau.fr/cdv-ontology/C2-cycle-de-vie> ,
+                                                                     <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/D3-dossier> ,
+                                                                    <http://karl-pineau.fr/cdv-ontology/C3-strate> ,
+                                                                    <http://karl-pineau.fr/cdv-ontology/C4-phase> ,
+                                                                    <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ,
+                                                                    <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+                                                         rdfs:label "X2 composed of"@en ,
+                                                                    "X2 est composé de"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/X3-a-pour-type> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://karl-pineau.fr/cdv-ontology/C3-strate> ;
+                                                        rdfs:range <http://karl-pineau.fr/cdv-ontology/C9-type> ;
+                                                        rdfs:label "X3 a pour type"@fr ,
+                                                                   "X3 has type"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/X4-a-pour-etat> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/C4-phase> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/C5-etat> ;
+                                                         rdfs:label "X4 a pour état"@fr ,
+                                                                    "X4 has state"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/X5-delimite> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/C4-phase> ;
+                                                         rdfs:label "X5 délimite"@fr ,
+                                                                    "X5 delimits"@en .
+
+<http://karl-pineau.fr/cdv-ontology/X7-considere-le-bien-culturel-comme> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/C3-strate> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/C8-chose> ;
+                                                         rdfs:label "X7 considers culturel good as"@en ,
+                                                                    "X7 considère le bien culturel comme"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/X8-se-percoit-dans-la-situation> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/C7-situation> ;
+                                                         rdfs:label "X8 perceives itself in the situation"@en ,
+                                                                    "X8 se perçoit dans la situation"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://karl-pineau.fr/cdv-ontology/C6-evenement> ,
+                                                                    <http://karl-pineau.fr/cdv-ontology/D1-oeuvre-art> ;
+                                                        rdfs:range <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ,
+                                                                   <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+                                                        rdfs:label "Y1 documented by"@en ,
+                                                                   "Y1 est documentée par"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+                                                        rdfs:range <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+                                                        rdfs:label "Y2 est extrait de"@fr ,
+                                                                   "Y2 extracted from"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/Y3-est-physiquement-situe-a> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ;
+                                              rdfs:range <http://karl-pineau.fr/cdv-ontology/D6-lieu> ;
+                                              rdfs:label "Y3 est physiquement situé à"@fr ,
+                                                         "Y3 located at"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/Y4-a-pour-date-de-creation> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ;
+                                                        rdfs:range <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+                                                        rdfs:label "Y4 a pour date de création"@fr ,
+                                                                   "Y4 has date of creation"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/Y5-a-pour-proprietaire> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ;
+                                                         rdfs:range <http://karl-pineau.fr/cdv-ontology/D8-agent> ;
+                                                         rdfs:label "Y5 a pour propriétaire"@fr ,
+                                                                    "Y5 has owner"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/Z1-materialise> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+                                                    rdfs:range <http://karl-pineau.fr/cdv-ontology/L2-enonce> ;
+                                                    rdfs:label "Z1 matérialise"@fr ,
+                                                               "Z1 materializes"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:domain <http://karl-pineau.fr/cdv-ontology/L3-objet-physique> ;
+                                                                  rdfs:range <http://karl-pineau.fr/cdv-ontology/L4-propriete-physique> ;
+                                                                  rdfs:label "Z1 a pour propriété physique"@fr ,
+                                                                             "Z1 has physical property"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+
+<http://karl-pineau.fr/cdv-ontology/C1-bien-culturel> rdf:type owl:Class ;
+                                                         rdfs:label "C1 Bien culturel"@fr ,
+                                                                    "C1 Cultural good"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/C2-cycle-de-vie> rdf:type owl:Class ;
+                                                         rdfs:label "C2 Cycle de vie"@fr ,
+                                                                    "C2 Life cycle"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/C3-strate> rdf:type owl:Class ;
+                                                         rdfs:label "C3 Strate"@fr ,
+                                                                    "C3 Stratum"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/C4-phase> rdf:type owl:Class ;
+                                                         rdfs:label "C4 Phase"@en ,
+                                                                    "C4 Phase"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/C5-etat> rdf:type owl:Class ;
+                                                         rdfs:label "C5 State"@en ,
+                                                                    "C5 État"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/C6-evenement> rdf:type owl:Class ;
+                                                         rdfs:label "C6 Event"@en ,
+                                                                    "C6 Évènement"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/C7-situation> rdf:type owl:Class ;
+                                                         rdfs:label "C7 Situation"@en ,
+                                                                    "C7 Situation"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/C8-chose> rdf:type owl:Class ;
+                                                         rdfs:label "C8 Chose"@fr ,
+                                                                    "C8 Thing"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/C9-type> rdf:type owl:Class ;
+                                                         rdfs:label "C9 Type"@en ,
+                                                                    "C9 Type"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/D1-oeuvre-art> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://karl-pineau.fr/cdv-ontology/C1-bien-culturel> ;
+                                                         rdfs:label "D1 Work of art"@en ,
+                                                                    "D1 Œuvre d’art"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> rdf:type owl:Class ;
+                                                         rdfs:label "D2 Dossier d’œuvre"@fr ,
+                                                                    "D2 Work record"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/D3-dossier> rdf:type owl:Class ;
+                                                         rdfs:label "D3 Dossier"@fr ,
+                                                                    "D3 Record"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> rdf:type owl:Class ;
+                                                        rdfs:label "D4 Documentary extract"@en ,
+                                                                   "D4 Extrait documentaire"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/D5-document> rdf:type owl:Class ;
+                                                         rdfs:label "D5 Document"@en ,
+                                                                    "D5 Document"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/D6-lieu> rdf:type owl:Class ;
+                                                         rdfs:label "D8 Lieu"@fr ,
+                                                                    "D8 Place"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/D7-date> rdf:type owl:Class ;
+                                                         rdfs:label "D9 Date"@fr ,
+                                                                    "D9 Time-span"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/D8-agent> rdf:type owl:Class ;
+                                                         rdfs:label "D10 Agent"@en ,
+                                                                    "D10 Agent"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/L1-objet-discursif> rdf:type owl:Class ;
+                                                         rdfs:label "L1 Discursive object"@en ,
+                                                                    "L1 Objet discursif"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/L2-enonce> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+                                                         rdfs:label "L2 Statement"@en ,
+                                                                   "L2 Énoncé"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/L3-objet-physique> rdf:type owl:Class ;
+                                                         rdfs:label "L3 Objet physique"@fr ,
+                                                                    "L3 Physical object"@en .
+
+
+<http://karl-pineau.fr/cdv-ontology/L4-propriete-physique> rdf:type owl:Class ;
+                                                         rdfs:label "L4 Physical property"@en ,
+                                                                    "L4 Propriété physique"@fr .
+
+
+<http://karl-pineau.fr/cdv-ontology/L5-produit> rdf:type owl:Class ;
+                                                         rdfs:label "L5 Product"@en ,
+                                                                    "L5 Produit"@fr .

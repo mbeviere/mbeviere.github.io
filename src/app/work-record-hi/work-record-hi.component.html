@@ -1,0 +1,14 @@
+<div id="freezePanel"></div>
+<div>
+    <div id="left-column">
+      <app-left-column-hi [data] ="data_selected" [donnees] ="donnees"></app-left-column-hi>
+      </div>
+      <div id="right-content">
+        <app-work-title-hi [data] ="data_selected" [changeViewWithDoc] = this.showPreview></app-work-title-hi>
+        <app-work-hi id="work-hi" (changeView)="changeViewHandler($event)" (showPreview)="showPreviewHandler($event)" [data]="data_selected" *ngIf="view == 'list'"></app-work-hi>
+        <app-document-detail-hi id="document-detail" (showPreview)="showPreviewHandler($event)" style="display:none"></app-document-detail-hi>
+    </div>
+</div>
+<app-document-zoom-hi id="document-zoom" style="display:none"></app-document-zoom-hi>
+
+

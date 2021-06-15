@@ -1,0 +1,57 @@
+<div id="document-detail-hi">
+    <div class="document-detail-hi-div">
+        <div (click)="closeDocumentDetail()" class="closeBtn">
+            <img src="assets/img/highlight_off_black_36dp.svg" alt="">
+        </div>
+        <div class="docTitle">
+            
+        </div>
+        <div class="docImgDiv clickableElement" (click)="displayDocumentZoom()">
+            <img class="docImg" style="max-width:70%;max-height:34vh;" alt="">
+        </div>
+        <div class="docZoom" (click)="displayDocumentZoom()">
+            <img class="imgZoom" src="assets/img/zoom_in_black_36dp.svg" alt="">
+        </div>
+
+        <div class="docDataDiv">
+            <div class="docArkDiv">
+                <div class="docDataName">
+                    Ark
+                </div>
+                <div class="docData docArk">
+                    
+                </div>
+            </div>
+
+            <div class="docTypeDiv">
+                <div class="docDataName">
+                    Type de document
+                </div>
+                <div class="docData docType">
+                    
+                </div>
+            </div>
+    
+            <div class="docAuthorsDiv">
+                <div class="docDataName">
+                    Auteurs 
+                </div>
+                <div class="docData docAuthors">
+                    
+                </div>
+            </div>
+    
+            <div class="docDateDiv">
+                <div class="docDataName">
+                    Date inscription au dossier
+                </div>
+                <div class="docData docDate">
+                    
+                </div>
+            </div>
+
+            <div style="display:none" class="docExtractedFrom clickedElement"></div>
+    
+        </div>
+    </div>
+</div>

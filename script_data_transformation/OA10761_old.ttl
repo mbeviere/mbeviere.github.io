@@ -1,0 +1,350 @@
+@prefix : <http://karl-pineau.fr/cdv-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://erlangen-crm.org/current/>.
+@prefix dct: <http://purl.org/dc/elements/1.1/>.
+@base <http://karl-pineau.fr/cdv-ontology/> .
+
+# Oeuvre
+
+<oeuvre-10761> rdf:type <http://karl-pineau.fr/cdv-ontology/D1-oeuvre-art> ;
+     <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <dossier-oeuvre-10761> ;
+     <http://karl-pineau.fr/cdv-ontology/X1-est-represente-par> <cdv-10761> ;
+     rdfs:label "Appareil de géodésie"@fr .
+
+
+# Dossier d'oeuvre
+
+<dossier-oeuvre-10761> rdf:type <http://karl-pineau.fr/cdv-ontology/D2-dossier-d-oeuvre> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <dossier-1> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D1> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D2> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D3> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D4> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D17> ;
+    rdfs:label "DO 10761"@fr .
+
+<dossier-1> rdf:type <http://karl-pineau.fr/cdv-ontology/D3-dossier> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D5> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D6> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D7> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D8> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D9> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D10> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D11> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D12> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D13> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D14> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D15> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <extrait-D16> ;
+    rdfs:label "#1 Dossier scientifique"@fr .
+
+<extrait-D1> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D1> ;
+    rdfs:label "ED1"@fr .
+
+<document-D1> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Inventaire du 23/09/2010"@fr ;
+    dct:creator "Dantan (Musée du Louvre)" ;
+    dct:date "23/09/2010" ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D2> ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D5> ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D6> .
+
+<extrait-D2> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D2> ;
+    rdfs:label "ED2"@fr .
+
+<document-D2> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Inventaire 18/06/2007"@fr ;
+    dct:creator "Creuzet (Musée du Louvre)" ;
+    dct:date "18/06/2007" ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D5> ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D6> .
+
+<extrait-D3> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D3> ;
+    rdfs:label "ED3"@fr .
+
+<document-D3> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "D3"@fr .
+
+<extrait-D4> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED4"@fr .
+
+<document-D4> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "D4"@fr ;
+    dct:creator "RMN - J. G. Berizzi" ;
+    dct:date "1999" .
+
+<extrait-D17> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D17> ;
+    rdfs:label "ED17"@fr .
+
+<document-D17> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "D17"@fr ;
+    dct:creator "RMN - J. G. Berizzi" ;
+    dct:date "1999" .
+
+<extrait-D5> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D5> ;
+    <http://karl-pineau.fr/cdv-ontology/Z1-materialise> <enonce-1> ;
+    rdfs:label "ED5"@fr .
+
+<document-D5> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Les instruments de mathématiques - XVIe - XVIIIe siècle"@fr ;
+    dct:creator "Camille Frémontier-Murphy" ;
+    dct:date "2002" ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D10>.
+
+<extrait-D6> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D6> ;
+    <http://karl-pineau.fr/cdv-ontology/Z1-materialise> <enonce-2> ;
+    rdfs:label "ED6"@fr .
+
+<document-D6> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "L'objet d'art de la saison n°23 : Planchette"@fr ;
+    dct:creator "Camille Frémontier-Murphy" ;
+    dct:date "2003" ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D5> ;
+    <http://karl-pineau.fr/cdv-ontology/Y4-cite> <document-D10>.
+
+<extrait-D7> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D6> ;
+    rdfs:label "ED7"@fr .
+
+<extrait-D8> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D8> ;
+    rdfs:label "ED8"@fr .
+
+<document-D8> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Le tableau du mois n°97 : Vénus entourée de nymphes regardant une ronde d'Amours, Sebastiano Ricci"@fr ;
+    dct:creator "Stéphane Loire" .
+
+<extrait-D9> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED9"@fr .
+
+<document-D9> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle"@fr ;
+    dct:creator "Roland Schaer" ;
+    dct:date "1996" .
+
+<extrait-D10> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED10"@fr .
+
+<extrait-D11> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED11"@fr .
+
+<extrait-D12> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D12> ;
+    <http://karl-pineau.fr/cdv-ontology/Z1-materialise> <enonce-3> ;
+    rdfs:label "ED12"@fr .
+
+<document-D12> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Merci messieurs..."@fr;
+    dct:creator "Daniel Alcouffe" ;
+    dct:date "1989" .
+
+<extrait-D13> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED13"@fr .
+
+<document-D13> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "L'Encyclopédie Diderot et d'Alembert"@fr ;
+    dct:creator "Ministère de la Culture" ;
+    dct:date "2006" .
+
+<extrait-D14> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D14> ;
+    rdfs:label "ED14"@fr .
+
+<document-D14> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Inventaire"@fr ;
+    dct:creator "Musée du Louvre" ;
+    dct:date "1979" .
+
+<extrait-D15> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D15> ;
+    rdfs:label "ED15"@fr .
+
+<document-D15> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "D15"@fr ;
+    dct:creator "RMN" ;
+    dct:date "2010" .
+
+<extrait-D16> rdf:type <http://karl-pineau.fr/cdv-ontology/D4-extrait-documentaire> ;
+    <http://karl-pineau.fr/cdv-ontology/Y2-est-extrait-de> <document-D16> ;
+    rdfs:label "ED16"@fr .
+
+<document-D16> rdf:type <http://karl-pineau.fr/cdv-ontology/D5-document> ;
+    rdfs:label "Catalogue de vente"@fr ;
+    dct:creator "Christie's" ;
+    dct:date "2013" .
+
+# Cycle de vie
+
+<cdv-10761> rdf:type <http://karl-pineau.fr/cdv-ontology/C2-cycle-de-vie> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <strate-materielle> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <strate-culturelle> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <strate-institutionnelle> ;
+    rdfs:label "Cycle de vie de OA10761"@fr.
+
+<strate-materielle> rdf:type <http://karl-pineau.fr/cdv-ontology/C3-strate> ;
+    <http://karl-pineau.fr/cdv-ontology/X3-a-pour-type> "Matérielle" ;
+    <http://karl-pineau.fr/cdv-ontology/X7-considere-le-bien-culturel-comme> <geodesie-objet-physique> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-2> ;
+    rdfs:label "Strate matérielle"@fr.
+
+<strate-culturelle> rdf:type <http://karl-pineau.fr/cdv-ontology/C3-strate> ;
+    <http://karl-pineau.fr/cdv-ontology/X3-a-pour-type> "Culturelle" ;
+    <http://karl-pineau.fr/cdv-ontology/X7-considere-le-bien-culturel-comme> <geodesie-objet-discursif> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-1> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-3> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-3> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-7> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-2> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-1> ;
+    rdfs:label "Strate culturelle"@fr.
+
+<strate-institutionnelle> rdf:type <http://karl-pineau.fr/cdv-ontology/C3-strate> ;
+    <http://karl-pineau.fr/cdv-ontology/X3-a-pour-type> "Institutionnelle" ;
+    <http://karl-pineau.fr/cdv-ontology/X7-considere-le-bien-culturel-comme> <dossier-oeuvre-10761> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-4> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-5> ;
+    <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <event-8> ;
+    rdfs:label "Strate institutionnelle"@fr.
+
+
+# Evènements
+<event-1> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Réalisation du modèle d'appareil"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1709" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Nicolas Bion" ;
+          dct:type "Conception".
+          # se trouve dans strate culturelle
+
+<event-2> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Commande et exécution de la planchette"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1727" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Jean-Jacques Langlois" ;
+          dct:type "Réalisation" .
+          # se trouve dans strate matérielle
+
+<event-3> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Objet copié par Courtonne en gravure dans le cabinet de Bonnier de la Mosson"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1739" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Jean-Baptiste Courtonne" ;
+          dct:type "Observation" .
+          # se trouve dans strate culturelle
+
+<event-4> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Vendu par Bonnier de la Mosson au comte de Buffon pour 240,5 livres"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1744" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Bonnier de la Mosson" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "George-Louis Leclerc, comte de Buffon" ;
+          dct:type "Vente" .
+          # se trouve dans strate institutionnelle
+
+<event-5> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Don de Mme Landau au Louvre"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1979" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Madame Landau" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+          dct:type "Acquisition" .
+          # se trouve dans strate institutionnelle
+
+<event-7> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Exposition \"L'arpenteur du roi. Vauban et Besançon\", Besançon"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "2007" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée de Besançon" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+          dct:type "Exposition" .
+          # se trouve dans strate culturelle
+
+<event-8> rdf:type <http://karl-pineau.fr/cdv-ontology/C6-evenement> ;
+          rdfs:label "Récolement \"objet vu\""@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "2009" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Dantan" ;
+          dct:type "Récolement" .
+          # se trouve dans strate institutionnelle
+
+# Objet discursif
+
+<geodesie-objet-discursif> rdf:type <http://karl-pineau.fr/cdv-ontology/L1-objet-discursif> ;
+                           <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-1> ;
+                           <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-2> ;
+                           <http://karl-pineau.fr/cdv-ontology/X2-est-compose-de> <enonce-3> ;
+                           rdfs:label "Géodésie : réprésentation en objet discursif" .
+
+
+# Enoncés
+
+<enonce-1> rdf:type <http://karl-pineau.fr/cdv-ontology/L2-enonce> ;
+           rdfs:label "Les instruments de mathématique du XVIe au XVIIIe siècle" ;
+           <http://erlangen-crm.org/current/P4_has_time-span> "2002".
+          # se trouve dans strate culturelle
+
+<enonce-2> rdf:type <http://karl-pineau.fr/cdv-ontology/L2-enonce> ;
+          rdfs:label "L'objet d'art de la saison (fiche du Louvre)"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "2003" ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D1> ;
+          <http://karl-pineau.fr/cdv-ontology/Y1-est-documente-par> <extrait-D2> .
+          # se trouve dans strate culturelle
+
+<enonce-3> rdf:type <http://karl-pineau.fr/cdv-ontology/L2-enonce> ;
+          rdfs:label "Merci messieurs... (Connaissance des Arts, les derniers dons du DOA)"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> "1989" .
+          # se trouve dans strate culturelle
+
+# Objet physique
+
+<geodesie-objet-physique> rdf:type <http://karl-pineau.fr/cdv-ontology/L3-objet-physique> ;
+                          rdfs:label "Géodésie : réprésentation en objet physique" ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-dimension-longueur> ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-dimension-hauteur> ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-dimension-diametre> ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-materiau-1> ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-materiau-2> ;
+                          <http://karl-pineau.fr/cdv-ontology/Z2-a-pour-propriete-physique> <propriete-physique-materiau-3> .
+
+
+# Propriétés physiques
+<propriete-physique-dimension-longueur> rdf:type <http://erlangen-crm.org/current/E54_Dimension> ;
+                                        rdfs:label "longueur" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "570" ;
+                                        <http://erlangen-crm.org/current/P91_has_unit> "millimètre" .
+
+<propriete-physique-dimension-hauteur> rdf:type <http://erlangen-crm.org/current/E54_Dimension> ;
+                                       rdfs:label "hauteur" ;
+                                       <http://erlangen-crm.org/current/P90_has_value> "265" ;
+                                       <http://erlangen-crm.org/current/P91_has_unit> "millimètre" .
+
+<propriete-physique-dimension-diametre> rdf:type crm:E54_Dimension ;
+                                        rdfs:label "diamètre" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "490" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "millimètre" .
+
+<propriete-physique-materiau-1> rdf:type crm:E57_Material ;
+                                rdfs:label "Alliage cuivreux" .
+
+<propriete-physique-materiau-2> rdf:type <http://erlangen-crm.org/current/E57_Material> ;
+                                rdfs:label "Verre" .
+
+<propriete-physique-materiau-3> rdf:type <http://erlangen-crm.org/current/E57_Material> ;
+                                rdfs:label "Acier bleui" .

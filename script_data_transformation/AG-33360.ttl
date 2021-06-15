@@ -1,0 +1,862 @@
+@prefix : <http://karl-pineau.fr/cdv-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://erlangen-crm.org/current/>.
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@base <http://karl-pineau.fr/cdv-ontology/> .
+
+
+# Oeuvre
+<oeuvre-33360> a <#D1-oeuvre-art> ;
+     <#Y1-est-documente-par> <dossier-oeuvre-33360> ;
+     <#X1-est-represente-par> <cdv-33360> ;
+     rdfs:label "Etude pour un satyr sur le point d'attaquer"@fr ;
+     dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/illustration.jpg".
+
+################################################################
+################################################################
+################################################################
+
+# Dossier d'oeuvre
+<dossier-oeuvre-33360> a <#D2-dossier-d-oeuvre> ;
+    <#X2-est-compose-de> <dossier-1> ;
+    <#X2-est-compose-de> <dossier-2> ;
+    <#X2-est-compose-de> <dossier-3> ;
+    <#X2-est-compose-de> <dossier-4> ;
+    <#X2-est-compose-de> <dossier-5> ;
+    rdfs:label "DO 33360"@fr .
+
+<dossier-1> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D1> ;
+    <#X2-est-compose-de> <extrait-D2> ;
+    <#X2-est-compose-de> <extrait-D3> ;
+    <#X2-est-compose-de> <extrait-D4> ;
+    <#X2-est-compose-de> <extrait-D5> ;
+    <#X2-est-compose-de> <extrait-D6> ;
+    <#X2-est-compose-de> <extrait-D7> ;
+    <#X2-est-compose-de> <extrait-D8> ;
+    <#X2-est-compose-de> <extrait-D9> ;
+    <#X2-est-compose-de> <extrait-D10> ;
+    <#X2-est-compose-de> <extrait-D11> ;
+    <#X2-est-compose-de> <extrait-D12> ;
+    <#X2-est-compose-de> <extrait-D13> ;
+    <#X2-est-compose-de> <extrait-D14> ;
+    rdfs:label "#1 Bibliographie"@fr .
+
+<dossier-2> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D15> ;
+    <#X2-est-compose-de> <extrait-D16> ;
+    <#X2-est-compose-de> <extrait-D17> ;
+    <#X2-est-compose-de> <extrait-D18> ;
+    <#X2-est-compose-de> <extrait-D19> ;
+    <#X2-est-compose-de> <extrait-D20> ;
+    <#X2-est-compose-de> <extrait-D21> ;
+    <#X2-est-compose-de> <extrait-D22> ;
+    <#X2-est-compose-de> <extrait-D23> ;
+    <#X2-est-compose-de> <extrait-D24> ;
+    <#X2-est-compose-de> <extrait-D25> ;
+    <#X2-est-compose-de> <extrait-D26> ;
+    <#X2-est-compose-de> <extrait-D27> ;
+    <#X2-est-compose-de> <extrait-D28> ;
+    rdfs:label "#2 Expositions"@fr .
+
+<dossier-3> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D29> ;
+    <#X2-est-compose-de> <extrait-D30> ;
+    <#X2-est-compose-de> <extrait-D31> ;
+    <#X2-est-compose-de> <extrait-D32> ;
+    <#X2-est-compose-de> <extrait-D33> ;
+    <#X2-est-compose-de> <extrait-D34> ;
+    <#X2-est-compose-de> <extrait-D35> ;
+    <#X2-est-compose-de> <extrait-D36> ;
+    <#X2-est-compose-de> <extrait-D37> ;
+    <#X2-est-compose-de> <extrait-D38> ;
+    <#X2-est-compose-de> <extrait-D39> ;
+    rdfs:label "#3 Analogies"@fr .
+
+<dossier-4> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D40> ;
+    rdfs:label "#4 Constats d'état"@fr .
+
+<dossier-5> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D41> ;
+    <#X2-est-compose-de> <extrait-D42> ;
+    <#X2-est-compose-de> <extrait-D43> ;
+    <#X2-est-compose-de> <extrait-D44> ;
+    rdfs:label "#5 Photographies"@fr .
+
+################################################################
+################################################################
+################################################################
+
+<extrait-D1> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D1> ;
+    rdfs:label "ED1"@fr .
+
+<document-D1> a <#D5-document> ;
+    rdfs:label "Les marques de collections de dessins et d'estampes"@fr ;
+    dct:creator "Frits Lugt" ;
+    dct:type "Monographie" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D1.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D1.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D1> .
+
+<date-D1> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2018"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D2> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D2> ;
+    rdfs:label "ED2"@fr .
+
+<document-D2> a <#D5-document> ;
+    rdfs:label "Lugt 1285: From Gabriel Huquier to Peter Adolf Hall"@fr ;
+    dct:creator "Marie-Anne Dupuy-Vachey" ;
+    dct:type "Monographie" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D2.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D2.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D2>.
+
+<date-D2> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2017"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "8".
+
+
+<extrait-D3> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D3> ;
+    rdfs:label "ED3"@fr .
+
+<document-D3> a <#D5-document> ;
+    rdfs:label "De Watteau à Degas : Dessins français de la collection Frits Lugt"@fr ;
+    dct:type "Catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D3.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D3.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D3>.
+
+<date-D3> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2009"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D5> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED4"@fr .
+<extrait-D36> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED36"@fr .
+<extrait-D37> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED37"@fr .
+
+<document-D5> a <#D5-document> ;
+    rdfs:label "Antoine Watteau. 1684-1721. Catalogue raisonné de dessins"@fr ;
+    dct:creator "Pierre Rosenberg, Louis-Antoine Prat" ;
+    dct:type "Catalogue raisonné" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D5.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D5.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D5>.
+
+<date-D5> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1996"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D6> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D5> ;
+    rdfs:label "ED5"@fr .
+
+<document-D6> a <#D5-document> ;
+    rdfs:label "Une amitié paradoxale : Antoine Watteau et le comte de Caylus (1712-1719)"@fr ;
+    dct:creator "Marc Funaroli" ;
+    dct:type "Article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D6.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D6.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D6>.
+
+<date-D6> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1996"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D7> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D6> ;
+    rdfs:label "ED6"@fr .
+
+<document-D7> a <#D5-document> ;
+    rdfs:label "Figure drawing, the structure, anatomy and expressive design of human form"@fr ;
+    dct:creator "Nathan Goldstein" ;
+    dct:type "Catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D7.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D7.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D7>.
+
+<date-D7> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1987"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D8> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D7> ;
+    rdfs:label "ED7"@fr .
+
+<document-D8> a <#D5-document> ;
+    rdfs:label "Antoine Watteau"@fr ;
+    dct:creator "Donald Posner" ;
+    dct:type "Article de revue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D8.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D8.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D8>.
+
+<date-D8> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1984"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D9> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED9"@fr .
+
+<document-D9> a <#D5-document> ;
+    rdfs:label "Antoine Watteau, catalogue complet de son oeuvre dessiné"@fr ;
+    dct:creator "K.T. Parker et J. Mathry" ;
+    dct:type "Catalogue raisonné" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D9.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D9.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D9>.
+
+<date-D9> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1957"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D10> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D10> ;
+    rdfs:label "ED10"@fr .
+
+<document-D10> a <#D5-document> ;
+    rdfs:label "The drawings of Antoine Watteau"@fr ;
+    dct:creator "K.T. Parker" ;
+    dct:type "Catalogue raisonné" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D10.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D10.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D10>.
+
+<date-D10> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1931"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D11> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D12> ;
+    rdfs:label "ED11"@fr .
+
+<extrait-D12> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D12> ;
+    rdfs:label "ED12"@fr .
+
+<document-D12> a <#D5-document> ;
+    rdfs:label "Manuel de l'amateur de dessins - Etude d'homme nu agenouillé"@fr ;
+    dct:creator "Louis Godefroy et Lucien Huteau" ;
+    dct:type "Notice de catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D12.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D12.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D12>.
+
+<date-D12> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1930"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D13> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED13"@fr .
+
+<document-D13> a <#D5-document> ;
+    rdfs:label "P.J. Mariette et autres notes inédites de cet amateur"@fr ;
+    dct:creator "Ph. de Chennevières et A. de Montaiglon" ;
+    dct:type "Recueil" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D13.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D13.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D13>.
+
+<date-D13> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1859"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D14> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D14> ;
+    rdfs:label "ED14"@fr .
+
+<document-D14> a <#D5-document> ;
+    rdfs:label "The Drawings of Watteau"@fr ;
+    dct:creator "Malcom Cornach" ;
+    dct:type "Catalogue raisonné" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D14.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D14.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D14>.
+
+<date-D14> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1970"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D15> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D15> ;
+    rdfs:label "ED15"@fr .
+
+<document-D15> a <#D5-document> ;
+    rdfs:label "Satyre soulevant une draperie"@fr ;
+    dct:creator "Hélène Meyer" ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D15.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D15.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D15>.
+
+<date-D15> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2021"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D16> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D16> ;
+    rdfs:label "ED16"@fr .
+
+<document-D16> a <#D5-document> ;
+    rdfs:label "Antoine Watteau: the drawings - Nude man kneeling, holding fabric in his right hand"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D16.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D16.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D16>.
+
+<date-D16> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2011"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D17> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D17> ;
+    rdfs:label "ED17"@fr .
+
+<document-D17> a <#D5-document> ;
+    rdfs:label "From Poussin to David: French master drawings from the Louvre"@fr ;
+    dct:creator "Jean-François Méjanès, Christophe Leribault, Véronique Goarin, Catherine Scheck" ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D17.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D17.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D17>.
+
+<date-D17> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2008"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D18> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D18> ;
+    rdfs:label "ED18"@fr .
+
+<document-D18> a <#D5-document> ;
+    rdfs:label "Posséder et détruire : Un art du viol"@fr ;
+    dct:creator "Michel R." ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D18.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D18.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D18>.
+
+<date-D18> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2000"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D19> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D19> ;
+    rdfs:label "ED19"@fr .
+
+<document-D19> a <#D5-document> ;
+    rdfs:label "Le beau idéal"@fr ;
+    dct:creator "Régis Michel" ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D19.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D19.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D19>.
+
+<date-D19> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1989"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D20> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D19> ;
+    rdfs:label "ED20"@fr .
+
+<extrait-D21> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D21> ;
+    rdfs:label "ED21"@fr .
+
+<document-D21> a <#D5-document> ;
+    rdfs:label "Dessins français du XVIIIe siècle: De Watteau à Lemoyne"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D21.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D21.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D21>.
+
+<date-D21> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1987"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D22> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D21> ;
+    rdfs:label "ED22"@fr .
+
+<extrait-D23> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D23> ;
+    rdfs:label "ED23"@fr .
+
+<extrait-D24> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D23> ;
+    rdfs:label "ED24"@fr .
+
+<document-D23> a <#D5-document> ;
+    rdfs:label "Watteau"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D23.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D23.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D23>.
+
+<date-D23> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1984"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D25> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D25> ;
+    rdfs:label "ED25"@fr .
+
+<document-D25> a <#D5-document> ;
+    rdfs:label "Du corps et son visage"@fr ;
+    dct:creator "Geneviève Monnier" ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D25.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D25.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D25>.
+
+<date-D25> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1977"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D26> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D26> ;
+    rdfs:label "ED26"@fr .
+
+<document-D26> a <#D5-document> ;
+    rdfs:label "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D26.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D26.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D26>.
+
+<date-D26> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1967"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D27> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D27> ;
+    rdfs:label "ED27"@fr .
+
+<document-D27> a <#D5-document> ;
+    rdfs:label "Le dessin français dans les collections du XVIIIe siècle"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:creator "J. Lejeaux" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D27.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D27.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D27>.
+
+<date-D27> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1935"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D28> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D27> ;
+    rdfs:label "ED28"@fr .
+
+<extrait-D29> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D29> ;
+    rdfs:label "ED29"@fr .
+
+<document-D29> a <#D5-document> ;
+    rdfs:label "Anton Van Dick - A man reaching foward with an outstretched arm: with four studies of the arm and hand"@fr ;
+    dct:type "Notice de catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D29.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D29.jpg" .
+
+<extrait-D30> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D30> ;
+    rdfs:label "ED30"@fr .
+
+<document-D30> a <#D5-document> ;
+    rdfs:label "D30"@fr ;
+    dct:type "Notice de catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D30.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D30.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D30>.
+
+<date-D30> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1991"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D31> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D31> ;
+    rdfs:label "ED31"@fr .
+
+<document-D31> a <#D5-document> ;
+    rdfs:label "Van Dyck: a complete catalogue of the paintings"@fr ;
+    dct:type "Catalogue raisonné" ;
+    dct:creator "Susan Barnes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D31.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D31.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D31>.
+
+<date-D31> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2004"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D32> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D31> ;
+    rdfs:label "ED32"@fr .
+
+<extrait-D33> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D33> ;
+    rdfs:label "ED33"@fr .
+
+<extrait-D34> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D33> ;
+    rdfs:label "ED34"@fr .
+
+<document-D33> a <#D5-document> ;
+    rdfs:label "L'opera completa di Van Dyck"@fr ;
+    dct:type "Catalogue raisonné" ;
+    dct:creator "Erik Larsen" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D33.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D33.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D33>.
+
+<date-D33> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1989"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D35> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D35> ;
+    rdfs:label "ED35"@fr .
+
+<document-D35> a <#D5-document> ;
+    rdfs:label "Watteau"@fr ;
+    dct:type "Catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D35.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D35.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D35>.
+
+<date-D35> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1984"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D38> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D35> ;
+    rdfs:label "ED38"@fr .
+
+<extrait-D39> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D35> ;
+    rdfs:label "ED39"@fr .
+
+<extrait-D40> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D40> ;
+    rdfs:label "ED40"@fr .
+
+<document-D40> a <#D5-document> ;
+    rdfs:label "Constat d'état et de convoiement"@fr ;
+    dct:type "Constrat d'état" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D40.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D40.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D40>.
+
+<date-D40> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2011"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D41> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D41> ;
+    rdfs:label "ED41"@fr .
+
+<document-D41> a <#D5-document> ;
+    rdfs:label "D41"@fr ;
+    dct:type "Photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D41.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D41.jpg" .
+
+<extrait-D42> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D42> ;
+    rdfs:label "ED42"@fr .
+
+<document-D42> a <#D5-document> ;
+    rdfs:label "D42"@fr ;
+    dct:type "Photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D42.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D42.jpg" .
+
+<extrait-D43> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D43> ;
+    rdfs:label "ED43"@fr .
+
+<document-D43> a <#D5-document> ;
+    rdfs:label "D43"@fr ;
+    dct:type "Photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D43.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D43.jpg" .
+
+<extrait-D44> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D44> ;
+    rdfs:label "ED44"@fr .
+
+<document-D44> a <#D5-document> ;
+    rdfs:label "D44"@fr ;
+    dct:type "Photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/docs/D44.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/33360/images/D44.jpg" .
+
+
+################################################################    
+################################################################
+################################################################
+
+
+# Cycle de vie
+<cdv-33360> a <#C2-cycle-de-vie> ;
+    <#X2-est-compose-de> <strate-materielle> ;
+    <#X2-est-compose-de> <strate-culturelle> ;
+    <#X2-est-compose-de> <strate-institutionnelle> ;
+    rdfs:label "Cycle de vie de AG33360"@fr.
+
+<strate-materielle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Matérielle" ;
+    <#X7-considere-le-bien-culturel-comme> <necessaire-objet-physique> ;
+    <#X2-est-compose-de> <event-1> ;
+    rdfs:label "Strate matérielle"@fr.
+
+<strate-culturelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Culturelle" ;
+    <#X7-considere-le-bien-culturel-comme> <necessaire-objet-discursif> ;
+    <#X2-est-compose-de> <event-5> ;
+    <#X2-est-compose-de> <event-6> ;
+    <#X2-est-compose-de> <event-7> ;
+    <#X2-est-compose-de> <event-8> ;
+    <#X2-est-compose-de> <event-9> ;
+    <#X2-est-compose-de> <event-10> ;
+    <#X2-est-compose-de> <event-11> ;
+    <#X2-est-compose-de> <event-12> ;
+    <#X2-est-compose-de> <event-13> ;
+    <#X2-est-compose-de> <event-14> ;
+    <#X2-est-compose-de> <event-15> ;
+    rdfs:label "Strate culturelle"@fr.
+
+<strate-institutionnelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Institutionnelle" ;
+    <#X7-considere-le-bien-culturel-comme> <dossier-oeuvre-33360> ;
+    <#X2-est-compose-de> <event-2> ;
+    <#X2-est-compose-de> <event-3> ;
+    <#X2-est-compose-de> <event-4> ;
+    rdfs:label "Strate institutionnelle"@fr.
+
+################################################################    
+################################################################
+################################################################
+
+# Events
+
+<event-1> a <#C6-evenement> ;
+          rdfs:label "Réalisation du dessin"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E1> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E1> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Antoine Watteau" ;
+     	  <#Y1-est-documente-par> <extrait-D3> ;
+          dct:type "Conception".
+
+<date-E1> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1717"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-2> a <#C6-evenement> ;
+          rdfs:label "Vente de Gabriel Huguier à Charles Paul Jean Bapstie Bourgevin"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E2> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Gabriel Huguier" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Charles Paul Jean Bapstie Bourgevin" ;
+     	  <#Y1-est-documente-par> <extrait-D5> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Vente".
+
+<date-E2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "09/11/1772"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+<event-3> a <#C6-evenement> ;
+          rdfs:label "Saisie des biens des émigrés"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E3> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E3> ;
+     	  <#Y1-est-documente-par> <extrait-D5> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Evénement historique".
+
+<date-E3> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1793"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-4> a <#C6-evenement> ;
+          rdfs:label "Legs La Caze"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E4> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E4> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "La Caze" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+          dct:type "Acquisition".
+
+<date-E4> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1889"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-5> a <#C6-evenement> ;
+          rdfs:label "Le dessin français dans les collection du XVIIIe siècle, musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E5> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E5> ;
+     	  <#Y1-est-documente-par> <extrait-D5> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D27> ;
+          dct:type "Exposition".
+
+<date-E5> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1935"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-6> a <#C6-evenement> ;
+          rdfs:label "Dessins français du XVIIIE siècle : amis et contemporain de P.J. Mariette, musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E6> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E6> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D26> ;
+          dct:type "Exposition".
+
+<date-E6> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1967"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-7> a <#C6-evenement> ;
+          rdfs:label "Du corps et son visage, musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E7> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E7> ;
+     	  <#Y1-est-documente-par> <extrait-D25> ;
+          dct:type "Exposition".
+
+<date-E7> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1977"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+        
+<event-8> a <#C6-evenement> ;
+          rdfs:label "Watteau (1684-1721), Washington, Paris, Berlin"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E8> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E8-2> ;
+     	  <#Y1-est-documente-par> <extrait-D5> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D23> ;
+     	  <#Y1-est-documente-par> <extrait-D24> ;
+          dct:type "Exposition".
+
+<date-E8> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1984"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+<date-E8-2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1986"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-9> a <#C6-evenement> ;
+          rdfs:label "Dessins français du XVIIIe siècle: de Watteau à Lemoyne - musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E9> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E9> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D21> ;
+     	  <#Y1-est-documente-par> <extrait-D22> ;
+          dct:type "Exposition".
+
+<date-E9> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1987"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-10> a <#C6-evenement> ;
+          rdfs:label "Le beau idéal, musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E10> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E10> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D19> ;
+          dct:type "Exposition".
+
+<date-E10> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1989"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-11> a <#C6-evenement> ;
+          rdfs:label "Posséder et détruire, musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E11> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E11> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D18> ;
+          dct:type "Exposition".
+
+<date-E11> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2000"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-12> a <#C6-evenement> ;
+          rdfs:label "From Poussin to David: French master drawings from the Louvre, Museum of Fine Arts, Budapest"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E12> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E12> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D17> ;
+     	  <#Y1-est-documente-par> <extrait-D20> ;
+          dct:type "Exposition".
+
+<date-E12> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2008"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+        
+<event-13> a <#C6-evenement> ;
+          rdfs:label "De Watteau à Degas : Dessins français de la collection Frits Lugt"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E13> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E13-2> ;
+     	  <#Y1-est-documente-par> <extrait-D3> ;
+          dct:type "Exposition".
+
+<date-E13> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2009"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+<date-E13-2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2010"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-14> a <#C6-evenement> ;
+          rdfs:label "Antoine Watteau: the drawings, Londres"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E14> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E14> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+     	  <#Y1-est-documente-par> <extrait-D16> ;
+          dct:type "Exposition".
+
+<date-E14> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2011"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-15> a <#C6-evenement> ;
+          rdfs:label "L'empire des nus, musée Cognac-Jay"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E15> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E15> ;
+     	  <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Exposition".
+
+<date-E15> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2021"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+

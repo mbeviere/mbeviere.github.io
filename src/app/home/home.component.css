@@ -1,0 +1,167 @@
+body{
+  margin:0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #EDEAD0;
+}
+
+#fondNotice{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 75%;
+height: 85%;
+transform: translate(-50%, -50%);
+background: #50596A;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+h1 {
+  font-family: RobotoBold;
+  font-size: 26px;
+  text-align : center;
+  line-height: 28px;
+	letter-spacing: 1px;
+}
+
+#titreOeuvre{
+  font-family: RobotoBold;
+  font-size: 15px;
+  text-align : center;
+  line-height: 20px;
+}
+
+
+button{
+  width: 80%;
+  margin: 0 10%;
+  background-color: #E16952;
+  color : #EDEAD0;
+  text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 0.8rem;
+  font-family : RobotoBold;
+  border-bottom-width: 3px;
+	border: 1px solid rgba(0,0,0,0.3);
+  padding:5px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+#menu {
+  position: absolute;
+  bottom: 30px;
+  padding: 0;
+  margin: 0 10%;
+  width: 80%;
+}
+#menu td{
+  min-width: 50%;
+}
+
+#menu img {
+  height:  100px;
+  margin: 0 130px ;
+}
+
+@font-face{
+  font-family: Roboto;
+  src : url(font/Roboto-Regular.ttf);
+  }
+@font-face {
+  font-family: RobotoBold;
+  src : url(font/Roboto-Bold.ttf);
+}
+
+.nav_menu{
+  padding-top:5%;
+  width:100%;
+}
+
+.menu {
+  display:flex;
+  justify-content:space-around;
+  align-items:center
+}
+
+.work_menu {
+  display:flex;
+  flex-direction:column;
+  width:30%;
+}
+
+.work_image{
+  height:10vh;
+  width:auto;
+}
+
+.work_image_div{
+  display:flex;
+  justify-content:center;
+  height:100%;
+  padding-bottom:10px;
+}
+
+.chronologicalView{
+  display:flex;
+  padding-top:20px;
+  padding-right:35px;
+}
+
+.allImgDiv{
+  display:flex;
+  flex-direction:column;
+  width:20%;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
+.cvAllText{
+  background-color:#626A78;
+  width:80%;
+
+}
+
+.introText{
+  display:flex;
+  justify-content:center;
+}
+
+.titleDataViz{
+  padding:15px;
+}
+
+.cvTextDiv{
+  padding-left:35px;
+  padding-right:35px;
+}
+
+.hierarchicalView{
+  display:flex;
+  padding-top:20px;
+  padding-left:30px;
+}
+
+.hvImgFolderDiv{
+  display:flex;
+  width:100%;
+  justify-content:flex-start;
+  margin-left:35px;
+}
+
+.hvImgDocDiv{
+  display:flex;
+  width:100%;
+  justify-content:flex-end;
+  margin-right:35px;
+}
+
+.introTextDiv{
+  display:flex;
+}

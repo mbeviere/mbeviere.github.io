@@ -1,0 +1,76 @@
+
+#document-detail{
+  display:flex;
+}
+
+#doc-part-1 {
+  color: #EDEAD0;
+  font-family: Roboto;
+  padding-right:15px;
+}
+
+.document-detail-doc-title{
+  overflow:auto;
+  min-height:15%;
+  max-height:25%;
+  max-width:100%;
+  margin:0 0 15px 0;
+}
+
+h1{
+  font-family: RobotoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FF775C;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-family: RobotoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  background-color: #E16952;
+  color: #EDEAD0;
+  padding: 3px 9px;
+  margin: 0 0 30px 0;
+  border-radius: 2px;
+}
+
+header {
+    margin: 0 0 30px 0;
+}
+
+th {
+  font-style: italic;
+  font-weight: lighter;
+  text-align:  left;
+}
+
+td {
+  font-family: RobotoBold;
+  font-weight: 200;
+  padding-left: 20px;
+
+}
+
+img{
+  height:  150px;
+  width : 150px;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #626A78;        /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #A6AAB1;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #626A78;  /* creates padding around scroll thumb */
+}

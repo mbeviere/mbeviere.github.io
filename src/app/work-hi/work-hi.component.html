@@ -1,0 +1,81 @@
+<div id="work-hi">
+    <div class="pathLocation">
+        <div class="actualPath">
+            <span class='dossier-0' (click)="changeHierarchieByPath('dossier-0')">{{titre}}</span>
+        </div>
+        <div id="svg1"></div>
+    </div>
+
+    <div class="mainHIViewdiv">
+        <div class="folderAndPhotosDiv">
+            <div class="fpdDiv folderDiv">
+                <div class="titleDiv">Dossiers</div>
+                <div class="folderList">
+                   <!-- <ng-container *ngFor="let folder of currentHierarchie.composed_of">
+                        <div class="folderExist" *ngIf="folder.type == 'dossier'">
+                            <div class="folderDocItemDiv clickableElement" (click)="changeHierarchie(folder.id)">
+                                <div><img src="../../assets/img/folder_open-black-36dp.svg"></div>
+                                <div class="folderDocItem ">{{folder.label}}</div>
+                        </div>
+                        </div>
+                    </ng-container> -->
+                </div>
+            </div>
+            <div id="photoDiv" class="fpdDiv photosDiv">
+            <div class="titleDiv">Photos</div>
+                <div class="photosList">
+                </div>
+            </div>
+        </div>
+        <div class="fpdDiv documentsDiv">
+            <div class="titleDiv">Documents</div>
+            <div class="documentsList">
+                <table mat-table [dataSource]="dataSource" matSort (matSortChange)="sortData($event)" class="tableDoc">
+      
+                    Img Column
+                    <ng-container matColumnDef="img">
+                      <th mat-header-cell *matHeaderCellDef></th>
+                      <td mat-cell *matCellDef="let element"> {{element.img}} <img class="docImage" src="../../assets/img/description_black_36dp.svg"> </td>
+                    </ng-container>
+
+                    Id Column
+                    <ng-container matColumnDef="id">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
+                      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+                    </ng-container>
+                  
+                    Name Column
+                    <ng-container matColumnDef="name">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nom</th>
+                      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                    </ng-container>
+                  
+                    Type Column
+                    <ng-container matColumnDef="type">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
+                      <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+                    </ng-container>
+                  
+                    Auteur Column
+                    <ng-container matColumnDef="author">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header> Auteur </th>
+                      <td mat-cell *matCellDef="let element"> {{element.author}} </td>
+                    </ng-container>
+
+                    Date Column
+                    <ng-container matColumnDef="date">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header> Date </th>
+                      <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+                    </ng-container>
+                  
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="displayDocumentDetail(row.id)"></tr>
+                  </table>
+            </div>
+            
+        </div>
+    </div>
+
+    
+      
+</div>

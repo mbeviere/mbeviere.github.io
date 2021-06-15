@@ -1,0 +1,849 @@
+{
+   "work_of_art": {
+      "id": "oeuvre-10761",
+      "label": "Appareil de géodésie",
+      "represented_by": "http://karl-pineau.fr/cdv-ontology/cdv-10761"
+   },
+   "documents": [
+      {
+         "id": "document-D13",
+         "label": "L'Encyclopédie Diderot et d'Alembert",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Ministère de la Culture",
+         "date": {
+            "timestamp": 1136070000.0,
+            "precision": "9"
+         },
+         "type": "page web",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D13.jpg"
+      },
+      {
+         "id": "document-D2",
+         "label": "Inventaire 18/06/2007",
+         "linked_events": [
+            "event-2",
+            "event-4",
+            "event-5",
+            "event-7"
+         ],
+         "linked_documents": [
+            "document-D5",
+            "document-D6"
+         ],
+         "linked_stratums": [
+            "MATÉRIEL",
+            "INSTITUTIONNEL",
+            "CULTUREL"
+         ],
+         "creator": "Creuzet (Musée du Louvre)",
+         "date": {
+            "timestamp": 1182117600.0,
+            "precision": "11"
+         },
+         "type": "inventaire",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D2.jpg"
+      },
+      {
+         "id": "document-D12",
+         "label": "Merci messieurs...",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Daniel Alcouffe",
+         "date": {
+            "timestamp": 599612400.0,
+            "precision": "9"
+         },
+         "type": "article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D12.jpg"
+      },
+      {
+         "id": "document-D9",
+         "label": "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Roland Schaer",
+         "date": {
+            "timestamp": 820450800.0,
+            "precision": "9"
+         },
+         "type": "article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D9.jpg"
+      },
+      {
+         "id": "document-D3",
+         "label": "D3",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": null,
+         "date": null,
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D3.jpg"
+      },
+      {
+         "id": "document-D1",
+         "label": "Inventaire du 23/09/2010",
+         "linked_events": [
+            "event-2",
+            "event-4",
+            "event-5",
+            "event-8",
+            "event-7"
+         ],
+         "linked_documents": [
+            "document-D2",
+            "document-D5",
+            "document-D6"
+         ],
+         "linked_stratums": [
+            "MATÉRIEL",
+            "INSTITUTIONNEL",
+            "CULTUREL"
+         ],
+         "creator": "Dantan (Musée du Louvre)",
+         "date": {
+            "timestamp": 1285192800.0,
+            "precision": "11"
+         },
+         "type": "inventaire",
+         "image": null
+      },
+      {
+         "id": "document-D15",
+         "label": "D15",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "RMN",
+         "date": {
+            "timestamp": 1262300400.0,
+            "precision": "9"
+         },
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D15.jpg"
+      },
+      {
+         "id": "document-D5",
+         "label": "Les instruments de mathématiques - XVIe - XVIIIe siècle",
+         "linked_events": [],
+         "linked_documents": [
+            "document-D9"
+         ],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Camille Frémontier-Murphy",
+         "date": {
+            "timestamp": 1009839600.0,
+            "precision": "9"
+         },
+         "type": "article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D5.jpg"
+      },
+      {
+         "id": "document-D16",
+         "label": "Catalogue de vente",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Christie's",
+         "date": {
+            "timestamp": 1356994800.0,
+            "precision": "9"
+         },
+         "type": "catalogue de vente",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D16.jpg"
+      },
+      {
+         "id": "document-D8",
+         "label": "Le tableau du mois n°97 : Vénus entourée de nymphes regardant une ronde d'Amours, Sebastiano Ricci",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Stéphane Loire",
+         "date": null,
+         "type": "article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D8.jpg"
+      },
+      {
+         "id": "document-D4",
+         "label": "D4",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "RMN - J. G. Berizzi",
+         "date": {
+            "timestamp": 915145200.0,
+            "precision": "9"
+         },
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D4.jpg"
+      },
+      {
+         "id": "document-D6",
+         "label": "L'objet d'art de la saison n°23 : Planchette",
+         "linked_events": [],
+         "linked_documents": [
+            "document-D9",
+            "document-D5"
+         ],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Camille Frémontier-Murphy",
+         "date": {
+            "timestamp": 1041375600.0,
+            "precision": "9"
+         },
+         "type": "article",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D6.jpg"
+      },
+      {
+         "id": "document-D17",
+         "label": "D17",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "RMN - J. G. Berizzi",
+         "date": {
+            "timestamp": 915145200.0,
+            "precision": "9"
+         },
+         "type": "photo",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D17.jpg"
+      },
+      {
+         "id": "document-D14",
+         "label": "Inventaire",
+         "linked_events": [],
+         "linked_documents": [],
+         "linked_stratums": [
+            "INSTITUTIONNEL"
+         ],
+         "creator": "Musée du Louvre",
+         "date": {
+            "timestamp": 283993200.0,
+            "precision": "9"
+         },
+         "type": "inventaire",
+         "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D14.jpg"
+      }
+   ],
+   "stratums": [
+      {
+         "id": "strate-materielle",
+         "label": "MATÉRIEL",
+         "linked_events": [
+            "event-2"
+         ],
+         "type": "Matérielle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/geodesie-objet-physique",
+         "linked_documents": [
+            {
+               "id": "document-D2",
+               "label": "Inventaire 18/06/2007"
+            },
+            {
+               "id": "document-D1",
+               "label": "Inventaire du 23/09/2010"
+            }
+         ]
+      },
+      {
+         "id": "strate-institutionnelle",
+         "label": "INSTITUTIONNEL",
+         "linked_events": [
+            "event-4",
+            "event-5",
+            "event-8"
+         ],
+         "type": "Institutionnelle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/dossier-oeuvre-10761",
+         "linked_documents": [
+            {
+               "id": "document-D1",
+               "label": "Inventaire du 23/09/2010"
+            },
+            {
+               "id": "document-D2",
+               "label": "Inventaire 18/06/2007"
+            },
+            {
+               "id": "document-D13",
+               "label": "L'Encyclopédie Diderot et d'Alembert"
+            },
+            {
+               "id": "document-D12",
+               "label": "Merci messieurs..."
+            },
+            {
+               "id": "document-D9",
+               "label": "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle"
+            },
+            {
+               "id": "document-D3",
+               "label": "D3"
+            },
+            {
+               "id": "document-D15",
+               "label": "D15"
+            },
+            {
+               "id": "document-D5",
+               "label": "Les instruments de mathématiques - XVIe - XVIIIe siècle"
+            },
+            {
+               "id": "document-D16",
+               "label": "Catalogue de vente"
+            },
+            {
+               "id": "document-D8",
+               "label": "Le tableau du mois n°97 : Vénus entourée de nymphes regardant une ronde d'Amours, Sebastiano Ricci"
+            },
+            {
+               "id": "document-D4",
+               "label": "D4"
+            },
+            {
+               "id": "document-D6",
+               "label": "L'objet d'art de la saison n°23 : Planchette"
+            },
+            {
+               "id": "document-D17",
+               "label": "D17"
+            },
+            {
+               "id": "document-D14",
+               "label": "Inventaire"
+            }
+         ]
+      },
+      {
+         "id": "strate-culturelle",
+         "label": "CULTUREL",
+         "linked_events": [
+            "event-7",
+            "enonce-3",
+            "event-3",
+            "enonce-1",
+            "event-1",
+            "enonce-2"
+         ],
+         "type": "Culturelle",
+         "considers_cultural_good_as": "http://karl-pineau.fr/cdv-ontology/geodesie-objet-discursif",
+         "linked_documents": [
+            {
+               "id": "document-D1",
+               "label": "Inventaire du 23/09/2010"
+            },
+            {
+               "id": "document-D2",
+               "label": "Inventaire 18/06/2007"
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "id": "event-5",
+         "label": "Don de Mme Landau au Louvre",
+         "start_time": {
+            "timestamp": -6027350961.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -6027350961.0,
+            "precision": "9"
+         },
+         "type": "Acquisition",
+         "participants": [
+            "Musée du Louvre",
+            "Madame Landau"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D2",
+            "document-D1"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-3",
+         "label": "Objet copié par Courtonne en gravure dans le cabinet de Bonnier de la Mosson",
+         "start_time": {
+            "timestamp": -7289654961.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -7289654961.0,
+            "precision": "9"
+         },
+         "type": "Observation",
+         "participants": [
+            "Jean-Baptiste Courtonne"
+         ],
+         "place": null,
+         "linked_documents": null,
+         "linked_events": null
+      },
+      {
+         "id": "event-8",
+         "label": "Récolement \"objet vu\"",
+         "start_time": {
+            "timestamp": 1230764400.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1230764400.0,
+            "precision": "9"
+         },
+         "type": "Récollement",
+         "participants": [
+            "Dantan"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D1"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-2",
+         "label": "Commande et exécution de la planchette",
+         "start_time": {
+            "timestamp": -7668346161.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -7668346161.0,
+            "precision": "9"
+         },
+         "type": "Réalisation",
+         "participants": [
+            "Jean-Jacques Langlois"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D2",
+            "document-D1"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-4",
+         "label": "Vendu par Bonnier de la Mosson au comte de Buffon pour 240,5 livres",
+         "start_time": {
+            "timestamp": -7131888561.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -7131888561.0,
+            "precision": "9"
+         },
+         "type": "Vente",
+         "participants": [
+            "Bonnier de la Mosson",
+            "George-Louis Leclerc, comte de Buffon"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D1",
+            "document-D2"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-7",
+         "label": "Exposition \"L'arpenteur du roi. Vauban et Besançon\", Besançon",
+         "start_time": {
+            "timestamp": 1167606000.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": 1167606000.0,
+            "precision": "9"
+         },
+         "type": "Exposition",
+         "participants": [
+            "Musée du Louvre",
+            "Musée de Besançon"
+         ],
+         "place": null,
+         "linked_documents": [
+            "document-D1",
+            "document-D2"
+         ],
+         "linked_events": null
+      },
+      {
+         "id": "event-1",
+         "label": "Réalisation du modèle d'appareil",
+         "start_time": {
+            "timestamp": -8236339761.0,
+            "precision": "9"
+         },
+         "end_time": {
+            "timestamp": -8236339761.0,
+            "precision": "9"
+         },
+         "type": "Conception",
+         "participants": [
+            "Nicolas Bion"
+         ],
+         "place": null,
+         "linked_documents": null,
+         "linked_events": null
+      }
+   ],
+   "types_of_event": [
+      {
+         "label": "Acquisition",
+         "linked_events": [
+            "event-5"
+         ]
+      },
+      {
+         "label": "Observation",
+         "linked_events": [
+            "event-3"
+         ]
+      },
+      {
+         "label": "Récollement",
+         "linked_events": [
+            "event-8"
+         ]
+      },
+      {
+         "label": "Réalisation",
+         "linked_events": [
+            "event-2"
+         ]
+      },
+      {
+         "label": "Vente",
+         "linked_events": [
+            "event-4"
+         ]
+      },
+      {
+         "label": "Exposition",
+         "linked_events": [
+            "event-7"
+         ]
+      },
+      {
+         "label": "Conception",
+         "linked_events": [
+            "event-1"
+         ]
+      }
+   ],
+   "records": [
+      {
+         "id": "dossier-1",
+         "label": "#1 Dossier scientifique",
+         "composed_of": [
+            {
+               "id": "extrait-D9",
+               "type": "extrait",
+               "extractedFrom": "document-D9",
+               "detailFrom": {
+                  "id": "document-D9",
+                  "label": "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle",
+                  "creator": "Roland Schaer",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D9.jpg",
+                  "date": {
+                     "timestamp": 820450800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D15",
+               "type": "extrait",
+               "extractedFrom": "document-D15",
+               "detailFrom": {
+                  "id": "document-D15",
+                  "label": "D15",
+                  "creator": "RMN",
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D15.jpg",
+                  "date": {
+                     "timestamp": 1262300400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D6",
+               "type": "extrait",
+               "extractedFrom": "document-D6",
+               "detailFrom": {
+                  "id": "document-D6",
+                  "label": "L'objet d'art de la saison n°23 : Planchette",
+                  "creator": "Camille Frémontier-Murphy",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D6.jpg",
+                  "date": {
+                     "timestamp": 1041375600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D5",
+               "type": "extrait",
+               "extractedFrom": "document-D5",
+               "detailFrom": {
+                  "id": "document-D5",
+                  "label": "Les instruments de mathématiques - XVIe - XVIIIe siècle",
+                  "creator": "Camille Frémontier-Murphy",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D5.jpg",
+                  "date": {
+                     "timestamp": 1009839600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D7",
+               "type": "extrait",
+               "extractedFrom": "document-D6",
+               "detailFrom": {
+                  "id": "document-D6",
+                  "label": "L'objet d'art de la saison n°23 : Planchette",
+                  "creator": "Camille Frémontier-Murphy",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D6.jpg",
+                  "date": {
+                     "timestamp": 1041375600.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D14",
+               "type": "extrait",
+               "extractedFrom": "document-D14",
+               "detailFrom": {
+                  "id": "document-D14",
+                  "label": "Inventaire",
+                  "creator": "Musée du Louvre",
+                  "type": "inventaire",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D14.jpg",
+                  "date": {
+                     "timestamp": 283993200.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D8",
+               "type": "extrait",
+               "extractedFrom": "document-D8",
+               "detailFrom": {
+                  "id": "document-D8",
+                  "label": "Le tableau du mois n°97 : Vénus entourée de nymphes regardant une ronde d'Amours, Sebastiano Ricci",
+                  "creator": "Stéphane Loire",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D8.jpg",
+                  "date": null
+               }
+            },
+            {
+               "id": "extrait-D11",
+               "type": "extrait",
+               "extractedFrom": "document-D9",
+               "detailFrom": {
+                  "id": "document-D9",
+                  "label": "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle",
+                  "creator": "Roland Schaer",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D9.jpg",
+                  "date": {
+                     "timestamp": 820450800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D12",
+               "type": "extrait",
+               "extractedFrom": "document-D12",
+               "detailFrom": {
+                  "id": "document-D12",
+                  "label": "Merci messieurs...",
+                  "creator": "Daniel Alcouffe",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D12.jpg",
+                  "date": {
+                     "timestamp": 599612400.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D13",
+               "type": "extrait",
+               "extractedFrom": "document-D13",
+               "detailFrom": {
+                  "id": "document-D13",
+                  "label": "L'Encyclopédie Diderot et d'Alembert",
+                  "creator": "Ministère de la Culture",
+                  "type": "page web",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D13.jpg",
+                  "date": {
+                     "timestamp": 1136070000.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D16",
+               "type": "extrait",
+               "extractedFrom": "document-D16",
+               "detailFrom": {
+                  "id": "document-D16",
+                  "label": "Catalogue de vente",
+                  "creator": "Christie's",
+                  "type": "catalogue de vente",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D16.jpg",
+                  "date": {
+                     "timestamp": 1356994800.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D10",
+               "type": "extrait",
+               "extractedFrom": "document-D9",
+               "detailFrom": {
+                  "id": "document-D9",
+                  "label": "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle",
+                  "creator": "Roland Schaer",
+                  "type": "article",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D9.jpg",
+                  "date": {
+                     "timestamp": 820450800.0,
+                     "precision": "9"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "id": "dossier-oeuvre-10761",
+         "label": "DO 10761",
+         "composed_of": [
+            {
+               "id": "dossier-1",
+               "label": "#1 Dossier scientifique",
+               "type": "dossier"
+            },
+            {
+               "id": "extrait-D17",
+               "type": "extrait",
+               "extractedFrom": "document-D17",
+               "detailFrom": {
+                  "id": "document-D17",
+                  "label": "D17",
+                  "creator": "RMN - J. G. Berizzi",
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D17.jpg",
+                  "date": {
+                     "timestamp": 915145200.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D4",
+               "type": "extrait",
+               "extractedFrom": "document-D4",
+               "detailFrom": {
+                  "id": "document-D4",
+                  "label": "D4",
+                  "creator": "RMN - J. G. Berizzi",
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D4.jpg",
+                  "date": {
+                     "timestamp": 915145200.0,
+                     "precision": "9"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D2",
+               "type": "extrait",
+               "extractedFrom": "document-D2",
+               "detailFrom": {
+                  "id": "document-D2",
+                  "label": "Inventaire 18/06/2007",
+                  "creator": "Creuzet (Musée du Louvre)",
+                  "type": "inventaire",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D2.jpg",
+                  "date": {
+                     "timestamp": 1182117600.0,
+                     "precision": "11"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D1",
+               "type": "extrait",
+               "extractedFrom": "document-D1",
+               "detailFrom": {
+                  "id": "document-D1",
+                  "label": "Inventaire du 23/09/2010",
+                  "creator": "Dantan (Musée du Louvre)",
+                  "type": "inventaire",
+                  "image": null,
+                  "date": {
+                     "timestamp": 1285192800.0,
+                     "precision": "11"
+                  }
+               }
+            },
+            {
+               "id": "extrait-D3",
+               "type": "extrait",
+               "extractedFrom": "document-D3",
+               "detailFrom": {
+                  "id": "document-D3",
+                  "label": "D3",
+                  "creator": null,
+                  "type": "photo",
+                  "image": "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D3.jpg",
+                  "date": null
+               }
+            }
+         ]
+      }
+   ]
+}

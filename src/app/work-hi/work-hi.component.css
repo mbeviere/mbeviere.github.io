@@ -1,0 +1,195 @@
+#work-hi {
+  font-family:Roboto;
+  margin-top:20px;
+  margin-left:30px;
+  height:calc(86vh - 40px);
+}
+
+.pathLocation{
+  display:flex;
+  justify-content:space-between;
+  height:30px;
+}
+
+.btnViewGroup{
+  display:flex;
+}
+
+.btnViewItem{
+  margin-right:15px;
+}
+
+.mainHIViewdiv{
+  background-color:#50596A;
+  padding:15px;
+  height:calc(100% - 40px);
+}
+
+.folderAndPhotosDiv{
+  display:flex;
+  /*height:35%;*/
+}
+
+.documentsDiv{
+  margin-top:15px;
+  /*height:62%;*/
+}
+
+.documentsList{
+  overflow-y:scroll;
+  /*max-height:calc(100% - 50px);*/
+  height:calc(48vh - 50px);
+  margin-left:6px;
+}
+
+.folderList{
+  overflow-y:scroll;
+  /*max-height:calc(100% - 50px);*/
+  height:calc(26vh - 50px);
+  margin-left:30px;
+}
+
+.photosList{
+  overflow-y:scroll;
+  height:calc(26vh - 50px);
+}
+
+@media (max-height: 800px)  { 
+  .folderList{
+    overflow-y:scroll;
+    height:calc(24vh - 50px);
+    margin-left:30px;
+  }
+
+  .photosList{
+    overflow-y:scroll;
+    height:calc(24vh - 50px);
+  }
+}
+
+.tableDoc{
+  background-color:#C4C4C4;
+
+}
+
+.mat-row{
+  font-weight:400;
+}
+
+.mat-row:hover{
+  font-weight:600;
+}
+
+.mat-cell{
+  color:#3F4757;
+  font-family:Roboto;
+  cursor:pointer;
+}
+
+.fpdDiv{
+  background-color:#C4C4C4;
+  border-radius:15px;
+  color:#3F4757;
+  font-weight:400;
+}
+
+.folderDiv{
+  width:30%;
+  margin-right:5%;
+  height:100%;
+}
+
+.photosDiv{
+  width:65%;
+
+}
+
+.titleDiv {
+  background-color:#EDEAD0;
+  border-radius:30px;
+  padding:8px;
+  padding-left:20px;
+  margin-bottom:15px;
+  box-shadow: 0 8px 8px -2px gray;
+  height:20px;
+}
+
+.actualPath{
+  background-color:#27344D;
+  color:#EDEAD0;
+  padding:5px;
+  display:flex;
+  cursor:pointer;
+}
+
+.folderDocItem{
+  padding-left:10px;
+  display:flex;
+  align-items:center;
+}
+
+.folderDocItemDiv{
+  padding-bottom:2px;
+  display:flex;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #626A78;        /* color of the tracking area */
+  border-radius:20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #A6AAB1;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #626A78;  /* creates padding around scroll thumb */
+}
+
+.photoImg{
+  width:65px;
+  margin-left:10px;
+  margin-right:5px;
+  cursor:pointer;
+}
+
+.clickableElement{
+  cursor:pointer;
+}
+
+.clickableElement:hover{
+  font-weight:600;
+}
+
+.clickedElement{
+  font-weight:600;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-img {
+  width:7%;
+}
+
+.mat-column-id {
+  width:8%;
+}
+
+.mat-column-name {
+  width:32%;
+}
+
+.mat-column-type {
+  width:15%;
+}
+
+.mat-column-author {
+  width:20%;
+}
+
+.mat-column-date {
+  width:7%;
+}

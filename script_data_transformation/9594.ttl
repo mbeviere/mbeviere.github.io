@@ -1,0 +1,3669 @@
+@prefix : <http://karl-pineau.fr/cdv-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://erlangen-crm.org/current/>.
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@base <http://karl-pineau.fr/cdv-ontology/> .
+
+
+# Oeuvre
+<oeuvre-9594> a <#D1-oeuvre-art> ;
+     <#Y1-est-documente-par> <dossier-oeuvre-9594> ;
+     <#X1-est-represente-par> <cdv-9594> ;
+     rdfs:label "Nécessaire de voyage de Marie-Antoinette"@fr .
+
+
+################################################################
+################################################################
+################################################################
+
+# Dossier d'oeuvre
+<dossier-oeuvre-9594> a <#D2-dossier-d-oeuvre> ;
+    <#X2-est-compose-de> <dossier-1> ;
+    <#X2-est-compose-de> <dossier-2> ;
+    <#X2-est-compose-de> <dossier-3> ;
+    <#X2-est-compose-de> <dossier-4> ;
+    <#X2-est-compose-de> <extrait-D101> ;
+    <#X2-est-compose-de> <extrait-D102> ;
+    <#X2-est-compose-de> <extrait-D103> ;
+    <#X2-est-compose-de> <extrait-D104> ;
+    <#X2-est-compose-de> <extrait-D105> ;
+    <#X2-est-compose-de> <extrait-D106> ;
+    <#X2-est-compose-de> <extrait-D107> ;
+    <#X2-est-compose-de> <extrait-D108> ;
+    <#X2-est-compose-de> <extrait-D114> ;
+    <#X2-est-compose-de> <extrait-D115> ;
+    <#X2-est-compose-de> <extrait-D116> ;
+    <#X2-est-compose-de> <extrait-D117> ;
+    <#X2-est-compose-de> <extrait-D118> ;
+    <#X2-est-compose-de> <extrait-D119> ;
+    <#X2-est-compose-de> <extrait-D120> ;
+    <#X2-est-compose-de> <extrait-D121> ;
+    <#X2-est-compose-de> <extrait-D122> ;
+    <#X2-est-compose-de> <extrait-D123> ;
+    <#X2-est-compose-de> <extrait-D124> ;
+    <#X2-est-compose-de> <extrait-D125> ;
+    <#X2-est-compose-de> <extrait-D126> ;
+    <#X2-est-compose-de> <extrait-D127> ;
+    <#X2-est-compose-de> <extrait-D128> ;
+    <#X2-est-compose-de> <extrait-D129> ;
+    <#X2-est-compose-de> <extrait-D130> ;
+    <#X2-est-compose-de> <extrait-D131> ;
+    <#X2-est-compose-de> <extrait-D132> ;
+    <#X2-est-compose-de> <extrait-D133> ;
+    <#X2-est-compose-de> <extrait-D134> ;
+    <#X2-est-compose-de> <extrait-D135> ;
+    <#X2-est-compose-de> <extrait-D136> ;
+    <#X2-est-compose-de> <extrait-D137> ;
+    <#X2-est-compose-de> <extrait-D138> ;
+    <#X2-est-compose-de> <extrait-D139> ;
+    <#X2-est-compose-de> <extrait-D140> ;
+    <#X2-est-compose-de> <extrait-D141> ;
+    <#X2-est-compose-de> <extrait-D142> ;
+    <#X2-est-compose-de> <extrait-D143> ;
+    <#X2-est-compose-de> <extrait-D144> ;
+    <#X2-est-compose-de> <extrait-D145> ;
+    <#X2-est-compose-de> <extrait-D146> ;
+    <#X2-est-compose-de> <extrait-D147> ;
+    <#X2-est-compose-de> <extrait-D148> ;
+    <#X2-est-compose-de> <extrait-D149> ;
+    <#X2-est-compose-de> <extrait-D150> ;
+    <#X2-est-compose-de> <extrait-D151> ;
+    <#X2-est-compose-de> <extrait-D152> ;
+    <#X2-est-compose-de> <extrait-D153> ;
+    <#X2-est-compose-de> <extrait-D154> ;
+    <#X2-est-compose-de> <extrait-D155> ;
+    <#X2-est-compose-de> <extrait-D156> ;
+    <#X2-est-compose-de> <extrait-D157> ;
+    <#X2-est-compose-de> <extrait-D158> ;
+    <#X2-est-compose-de> <extrait-D159> ;
+    <#X2-est-compose-de> <extrait-D160> ;
+    <#X2-est-compose-de> <extrait-D161> ;
+    <#X2-est-compose-de> <extrait-D162> ;
+    <#X2-est-compose-de> <extrait-D163> ;
+    <#X2-est-compose-de> <extrait-D164> ;
+    <#X2-est-compose-de> <extrait-D165> ;
+    <#X2-est-compose-de> <extrait-D166> ;
+    <#X2-est-compose-de> <extrait-D167> ;
+    <#X2-est-compose-de> <extrait-D168> ;
+    <#X2-est-compose-de> <extrait-D169> ;
+    <#X2-est-compose-de> <extrait-D170> ;
+    <#X2-est-compose-de> <extrait-D171> ;
+    <#X2-est-compose-de> <extrait-D172> ;
+    <#X2-est-compose-de> <extrait-D173> ;
+    <#X2-est-compose-de> <extrait-D174> ;
+    <#X2-est-compose-de> <extrait-D175> ;
+    <#X2-est-compose-de> <extrait-D176> ;
+    <#X2-est-compose-de> <extrait-D177> ;
+    <#X2-est-compose-de> <extrait-D178> ;
+    <#X2-est-compose-de> <extrait-D179> ;
+    <#X2-est-compose-de> <extrait-D180> ;
+    <#X2-est-compose-de> <extrait-D181> ;
+    <#X2-est-compose-de> <extrait-D182> ;
+    <#X2-est-compose-de> <extrait-D183> ;
+    <#X2-est-compose-de> <extrait-D184> ;
+    <#X2-est-compose-de> <extrait-D185> ;
+    <#X2-est-compose-de> <extrait-D186> ;
+    <#X2-est-compose-de> <extrait-D187> ;
+    <#X2-est-compose-de> <extrait-D188> ;
+    <#X2-est-compose-de> <extrait-D189> ;
+    <#X2-est-compose-de> <extrait-D190> ;
+    <#X2-est-compose-de> <extrait-D191> ;
+    <#X2-est-compose-de> <extrait-D192> ;
+    <#X2-est-compose-de> <extrait-D193> ;
+    <#X2-est-compose-de> <extrait-D194> ;
+    <#X2-est-compose-de> <extrait-D195> ;
+    <#X2-est-compose-de> <extrait-D196> ;
+    <#X2-est-compose-de> <extrait-D197> ;
+    <#X2-est-compose-de> <extrait-D198> ;
+    <#X2-est-compose-de> <extrait-D199> ;
+    <#X2-est-compose-de> <extrait-D200> ;
+    <#X2-est-compose-de> <extrait-D201> ;
+    <#X2-est-compose-de> <extrait-D202> ;
+    <#X2-est-compose-de> <extrait-D203> ;
+    <#X2-est-compose-de> <extrait-D204> ;
+    <#X2-est-compose-de> <extrait-D205> ;
+    <#X2-est-compose-de> <extrait-D206> ;
+    <#X2-est-compose-de> <extrait-D207> ;
+    <#X2-est-compose-de> <extrait-D208> ;
+    <#X2-est-compose-de> <extrait-D209> ;
+    <#X2-est-compose-de> <extrait-D210> ;
+    <#X2-est-compose-de> <extrait-D211> ;
+    <#X2-est-compose-de> <extrait-D212> ;
+    <#X2-est-compose-de> <extrait-D213> ;
+    <#X2-est-compose-de> <extrait-D214> ;
+    <#X2-est-compose-de> <extrait-D215> ;
+    <#X2-est-compose-de> <extrait-D216> ;
+    <#X2-est-compose-de> <extrait-D217> ;
+    <#X2-est-compose-de> <extrait-D218> ;
+    <#X2-est-compose-de> <extrait-D219> ;
+    <#X2-est-compose-de> <extrait-D220> ;
+    <#X2-est-compose-de> <extrait-D221> ;
+    <#X2-est-compose-de> <extrait-D222> ;
+    <#X2-est-compose-de> <extrait-D223> ;
+    <#X2-est-compose-de> <extrait-D224> ;
+    <#X2-est-compose-de> <extrait-D225> ;
+    <#X2-est-compose-de> <extrait-D226> ;
+    <#X2-est-compose-de> <extrait-D227> ;
+    <#X2-est-compose-de> <extrait-D228> ;
+    <#X2-est-compose-de> <extrait-D229> ;
+    <#X2-est-compose-de> <extrait-D230> ;
+    <#X2-est-compose-de> <extrait-D231> ;
+    <#X2-est-compose-de> <extrait-D232> ;
+    <#X2-est-compose-de> <extrait-D233> ;
+    <#X2-est-compose-de> <extrait-D234> ;
+    <#X2-est-compose-de> <extrait-D235> ;
+    <#X2-est-compose-de> <extrait-D236> ;
+    <#X2-est-compose-de> <extrait-D237> ;
+    <#X2-est-compose-de> <extrait-D238> ;
+    <#X2-est-compose-de> <extrait-D239> ;
+    <#X2-est-compose-de> <extrait-D240> ;
+    rdfs:label "DO 9594"@fr .
+
+<dossier-1> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D1> ;
+    <#X2-est-compose-de> <extrait-D2> ;
+    <#X2-est-compose-de> <extrait-D3> ;
+    <#X2-est-compose-de> <extrait-D4> ;
+    <#X2-est-compose-de> <extrait-D5> ;
+    <#X2-est-compose-de> <extrait-D6> ;
+    <#X2-est-compose-de> <extrait-D7> ;
+    <#X2-est-compose-de> <extrait-D8> ;
+    <#X2-est-compose-de> <extrait-D9> ;
+    rdfs:label "#1 Oeuvres en rapport"@fr .
+
+<dossier-2> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D10> ;
+    <#X2-est-compose-de> <extrait-D11> ;
+    <#X2-est-compose-de> <extrait-D12> ;
+    <#X2-est-compose-de> <extrait-D13> ;
+    <#X2-est-compose-de> <extrait-D14> ;
+    <#X2-est-compose-de> <extrait-D15> ;
+    <#X2-est-compose-de> <extrait-D16> ;
+    <#X2-est-compose-de> <extrait-D17> ;
+    <#X2-est-compose-de> <extrait-D18> ;
+    <#X2-est-compose-de> <extrait-D19> ;
+    <#X2-est-compose-de> <extrait-D20> ;
+    <#X2-est-compose-de> <extrait-D21> ;
+    <#X2-est-compose-de> <extrait-D22> ;
+    <#X2-est-compose-de> <extrait-D23> ;
+    <#X2-est-compose-de> <extrait-D24> ;
+    <#X2-est-compose-de> <extrait-D25> ;
+    <#X2-est-compose-de> <extrait-D26> ;
+    <#X2-est-compose-de> <extrait-D27> ;
+    <#X2-est-compose-de> <extrait-D28> ;
+    <#X2-est-compose-de> <extrait-D29> ;
+    <#X2-est-compose-de> <extrait-D30> ;
+    <#X2-est-compose-de> <extrait-D31> ;
+    <#X2-est-compose-de> <extrait-D32> ;
+    <#X2-est-compose-de> <extrait-D33> ;
+    <#X2-est-compose-de> <extrait-D34> ;
+    <#X2-est-compose-de> <extrait-D35> ;
+    <#X2-est-compose-de> <extrait-D36> ;
+    <#X2-est-compose-de> <extrait-D37> ;
+    <#X2-est-compose-de> <extrait-D38> ;
+    <#X2-est-compose-de> <extrait-D39> ;
+    <#X2-est-compose-de> <extrait-D40> ;
+    <#X2-est-compose-de> <extrait-D41> ;
+    <#X2-est-compose-de> <extrait-D42> ;
+    <#X2-est-compose-de> <extrait-D43> ;
+    <#X2-est-compose-de> <extrait-D44> ;
+    <#X2-est-compose-de> <extrait-D45> ;
+    <#X2-est-compose-de> <extrait-D46> ;
+    <#X2-est-compose-de> <extrait-D47> ;
+    <#X2-est-compose-de> <extrait-D48> ;
+    <#X2-est-compose-de> <extrait-D49> ;
+    <#X2-est-compose-de> <extrait-D50> ;
+    <#X2-est-compose-de> <extrait-D51> ;
+    <#X2-est-compose-de> <extrait-D52> ;
+    <#X2-est-compose-de> <extrait-D53> ;
+    <#X2-est-compose-de> <extrait-D54> ;
+    <#X2-est-compose-de> <extrait-D55> ;
+    <#X2-est-compose-de> <extrait-D56> ;
+    <#X2-est-compose-de> <extrait-D57> ;
+    <#X2-est-compose-de> <extrait-D58> ;
+    <#X2-est-compose-de> <extrait-D59> ;
+    <#X2-est-compose-de> <extrait-D60> ;
+    <#X2-est-compose-de> <extrait-D61> ;
+    <#X2-est-compose-de> <extrait-D62> ;
+    <#X2-est-compose-de> <extrait-D63> ;
+    <#X2-est-compose-de> <extrait-D64> ;
+    <#X2-est-compose-de> <extrait-D65> ;
+    <#X2-est-compose-de> <extrait-D66> ;
+    <#X2-est-compose-de> <extrait-D67> ;
+    <#X2-est-compose-de> <extrait-D68> ;
+    <#X2-est-compose-de> <extrait-D69> ;
+    <#X2-est-compose-de> <extrait-D70> ;
+    <#X2-est-compose-de> <extrait-D71> ;
+    <#X2-est-compose-de> <extrait-D72> ;
+    <#X2-est-compose-de> <extrait-D73> ;
+    <#X2-est-compose-de> <extrait-D74> ;
+    <#X2-est-compose-de> <extrait-D75> ;
+    <#X2-est-compose-de> <extrait-D76> ;
+    <#X2-est-compose-de> <extrait-D77> ;
+    rdfs:label "#2 Dossier scientfique"@fr .
+
+<dossier-3> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D78> ;
+    <#X2-est-compose-de> <extrait-D79> ;
+    <#X2-est-compose-de> <extrait-D80> ;
+    <#X2-est-compose-de> <extrait-D81> ;
+    <#X2-est-compose-de> <extrait-D82> ;
+    <#X2-est-compose-de> <extrait-D83> ;
+    <#X2-est-compose-de> <extrait-D84> ;
+    <#X2-est-compose-de> <extrait-D85> ;
+    <#X2-est-compose-de> <extrait-D86> ;
+    <#X2-est-compose-de> <extrait-D87> ;
+    <#X2-est-compose-de> <extrait-D88> ;
+    <#X2-est-compose-de> <extrait-D89> ;
+    <#X2-est-compose-de> <extrait-D90> ;
+    <#X2-est-compose-de> <extrait-D91> ;
+    <#X2-est-compose-de> <extrait-D92> ;
+    <#X2-est-compose-de> <extrait-D93> ;
+    <#X2-est-compose-de> <extrait-D94> ;
+    <#X2-est-compose-de> <extrait-D95> ;
+    <#X2-est-compose-de> <extrait-D96> ;
+    <#X2-est-compose-de> <extrait-D97> ;
+    <#X2-est-compose-de> <extrait-D98> ;
+    <#X2-est-compose-de> <extrait-D99> ;
+    <#X2-est-compose-de> <extrait-D100> ;
+    rdfs:label "#3 Dossier administratif"@fr .
+
+<dossier-4> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D109> ;
+    <#X2-est-compose-de> <extrait-D110> ;
+    <#X2-est-compose-de> <extrait-D111> ;
+    <#X2-est-compose-de> <extrait-D112> ;
+    <#X2-est-compose-de> <extrait-D113> ;
+    rdfs:label "#4 Restauration"@fr .
+
+################################################################
+################################################################
+################################################################
+
+<extrait-D1> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D1> ;
+    rdfs:label "ED1"@fr .
+
+<document-D1> a <#D5-document> ;
+    rdfs:label "D1"@fr ;
+    dct:creator "Drouot" ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D1.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D1.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D1> .
+
+<date-D1> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "14/06/1985"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D2> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D2> ;
+    rdfs:label "ED2"@fr .
+
+<document-D2> a <#D5-document> ;
+    rdfs:label "Demande de certification pour un bien culturel"@fr ;
+    dct:creator "Direction des Musées de France" ;
+    dct:type "bordereau de transmission" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D2.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D2.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D2>.
+
+<date-D2> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "09/10/2015"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D3> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D3> ;
+    rdfs:label "ED3"@fr .
+
+<document-D3> a <#D5-document> ;
+    rdfs:label "D3"@fr ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D3.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D3.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D3>.
+
+<date-D3> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "30/05/2013"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D4> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED4"@fr .
+
+<document-D4> a <#D5-document> ;
+    rdfs:label "Collection Marie-Antoinette"@fr ;
+    dct:creator "Christie's" ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D4.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D4.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D4>.
+
+<date-D4> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "03/11/2015"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D5> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D5> ;
+    rdfs:label "ED5"@fr .
+
+<document-D5> a <#D5-document> ;
+    rdfs:label "Séance du 27 juin 1985"@fr ;
+    dct:creator "Conseil Artistique des Musées classés et contrôlés" ;
+    dct:type "rapport" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D5.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D5.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D5>.
+
+<date-D5> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "27/06/1985"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D6> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D6> ;
+    rdfs:label "ED6"@fr .
+
+<document-D6> a <#D5-document> ;
+    rdfs:label "1982 - 1987, six années d'acquisition, musée de Provence-Alpes-Côte d'Azur"@fr ;
+    dct:creator "Fonds régional d'acquisition pour les musées" ;
+    dct:type "catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D6.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D6.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D6>.
+
+<date-D6> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1980"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D7> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D7> ;
+    rdfs:label "ED7"@fr .
+
+<document-D7> a <#D5-document> ;
+    rdfs:label "Collection d'orfèvrere européenne de Claude et Juliette d'Allemagne augmentée des acquisitions de la communauté française"@fr ;
+    dct:creator "Domaine du château de Seneffe" ;
+    dct:type "catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D7.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D7.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D7>.
+
+<date-D7> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1980"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D8> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D1> ;
+    rdfs:label "ED8"@fr .
+
+
+<extrait-D9> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED9"@fr .
+
+<document-D9> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D9.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D9.jpg" ;
+    rdfs:label "D9"@fr.
+
+
+<extrait-D10> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D10> ;
+    rdfs:label "ED10"@fr .
+
+<document-D10> a <#D5-document> ;
+    rdfs:label "Diamants et nécessaires de Marie-Antoinette"@fr ;
+    dct:creator "Bertrand Jestaz" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D10.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D10.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D10>.
+
+<date-D10> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2013"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D11> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D11> ;
+    rdfs:label "ED11"@fr .
+
+<document-D11> a <#D5-document> ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D11.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D11.jpg" ;
+    rdfs:label "Autographes et documents historiques"@fr .
+
+
+<extrait-D12> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D12> ;
+    rdfs:label "ED12"@fr .
+
+<document-D12> a <#D5-document> ;
+    rdfs:label "Le nécessaire de voyage de Marie-Antoinette"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D12.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D12.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D12>.
+
+<date-D12> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/06/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "10".
+
+
+<extrait-D13> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED13"@fr .
+
+<document-D13> a <#D5-document> ;
+    rdfs:label "Marie-Antoinette et son temps"@fr ;
+    dct:creator "Galerie Sedelmeyer" ;
+    dct:type "catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D13.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D13.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D13>.
+
+<date-D13> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1894"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D14> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D14> ;
+    rdfs:label "ED14"@fr .
+
+<document-D14> a <#D5-document> ;
+    rdfs:label "L'orfèvrerie française du XVIIIe"@fr ;
+    dct:creator "Solange Brault & Yves Bottineau" ;
+    dct:type "ouvrage" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D14.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D14.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D14>.
+
+<date-D14> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1959"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D15> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D15> ;
+    rdfs:label "ED15"@fr .
+
+<document-D15> a <#D5-document> ;
+    rdfs:label "L'orfèvrerie française du XVIIIe"@fr ;
+    dct:creator "Bottineau & Lefuel" ;
+    dct:type "ouvrage" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D15.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D15.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D15>.
+
+<date-D15> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1985"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D16> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D16> ;
+    rdfs:label "ED16"@fr .
+
+<document-D16> a <#D5-document> ;
+    rdfs:label "Le style Louis XVI"@fr ;
+    dct:creator "Jean-François Boisset" ;
+    dct:type "ouvrage" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D16.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D16.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D16>.
+
+<date-D16> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1982"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D17> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D17> ;
+    rdfs:label "ED17"@fr .
+
+<document-D17> a <#D5-document> ;
+    rdfs:label "L'orfèvrerie française et étrangère"@fr ;
+    dct:creator "Puiforcat" ;
+    dct:type "ouvrage" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D17.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D17.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D17>.
+
+<date-D17> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1981"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D18> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D18> ;
+    rdfs:label "ED18"@fr .
+
+<document-D18> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D18.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D18.jpg" ;
+    rdfs:label "D18"@fr.
+
+<extrait-D19> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D19> ;
+    rdfs:label "ED19"@fr .
+
+<document-D19> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D19.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D19.jpg" ;
+    rdfs:label "D19"@fr.
+
+<extrait-D20> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D20> ;
+    rdfs:label "ED20"@fr .
+
+<document-D20> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D20.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D20.jpg" ;
+    rdfs:label "D20"@fr.
+
+<extrait-D21> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D21> ;
+    rdfs:label "ED21"@fr .
+
+<document-D21> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D21.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D21.jpg" ;
+    rdfs:label "D21"@fr.
+
+<extrait-D22> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D22> ;
+    rdfs:label "ED22"@fr .
+
+<document-D22> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D22.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D22.jpg" ;
+    rdfs:label "D22"@fr.
+
+<extrait-D23> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D23> ;
+    rdfs:label "ED23"@fr .
+
+<document-D23> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D23.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D23.jpg" ;
+    rdfs:label "D23"@fr.
+
+<extrait-D24> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D24> ;
+    rdfs:label "ED24"@fr .
+
+<document-D24> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D24.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D24.jpg" ;
+    rdfs:label "D24"@fr.
+
+<extrait-D25> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D25> ;
+    rdfs:label "ED25"@fr .
+
+<document-D25> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D25.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D25.jpg" ;
+    rdfs:label "D25"@fr.
+
+<extrait-D26> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D26> ;
+    rdfs:label "ED26"@fr .
+
+<document-D26> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D26.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D26.jpg" ;
+    rdfs:label "D26"@fr.
+
+<extrait-D27> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D27> ;
+    rdfs:label "ED27"@fr .
+
+<document-D27> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D27.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D27.jpg" ;
+    rdfs:label "D27"@fr.
+
+
+<extrait-D28> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D28> ;
+    rdfs:label "ED28"@fr .
+
+<document-D28> a <#D5-document> ;
+    dct:type "correspondance" ;
+    rdfs:label "D28"@fr ;
+    dct:creator "Constantin Bulgari" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D28.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D28.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D28>.
+
+<date-D28> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "28/06/1954"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D29> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D29> ;
+    rdfs:label "ED29"@fr .
+
+<document-D29> a <#D5-document> ;
+    rdfs:label "D29"@fr ;
+    dct:creator "Constantin Bulgari" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D29.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D29.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D29>.
+
+<date-D29> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1954"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D30> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D30> ;
+    rdfs:label "ED30"@fr .
+
+<document-D30> a <#D5-document> ;
+    rdfs:label "D30"@fr ;
+    dct:creator "Satine" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D30.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D30.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D30>.
+
+<date-D30> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "18/03/1904"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D31> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D30> ;
+    rdfs:label "ED31"@fr .
+
+<document-D31> a <#D5-document> ;
+    rdfs:label "Bordereau d'autorisation de sortie du territoire"@fr ;
+    dct:creator "Administration italienne" ;
+    dct:type "document administratif" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D31.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D31.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D31>.
+
+<date-D31> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "14/04/1894"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D32> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D32> ;
+    rdfs:label "ED32"@fr .
+
+<document-D32> a <#D5-document> ;
+    rdfs:label "Duplicata de lettre de voiture"@fr ;
+    dct:creator "Entreprise Chenue" ;
+    dct:type "document administratif" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D32.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D32.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D32>.
+
+<date-D32> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "30/03/1904"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D33> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D33> ;
+    rdfs:label "ED33"@fr .
+
+<document-D33> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D33.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D33.jpg" ;
+    rdfs:label "D33"@fr.
+
+
+<extrait-D34> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D34> ;
+    rdfs:label "ED34"@fr .
+
+<document-D34> a <#D5-document> ;
+    rdfs:label "D34"@fr ;
+    dct:creator "Dreyfus" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D34.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D34.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D34>.
+
+<date-D34> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/04/1904"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+<extrait-D35> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D35> ;
+    rdfs:label "ED35"@fr .
+
+<document-D35> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D35.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D35.jpg" ;
+    rdfs:label "D35"@fr.
+
+<extrait-D36> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D36> ;
+    rdfs:label "ED36"@fr .
+
+<document-D36> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D36.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D36.jpg" ;
+    rdfs:label "D36"@fr.
+
+<extrait-D37> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D37> ;
+    rdfs:label "ED37"@fr .
+
+<document-D37> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D37.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D37.jpg" ;
+    rdfs:label "D37"@fr.
+
+<extrait-D38> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D38> ;
+    rdfs:label "ED38"@fr .
+
+<document-D38> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D38.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D38.jpg" ;
+    rdfs:label "D38"@fr.
+
+<extrait-D39> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D39> ;
+    rdfs:label "ED39"@fr .
+
+<document-D39> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D39.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D39.jpg" ;
+    rdfs:label "D39"@fr.
+
+<extrait-D40> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D40> ;
+    rdfs:label "ED40"@fr .
+
+<document-D40> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D40.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D40.jpg" ;
+    rdfs:label "D40"@fr.
+
+<extrait-D41> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D41> ;
+    rdfs:label "ED41"@fr .
+
+<document-D41> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D41.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D41.jpg" ;
+    rdfs:label "D41"@fr.
+
+<extrait-D42> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D42> ;
+    rdfs:label "ED42"@fr .
+
+<document-D42> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D42.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D42.jpg" ;
+    rdfs:label "D42"@fr.
+
+<extrait-D43> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D43> ;
+    rdfs:label "ED43"@fr .
+
+<document-D43> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D43.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D43.jpg" ;
+    rdfs:label "D43"@fr.
+
+<extrait-D44> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D44> ;
+    rdfs:label "ED44"@fr .
+
+<document-D44> a <#D5-document> ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D44.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D44.jpg" ;
+    rdfs:label "Une malle de voyage"@fr.
+
+
+<extrait-D45> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D45> ;
+    rdfs:label "ED45"@fr .
+
+<document-D45> a <#D5-document> ;
+    rdfs:label "D45"@fr ;
+    dct:creator "Entreprise Chenue" ;
+    dct:type "facture" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D45.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D45.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D45>.
+
+<date-D45> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "30/03/1904"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+<extrait-D46> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D46> ;
+    rdfs:label "ED46"@fr .
+
+<document-D46> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D46.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D46.jpg" ;
+    rdfs:label "D46"@fr.
+
+
+<extrait-D47> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D47> ;
+    rdfs:label "ED47"@fr .
+
+<document-D47> a <#D5-document> ;
+    rdfs:label "D47"@fr ;
+    dct:creator "Constantin Bulgari" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D47.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D47.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D47>.
+
+<date-D47> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "20/02/1958"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D48> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D48> ;
+    rdfs:label "ED48"@fr .
+
+<document-D48> a <#D5-document> ;
+    rdfs:label "Inventaire de l'argenterie d'un nécessaire de toilette"@fr ;
+    dct:creator "Duroy" ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D48.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D48.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D48>.
+
+<date-D48> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1867"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D49> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D49> ;
+    rdfs:label "ED49"@fr .
+
+<document-D49> a <#D5-document> ;
+    rdfs:label "D49"@fr ;
+    dct:creator "Germain Bapst" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D49.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D49.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D49>.
+
+<date-D49> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "26/11/1893"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D50> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D50> ;
+    rdfs:label "ED50"@fr .
+
+<document-D50> a <#D5-document> ;
+    rdfs:label "D50"@fr ;
+    dct:creator "Germain Bapst" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D50.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D50.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D50>.
+
+<date-D50> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1893"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D51> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D51> ;
+    rdfs:label "ED51"@fr .
+
+<document-D51> a <#D5-document> ;
+    rdfs:label "D51"@fr ;
+    dct:creator "Germain Bapst" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D51.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D51.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D51>.
+
+<date-D51> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1893"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D52> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D52> ;
+    rdfs:label "ED52"@fr .
+
+<document-D52> a <#D5-document> ;
+    rdfs:label "D52"@fr ;
+    dct:creator "Germain Bapst" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D52.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D52.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D52>.
+
+<date-D52> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1893"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D53> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D53> ;
+    rdfs:label "ED53"@fr .
+
+<document-D53> a <#D5-document> ;
+    rdfs:label "D53"@fr ;
+    dct:creator "Francesco Bighencomer" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D53.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D53.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D53>.
+
+<date-D53> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "21/10/1804"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D54> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D54> ;
+    rdfs:label "ED54"@fr .
+
+<document-D54> a <#D5-document> ;
+    rdfs:label "Les ducs d'Orléans et la porcelaine française au XVIIIe siècle"@fr ;
+    dct:creator "Régine de Plinval de Guillebon" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D54.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D54.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D54>.
+
+<date-D54> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2004"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D55> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D55> ;
+    rdfs:label "ED55"@fr .
+
+<document-D55> a <#D5-document> ;
+    rdfs:label "D55"@fr ;
+    dct:type "contrat" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D55.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D55.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D55>.
+
+<date-D55> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1780"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D56> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D56> ;
+    rdfs:label "ED56"@fr .
+
+<document-D56> a <#D5-document> ;
+    rdfs:label "Grasse, musée internationl de la parfumerie, Un nécessaire de voyage de la fin du XVIIIe"@fr ;
+    dct:creator "Véronique Alemany-Dessaint" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D56.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D56.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D56>.
+
+<date-D56> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1780"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D57> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D57> ;
+    rdfs:label "ED57"@fr .
+
+<document-D57> a <#D5-document> ;
+    rdfs:label "Etat de l'argenterie qui a été mise de côté par le procès-verbal du 16 juillet pour être rendu aux propriétaires. Ladite argenterie qui est restée à la gare du citoyen Bayard"@fr ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D57.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D57.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D57>.
+
+<date-D57> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1793"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D58> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D3> ;
+    rdfs:label "ED58"@fr .
+
+
+<extrait-D59> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D59> ;
+    rdfs:label "ED59"@fr .
+
+<document-D59> a <#D5-document> ;
+    rdfs:label "Etat des objets renfermés dans le nécessaire de la cidevant reine pour être portes à la monnoye"@fr ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D59.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D59.jpg" ;
+    dct:creator "Fouquet".
+
+
+<extrait-D60> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D60> ;
+    rdfs:label "ED60"@fr .
+
+<document-D60> a <#D5-document> ;
+    rdfs:label "Catalogue des porcelaines françaises"@fr ;
+    dct:creator "Régine de Plinval de Guillebon" ;
+    dct:type "catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D60.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D60.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D60>.
+
+<date-D60> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1992"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D61> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D61> ;
+    rdfs:label "ED61"@fr .
+
+<document-D61> a <#D5-document> ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D61.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D61.jpg" ;
+    rdfs:label "D61"@fr.
+
+
+<extrait-D62> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D62> ;
+    rdfs:label "ED62"@fr .
+
+<document-D62> a <#D5-document> ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D62.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D62.jpg" ;
+    rdfs:label "D62"@fr.
+
+
+<extrait-D63> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D63> ;
+    rdfs:label "ED63"@fr .
+
+<document-D63> a <#D5-document> ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D63.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D63.jpg" ;
+    rdfs:label "D63"@fr.
+
+
+<extrait-D64> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D64> ;
+    rdfs:label "ED64"@fr .
+
+<document-D64> a <#D5-document> ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D64.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D64.jpg" ;
+    rdfs:label "D64"@fr.
+
+
+<extrait-D65> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D65> ;
+    rdfs:label "ED65"@fr .
+
+<document-D65> a <#D5-document> ;
+    rdfs:label "D65"@fr ;
+    dct:creator "RMN" ;
+    dct:type "revue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D65.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D65.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D65>.
+
+<date-D65> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2003"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D66> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D66> ;
+    rdfs:label "ED66"@fr .
+
+<document-D66> a <#D5-document> ;
+    rdfs:label "Indispensables nécessaires"@fr ;
+    dct:creator "Musée national des châteaux de Malmaison" ;
+    dct:type "catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D66.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D66.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D66>.
+
+<date-D66> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2007"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D67> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D67> ;
+    rdfs:label "ED67"@fr .
+
+<document-D67> a <#D5-document> ;
+    rdfs:label "Fastes de la cour de France au XVIIIe"@fr ;
+    dct:creator "Musée du Louvre" ;
+    dct:type "catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D67.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D67.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D67>.
+
+<date-D67> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2008"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D68> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D68> ;
+    rdfs:label "ED68"@fr .
+
+<document-D68> a <#D5-document> ;
+    dct:type "inconnu" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D68.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D68.jpg" ;
+    rdfs:label "D68"@fr.
+
+
+<extrait-D69> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D69> ;
+    rdfs:label "ED69"@fr .
+
+<document-D69> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D69.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D69.jpg" ;
+    rdfs:label "D69"@fr.
+
+
+<extrait-D70> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D70> ;
+    rdfs:label "ED70"@fr .
+
+<document-D70> a <#D5-document> ;
+    rdfs:label "D70"@fr ;
+    dct:creator "Brigitte Ducrot" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D70.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D70.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D70>.
+
+<date-D70> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "25/11/1996"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D71> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D71> ;
+    rdfs:label "ED71"@fr .
+
+<document-D71> a <#D5-document> ;
+    rdfs:label "D71"@fr ;
+    dct:type "affiche" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D71.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D71.jpg" ;
+    dct:creator "Musée du Louvre" .
+
+
+<extrait-D72> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED72"@fr .
+
+
+<extrait-D73> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D73> ;
+    rdfs:label "ED73"@fr .
+
+<document-D73> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D73.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D73.jpg" ;
+    rdfs:label "D73"@fr .
+
+
+<extrait-D74> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D11> ;
+    rdfs:label "ED74"@fr .
+
+
+<extrait-D75> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D75> ;
+    rdfs:label "ED75"@fr .
+
+<document-D75> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D75.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D75.jpg" ;
+    rdfs:label "D75"@fr .
+
+
+<extrait-D76> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D76> ;
+    rdfs:label "ED76"@fr .
+
+<document-D76> a <#D5-document> ;
+    rdfs:label "Faïences et porcelaines de Paris"@fr ;
+    dct:creator "Régine de Plinval de Guillebon" ;
+    dct:type "ouvrage" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D76.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D76.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D76>.
+
+<date-D76> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1995"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D77> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D77> ;
+    rdfs:label "ED77"@fr .
+
+<document-D77> a <#D5-document> ;
+    rdfs:label "Boites à couteaux"@fr ;
+    dct:creator "Musée de la coutellerie de Thiers" ;
+    dct:type "catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D77.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D77.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D77>.
+
+<date-D77> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2001"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D78> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D78> ;
+    rdfs:label "ED78"@fr .
+
+<document-D78> a <#D5-document> ;
+    rdfs:label "D78"@fr ;
+    dct:creator "Ministère de la culture" ;
+    dct:type "Arrêté" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D78.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D78.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D78>.
+
+<date-D78> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "30/06/1988"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D79> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D79> ;
+    rdfs:label "ED79"@fr .
+
+<document-D79> a <#D5-document> ;
+    rdfs:label "D79"@fr ;
+    dct:creator "Directeur des musées de France" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D79.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D79.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D79>.
+
+<date-D79> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "25/01/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D80> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D80> ;
+    rdfs:label "ED80"@fr .
+
+<document-D80> a <#D5-document> ;
+    rdfs:label "D80"@fr ;
+    dct:creator "RJ" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D80.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D80.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D80>.
+
+<date-D80> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "26/01/1974"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D81> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D81> ;
+    rdfs:label "ED81"@fr .
+
+<document-D81> a <#D5-document> ;
+    rdfs:label "D81"@fr ;
+    dct:creator "Nagy" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D81.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D81.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D81>.
+
+<date-D81> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "19/01/1974"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D82> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D82> ;
+    rdfs:label "ED82"@fr .
+
+<document-D82> a <#D5-document> ;
+    rdfs:label "D82"@fr ;
+    dct:creator "Edouard Pommier" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D82.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D82.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D82>.
+
+<date-D82> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "11/06/1985"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D83> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D83> ;
+    rdfs:label "ED83"@fr .
+
+<document-D83> a <#D5-document> ;
+    rdfs:label "D83"@fr ;
+    dct:creator "Daniel Alcouffe" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D83.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D83.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D83>.
+
+<date-D83> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "26/11/1982"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D84> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D84> ;
+    rdfs:label "ED84"@fr .
+
+<document-D84> a <#D5-document> ;
+    rdfs:label "D84"@fr ;
+    dct:creator "JR Vieillefond" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D84.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D84.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D84>.
+
+<date-D84> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "19/05/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D85> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D85> ;
+    rdfs:label "ED85"@fr .
+
+<document-D85> a <#D5-document> ;
+    rdfs:label "D85"@fr ;
+    dct:creator "Constantin Bulgari" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D85.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D85.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D85>.
+
+<date-D85> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "14/06/1954"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D86> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D86> ;
+    rdfs:label "ED86"@fr .
+
+<document-D86> a <#D5-document> ;
+    rdfs:label "D86"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D86.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D86.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D86>.
+
+<date-D86> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/05/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D87> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D87> ;
+    rdfs:label "ED87"@fr .
+
+<document-D87> a <#D5-document> ;
+    rdfs:label "D87"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D87.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D87.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D87>.
+
+<date-D87> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "14/02/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D88> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D88> ;
+    rdfs:label "ED88"@fr .
+
+<document-D88> a <#D5-document> ;
+    rdfs:label "D88"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D88.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D88.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D88>.
+
+<date-D88> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "10/06/1954"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D89> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D89> ;
+    rdfs:label "ED89"@fr .
+
+<document-D89> a <#D5-document> ;
+    rdfs:label "D89"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D89.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D89.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D89>.
+
+<date-D89> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "26/06/1954"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D90> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D90> ;
+    rdfs:label "ED90"@fr .
+
+<document-D90> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D90.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D90.jpg" ;
+    rdfs:label "D90"@fr .
+
+
+<extrait-D91> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D91> ;
+    rdfs:label "ED91"@fr .
+
+<document-D91> a <#D5-document> ;
+    rdfs:label "D91"@fr ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D91.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D91.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D91>.
+
+<date-D91> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "03/06/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D92> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D59> ;
+    rdfs:label "ED92"@fr .
+
+
+<extrait-D93> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D93> ;
+    rdfs:label "ED93"@fr .
+
+<document-D93> a <#D5-document> ;
+    rdfs:label "Proposition d'acquisition"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "document administratif" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D93.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D93.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D93>.
+
+<date-D93> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D94> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D94> ;
+    rdfs:label "ED94"@fr .
+
+<document-D94> a <#D5-document> ;
+    rdfs:label "D94"@fr ;
+    dct:creator "Ditta Sotiro Bulgari" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D94.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D94.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D94>.
+
+<date-D94> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/03/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D95> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D59> ;
+    rdfs:label "ED95"@fr .
+
+
+<extrait-D96> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D96> ;
+    rdfs:label "ED96"@fr .
+
+<document-D96> a <#D5-document> ;
+    dct:type "notes" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D96.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D96.jpg" ;
+    rdfs:label "D96"@fr.
+
+
+<extrait-D97> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D97> ;
+    rdfs:label "ED97"@fr .
+
+<document-D97> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D97.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D97.jpg" ;
+    rdfs:label "D97"@fr.
+
+
+<extrait-D98> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D98> ;
+    rdfs:label "ED98"@fr .
+
+<document-D98> a <#D5-document> ;
+    rdfs:label "D98"@fr ;
+    dct:creator "Emile Couzinet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D98.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D98.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D98>.
+
+<date-D98> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "27/10/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D99> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D99> ;
+    rdfs:label "ED99"@fr .
+
+<document-D99> a <#D5-document> ;
+    rdfs:label "D99"@fr ;
+    dct:creator "Emile Couzinet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D99.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D99.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D99>.
+
+<date-D99> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "10/05/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D100> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D100> ;
+    rdfs:label "ED100"@fr .
+
+<document-D100> a <#D5-document> ;
+    rdfs:label "D100"@fr ;
+    dct:creator "Pierre Verlet" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D100.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D100.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D100>.
+
+<date-D100> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "26/06/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D101> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D101> ;
+    rdfs:label "ED101"@fr .
+
+<document-D101> a <#D5-document> ;
+    rdfs:label "D101"@fr ;
+    dct:type "affiche" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D101.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D101.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D101>.
+
+<date-D101> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2008"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D102> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D102> ;
+    rdfs:label "ED102"@fr .
+
+<document-D102> a <#D5-document> ;
+    rdfs:label "Catalogue de l'orfèvrerie du XVIIe, du XVIIIe et du XIXe siècle"@fr ;
+    dct:creator "Musée du Louvre" ;
+    dct:type "catalogue" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D102.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D102.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D102>.
+
+<date-D102> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1958"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D103> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D103> ;
+    rdfs:label "ED103"@fr .
+
+<document-D103> a <#D5-document> ;
+    rdfs:label "Orfèvrerie, très bel ensemble mobilier du XVIIIe"@fr ;
+    dct:creator "Maurice Rheims & René Laurin" ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D103.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D103.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D103>.
+
+<date-D103> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1971"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D104> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D56> ;
+    rdfs:label "ED104"@fr .
+
+
+<extrait-D105> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D105> ;
+    rdfs:label "ED105"@fr .
+
+<document-D105> a <#D5-document> ;
+    rdfs:label "Exposition Marie-Antoinette et son temps"@fr ;
+    dct:creator "Château de Versailles" ;
+    dct:type "catalogue d'exposition" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D105.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D105.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D105>.
+
+<date-D105> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1955"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D106> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED106"@fr .
+
+
+<extrait-D107> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D14> ;
+    rdfs:label "ED107"@fr .
+
+
+<extrait-D108> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D61> ;
+    rdfs:label "ED108"@fr .
+
+
+<extrait-D109> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D109> ;
+    rdfs:label "ED109"@fr .
+
+<document-D109> a <#D5-document> ;
+    rdfs:label "Nécessaire de Marie-Antoinette"@fr ;
+    dct:type "devis de restauration" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D109.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D109.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D109>.
+
+<date-D109> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "30/10/2007"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D110> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D110> ;
+    rdfs:label "ED110"@fr .
+
+<document-D110> a <#D5-document> ;
+    rdfs:label "D110"@fr ;
+    dct:creator "Michel Germond" ;
+    dct:type "correspondance" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D110.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D110.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D110>.
+
+<date-D110> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "29/06/1992"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D111> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D111> ;
+    rdfs:label "ED111"@fr .
+
+<document-D111> a <#D5-document> ;
+    rdfs:label "D111"@fr ;
+    dct:creator "B. Beillard" ;
+    dct:type "mémoire de restauration" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D111.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D111.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D111>.
+
+<date-D111> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "22/10/1989"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<extrait-D112> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D112> ;
+    rdfs:label "ED112"@fr .
+
+<document-D112> a <#D5-document> ;
+    rdfs:label "D112"@fr ;
+    dct:creator "Olivier Tavoso" ;
+    dct:type "compte-rendu de restauration" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D112.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D112.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D112>.
+
+<date-D112> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/06/2013"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "10".
+
+
+<extrait-D113> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D113> ;
+    rdfs:label "ED113"@fr .
+
+<document-D113> a <#D5-document> ;
+    rdfs:label "D113"@fr ;
+    dct:creator "Olivier Tavoso" ;
+    dct:type "compte-rendu de restauration" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D113.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D113.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D113>.
+
+<date-D113> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/06/2013"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "10".
+
+
+<extrait-D114> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D114> ;
+    rdfs:label "ED114"@fr .
+
+<document-D114> a <#D5-document> ;
+    rdfs:label "D114"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D114.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D114.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D115> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D115> ;
+    rdfs:label "ED115"@fr .
+
+<document-D115> a <#D5-document> ;
+    rdfs:label "D115"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D115.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D115.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D116> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D116> ;
+    rdfs:label "ED116"@fr .
+
+<document-D116> a <#D5-document> ;
+    rdfs:label "D116"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D116.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D116.jpg" ;
+    dct:type "notes".
+
+
+<extrait-D117> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D117> ;
+    rdfs:label "ED117"@fr .
+
+<document-D117> a <#D5-document> ;
+    rdfs:label "D117"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D117.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D117.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D118> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D118> ;
+    rdfs:label "ED118"@fr .
+
+<document-D118> a <#D5-document> ;
+    rdfs:label "D118"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D118.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D118.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D119> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D119> ;
+    rdfs:label "ED119"@fr .
+
+<document-D119> a <#D5-document> ;
+    rdfs:label "D119"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D119.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D119.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D120> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D120> ;
+    rdfs:label "ED120"@fr .
+
+<document-D120> a <#D5-document> ;
+    rdfs:label "D120"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D120.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D120.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D121> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D121> ;
+    rdfs:label "ED121"@fr .
+
+<document-D121> a <#D5-document> ;
+    rdfs:label "D121"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D121.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D121.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D122> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D122> ;
+    rdfs:label "ED122"@fr .
+
+<document-D122> a <#D5-document> ;
+    rdfs:label "D122"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D122.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D122.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D123> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D123> ;
+    rdfs:label "ED123"@fr .
+
+<document-D123> a <#D5-document> ;
+    rdfs:label "D123"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D123.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D123.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D124> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D124> ;
+    rdfs:label "ED124"@fr .
+
+<document-D124> a <#D5-document> ;
+    rdfs:label "D124"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D124.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D124.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D125> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D125> ;
+    rdfs:label "ED125"@fr .
+
+<document-D125> a <#D5-document> ;
+    rdfs:label "D125"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D125.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D125.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D126> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D126> ;
+    rdfs:label "ED126"@fr .
+
+<document-D126> a <#D5-document> ;
+    rdfs:label "D126"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D126.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D126.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D127> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D127> ;
+    rdfs:label "ED127"@fr .
+
+<document-D127> a <#D5-document> ;
+    rdfs:label "D127"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D127.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D127.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D128> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D128> ;
+    rdfs:label "ED128"@fr .
+
+<document-D128> a <#D5-document> ;
+    rdfs:label "D128"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D128.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D128.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D129> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D129> ;
+    rdfs:label "ED129"@fr .
+
+<document-D129> a <#D5-document> ;
+    rdfs:label "D129"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D129.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D129.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D130> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D130> ;
+    rdfs:label "ED130"@fr .
+
+<document-D130> a <#D5-document> ;
+    rdfs:label "D130"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D130.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D130.jpg" ;
+    dct:type "notes".
+
+
+<extrait-D131> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D131> ;
+    rdfs:label "ED131"@fr .
+
+<document-D131> a <#D5-document> ;
+    rdfs:label "D131"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D131.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D131.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D132> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D132> ;
+    rdfs:label "ED132"@fr .
+
+<document-D132> a <#D5-document> ;
+    rdfs:label "D132"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D132.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D132.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D133> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D133> ;
+    rdfs:label "ED133"@fr .
+
+<document-D133> a <#D5-document> ;
+    rdfs:label "D133"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D133.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D133.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D134> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D134> ;
+    rdfs:label "ED134"@fr .
+
+<document-D134> a <#D5-document> ;
+    rdfs:label "D134"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D134.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D134.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D135> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D135> ;
+    rdfs:label "ED135"@fr .
+
+<document-D135> a <#D5-document> ;
+    rdfs:label "D135"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D135.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D135.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D136> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D136> ;
+    rdfs:label "ED136"@fr .
+
+<document-D136> a <#D5-document> ;
+    rdfs:label "D136"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D136.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D136.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D137> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D137> ;
+    rdfs:label "ED137"@fr .
+
+<document-D137> a <#D5-document> ;
+    rdfs:label "D137"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D137.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D137.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D138> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D138> ;
+    rdfs:label "ED138"@fr .
+
+<document-D138> a <#D5-document> ;
+    rdfs:label "D138"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D138.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D138.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D139> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D139> ;
+    rdfs:label "ED139"@fr .
+
+<document-D139> a <#D5-document> ;
+    rdfs:label "D139"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D139.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D139.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D140> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D140> ;
+    rdfs:label "ED140"@fr .
+
+<document-D140> a <#D5-document> ;
+    rdfs:label "D140"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D140.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D140.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D141> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D141> ;
+    rdfs:label "ED141"@fr .
+
+<document-D141> a <#D5-document> ;
+    rdfs:label "D141"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D141.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D141.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D142> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D142> ;
+    rdfs:label "ED142"@fr .
+
+<document-D142> a <#D5-document> ;
+    rdfs:label "D142"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D142.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D142.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D143> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D143> ;
+    rdfs:label "ED143"@fr .
+
+<document-D143> a <#D5-document> ;
+    rdfs:label "D143"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D143.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D143.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D144> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D144> ;
+    rdfs:label "ED144"@fr .
+
+<document-D144> a <#D5-document> ;
+    rdfs:label "D144"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D144.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D144.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D145> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D145> ;
+    rdfs:label "ED145"@fr .
+
+<document-D145> a <#D5-document> ;
+    rdfs:label "D145"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D145.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D145.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D146> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D146> ;
+    rdfs:label "ED146"@fr .
+
+<document-D146> a <#D5-document> ;
+    rdfs:label "D146"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D146.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D146.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D147> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D147> ;
+    rdfs:label "ED147"@fr .
+
+<document-D147> a <#D5-document> ;
+    rdfs:label "D147"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D147.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D147.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D148> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D148> ;
+    rdfs:label "ED148"@fr .
+
+<document-D148> a <#D5-document> ;
+    rdfs:label "D148"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D148.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D148.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D149> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D149> ;
+    rdfs:label "ED149"@fr .
+
+<document-D149> a <#D5-document> ;
+    rdfs:label "D149"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D149.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D149.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D150> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D150> ;
+    rdfs:label "ED150"@fr .
+
+<document-D150> a <#D5-document> ;
+    rdfs:label "D150"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D150.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D150.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D151> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D151> ;
+    rdfs:label "ED151"@fr .
+
+<document-D151> a <#D5-document> ;
+    rdfs:label "D151"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D151.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D151.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D152> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D152> ;
+    rdfs:label "ED152"@fr .
+
+<document-D152> a <#D5-document> ;
+    rdfs:label "D152"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D152.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D152.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D153> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D153> ;
+    rdfs:label "ED153"@fr .
+
+<document-D153> a <#D5-document> ;
+    rdfs:label "D153"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D153.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D153.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D154> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D154> ;
+    rdfs:label "ED154"@fr .
+
+<document-D154> a <#D5-document> ;
+    rdfs:label "D154"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D154.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D154.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D155> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D155> ;
+    rdfs:label "ED155"@fr .
+
+<document-D155> a <#D5-document> ;
+    rdfs:label "D155"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D155.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D155.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D156> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D156> ;
+    rdfs:label "ED156"@fr .
+
+<document-D156> a <#D5-document> ;
+    rdfs:label "D156"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D156.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D156.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D157> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D157> ;
+    rdfs:label "ED157"@fr .
+
+<document-D157> a <#D5-document> ;
+    rdfs:label "D157"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D157.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D157.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D158> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D158> ;
+    rdfs:label "ED158"@fr .
+
+<document-D158> a <#D5-document> ;
+    rdfs:label "D158"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D158.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D158.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D159> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D159> ;
+    rdfs:label "ED159"@fr .
+
+<document-D159> a <#D5-document> ;
+    rdfs:label "D159"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D159.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D159.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D160> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D160> ;
+    rdfs:label "ED160"@fr .
+
+<document-D160> a <#D5-document> ;
+    rdfs:label "D160"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D160.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D160.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D161> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D161> ;
+    rdfs:label "ED161"@fr .
+
+<document-D161> a <#D5-document> ;
+    rdfs:label "D161"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D161.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D161.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D162> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D162> ;
+    rdfs:label "ED162"@fr .
+
+<document-D162> a <#D5-document> ;
+    rdfs:label "D162"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D162.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D162.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D163> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D163> ;
+    rdfs:label "ED163"@fr .
+
+<document-D163> a <#D5-document> ;
+    rdfs:label "D163"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D163.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D163.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D164> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D164> ;
+    rdfs:label "ED164"@fr .
+
+<document-D164> a <#D5-document> ;
+    rdfs:label "D164"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D164.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D164.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D165> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D165> ;
+    rdfs:label "ED165"@fr .
+
+<document-D165> a <#D5-document> ;
+    rdfs:label "D165"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D165.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D165.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D166> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D166> ;
+    rdfs:label "ED166"@fr .
+
+<document-D166> a <#D5-document> ;
+    rdfs:label "D166"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D166.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D166.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D167> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D167> ;
+    rdfs:label "ED167"@fr .
+
+<document-D167> a <#D5-document> ;
+    rdfs:label "D167"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D167.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D167.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D168> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D168> ;
+    rdfs:label "ED168"@fr .
+
+<document-D168> a <#D5-document> ;
+    rdfs:label "D168"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D168.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D168.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D169> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D169> ;
+    rdfs:label "ED169"@fr .
+
+<document-D169> a <#D5-document> ;
+    rdfs:label "D169"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D169.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D169.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D170> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D170> ;
+    rdfs:label "ED170"@fr .
+
+<document-D170> a <#D5-document> ;
+    rdfs:label "D170"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D170.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D170.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D171> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D171> ;
+    rdfs:label "ED171"@fr .
+
+<document-D171> a <#D5-document> ;
+    rdfs:label "D171"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D171.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D171.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D172> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D172> ;
+    rdfs:label "ED172"@fr .
+
+<document-D172> a <#D5-document> ;
+    rdfs:label "D172"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D172.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D172.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D173> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D173> ;
+    rdfs:label "ED173"@fr .
+
+<document-D173> a <#D5-document> ;
+    rdfs:label "D173"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D173.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D173.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D174> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D174> ;
+    rdfs:label "ED174"@fr .
+
+<document-D174> a <#D5-document> ;
+    rdfs:label "D174"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D174.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D174.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D175> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D175> ;
+    rdfs:label "ED175"@fr .
+
+<document-D175> a <#D5-document> ;
+    rdfs:label "D175"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D175.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D175.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D176> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D176> ;
+    rdfs:label "ED176"@fr .
+
+<document-D176> a <#D5-document> ;
+    rdfs:label "D176"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D176.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D176.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D177> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D177> ;
+    rdfs:label "ED177"@fr .
+
+<document-D177> a <#D5-document> ;
+    rdfs:label "D177"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D177.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D177.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D178> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D178> ;
+    rdfs:label "ED178"@fr .
+
+<document-D178> a <#D5-document> ;
+    rdfs:label "D178"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D178.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D178.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D179> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D179> ;
+    rdfs:label "ED179"@fr .
+
+<document-D179> a <#D5-document> ;
+    rdfs:label "D179"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D179.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D179.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D180> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D180> ;
+    rdfs:label "ED180"@fr .
+
+<document-D180> a <#D5-document> ;
+    rdfs:label "D180"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D180.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D180.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D181> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D181> ;
+    rdfs:label "ED181"@fr .
+
+<document-D181> a <#D5-document> ;
+    rdfs:label "D181"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D181.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D181.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D182> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D182> ;
+    rdfs:label "ED182"@fr .
+
+<document-D182> a <#D5-document> ;
+    rdfs:label "D182"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D182.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D182.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D183> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D183> ;
+    rdfs:label "ED183"@fr .
+
+<document-D183> a <#D5-document> ;
+    rdfs:label "D183"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D183.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D183.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D184> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D184> ;
+    rdfs:label "ED184"@fr .
+
+<document-D184> a <#D5-document> ;
+    rdfs:label "D184"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D184.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D184.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D185> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D185> ;
+    rdfs:label "ED185"@fr .
+
+<document-D185> a <#D5-document> ;
+    rdfs:label "D185"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D185.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D185.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D186> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D186> ;
+    rdfs:label "ED186"@fr .
+
+<document-D186> a <#D5-document> ;
+    rdfs:label "D186"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D186.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D186.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D187> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D187> ;
+    rdfs:label "ED187"@fr .
+
+<document-D187> a <#D5-document> ;
+    rdfs:label "D187"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D187.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D187.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D188> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D188> ;
+    rdfs:label "ED188"@fr .
+
+<document-D188> a <#D5-document> ;
+    rdfs:label "D188"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D188.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D188.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D189> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D189> ;
+    rdfs:label "ED189"@fr .
+
+<document-D189> a <#D5-document> ;
+    rdfs:label "D189"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D189.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D189.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D190> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D190> ;
+    rdfs:label "ED190"@fr .
+
+<document-D190> a <#D5-document> ;
+    rdfs:label "D190"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D190.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D190.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D191> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D191> ;
+    rdfs:label "ED191"@fr .
+
+<document-D191> a <#D5-document> ;
+    rdfs:label "D191"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D191.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D191.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D192> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D192> ;
+    rdfs:label "ED192"@fr .
+
+<document-D192> a <#D5-document> ;
+    rdfs:label "D192"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D192.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D192.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D193> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D193> ;
+    rdfs:label "ED193"@fr .
+
+<document-D193> a <#D5-document> ;
+    rdfs:label "D193"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D193.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D193.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D194> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D194> ;
+    rdfs:label "ED194"@fr .
+
+<document-D194> a <#D5-document> ;
+    rdfs:label "D194"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D194.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D194.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D195> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D195> ;
+    rdfs:label "ED195"@fr .
+
+<document-D195> a <#D5-document> ;
+    rdfs:label "D195"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D195.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D195.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D196> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D196> ;
+    rdfs:label "ED196"@fr .
+
+<document-D196> a <#D5-document> ;
+    rdfs:label "D196"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D196.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D196.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D197> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D197> ;
+    rdfs:label "ED197"@fr .
+
+<document-D197> a <#D5-document> ;
+    rdfs:label "D197"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D197.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D197.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D198> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D198> ;
+    rdfs:label "ED198"@fr .
+
+<document-D198> a <#D5-document> ;
+    rdfs:label "D198"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D198.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D198.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D199> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D199> ;
+    rdfs:label "ED199"@fr .
+
+<document-D199> a <#D5-document> ;
+    rdfs:label "D199"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D199.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D199.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D200> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D200> ;
+    rdfs:label "ED200"@fr .
+
+<document-D200> a <#D5-document> ;
+    rdfs:label "D200"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D200.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D200.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D201> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D201> ;
+    rdfs:label "ED201"@fr .
+
+<document-D201> a <#D5-document> ;
+    rdfs:label "D201"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D201.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D201.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D202> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D202> ;
+    rdfs:label "ED202"@fr .
+
+<document-D202> a <#D5-document> ;
+    rdfs:label "D202"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D202.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D202.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D203> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D203> ;
+    rdfs:label "ED203"@fr .
+
+<document-D203> a <#D5-document> ;
+    rdfs:label "D203"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D203.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D203.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D204> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D204> ;
+    rdfs:label "ED204"@fr .
+
+<document-D204> a <#D5-document> ;
+    rdfs:label "D204"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D204.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D204.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D205> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D205> ;
+    rdfs:label "ED205"@fr .
+
+<document-D205> a <#D5-document> ;
+    rdfs:label "D205"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D205.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D205.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D206> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D206> ;
+    rdfs:label "ED206"@fr .
+
+<document-D206> a <#D5-document> ;
+    rdfs:label "D206"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D206.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D206.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D207> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D207> ;
+    rdfs:label "ED207"@fr .
+
+<document-D207> a <#D5-document> ;
+    rdfs:label "D207"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D207.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D207.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D208> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D208> ;
+    rdfs:label "ED208"@fr .
+
+<document-D208> a <#D5-document> ;
+    rdfs:label "D208"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D208.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D208.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D209> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D209> ;
+    rdfs:label "ED209"@fr .
+
+<document-D209> a <#D5-document> ;
+    rdfs:label "D209"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D209.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D209.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D209> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D210> ;
+    rdfs:label "ED210"@fr .
+
+<document-D210> a <#D5-document> ;
+    rdfs:label "D210"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D210.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D210.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D211> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D211> ;
+    rdfs:label "ED211"@fr .
+
+<document-D211> a <#D5-document> ;
+    rdfs:label "D211"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D211.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D211.jpg" ;
+    dct:type "notes".
+
+
+<extrait-D212> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D212> ;
+    rdfs:label "ED212"@fr .
+
+<document-D212> a <#D5-document> ;
+    rdfs:label "D212"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D212.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D212.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D213> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D213> ;
+    rdfs:label "ED213"@fr .
+
+<document-D213> a <#D5-document> ;
+    rdfs:label "D213"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D213.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D213.jpg" ;
+    dct:type "notes".
+
+
+<extrait-D214> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D214> ;
+    rdfs:label "ED214"@fr .
+
+<document-D214> a <#D5-document> ;
+    rdfs:label "D214"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D214.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D214.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D215> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D215> ;
+    rdfs:label "ED215"@fr .
+
+<document-D215> a <#D5-document> ;
+    rdfs:label "D215"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D215.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D215.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D216> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D216> ;
+    rdfs:label "ED216"@fr .
+
+<document-D216> a <#D5-document> ;
+    rdfs:label "D216"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D216.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D216.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D217> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D217> ;
+    rdfs:label "ED217"@fr .
+
+<document-D217> a <#D5-document> ;
+    rdfs:label "D217"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D217.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D217.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D218> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D218> ;
+    rdfs:label "ED218"@fr .
+
+<document-D218> a <#D5-document> ;
+    rdfs:label "D218"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D218.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D218.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D219> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D219> ;
+    rdfs:label "ED219"@fr .
+
+<document-D219> a <#D5-document> ;
+    rdfs:label "D219"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D219.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D219.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D220> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D220> ;
+    rdfs:label "ED220"@fr .
+
+<document-D220> a <#D5-document> ;
+    rdfs:label "D220"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D220.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D220.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D221> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D221> ;
+    rdfs:label "ED221"@fr .
+
+<document-D221> a <#D5-document> ;
+    rdfs:label "D221"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D221.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D221.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D222> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D222> ;
+    rdfs:label "ED222"@fr .
+
+<document-D222> a <#D5-document> ;
+    rdfs:label "D222"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D222.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D222.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D223> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D223> ;
+    rdfs:label "ED223"@fr .
+
+<document-D223> a <#D5-document> ;
+    rdfs:label "D223"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D223.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D223.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D224> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D224> ;
+    rdfs:label "ED224"@fr .
+
+<document-D224> a <#D5-document> ;
+    rdfs:label "D224"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D224.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D224.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D225> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D225> ;
+    rdfs:label "ED225"@fr .
+
+<document-D225> a <#D5-document> ;
+    rdfs:label "D225"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D225.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D225.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D226> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D226> ;
+    rdfs:label "ED226"@fr .
+
+<document-D226> a <#D5-document> ;
+    rdfs:label "D226"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D226.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D226.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D227> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D227> ;
+    rdfs:label "ED227"@fr .
+
+<document-D227> a <#D5-document> ;
+    rdfs:label "D227"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D227.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D227.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D228> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D228> ;
+    rdfs:label "ED228"@fr .
+
+<document-D228> a <#D5-document> ;
+    rdfs:label "D228"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D228.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D228.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D229> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D229> ;
+    rdfs:label "ED229"@fr .
+
+<document-D229> a <#D5-document> ;
+    rdfs:label "D229"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D229.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D229.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D230> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D230> ;
+    rdfs:label "ED230"@fr .
+
+<document-D230> a <#D5-document> ;
+    rdfs:label "D230"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D230.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D230.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D231> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D231> ;
+    rdfs:label "ED231"@fr .
+
+<document-D231> a <#D5-document> ;
+    rdfs:label "D231"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D231.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D231.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D232> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D232> ;
+    rdfs:label "ED232"@fr .
+
+<document-D232> a <#D5-document> ;
+    rdfs:label "D232"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D232.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D232.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D233> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D233> ;
+    rdfs:label "ED233"@fr .
+
+<document-D233> a <#D5-document> ;
+    rdfs:label "D233"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D233.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D233.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D234> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D234> ;
+    rdfs:label "ED234"@fr .
+
+<document-D234> a <#D5-document> ;
+    rdfs:label "D234"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D234.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D234.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D235> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D235> ;
+    rdfs:label "ED235"@fr .
+
+<document-D235> a <#D5-document> ;
+    rdfs:label "D235"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D235.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D235.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D236> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D236> ;
+    rdfs:label "ED236"@fr .
+
+<document-D236> a <#D5-document> ;
+    rdfs:label "D236"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D236.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D236.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D237> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D237> ;
+    rdfs:label "ED237"@fr .
+
+<document-D237> a <#D5-document> ;
+    rdfs:label "D237"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D237.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D237.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D238> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D238> ;
+    rdfs:label "ED238"@fr .
+
+<document-D238> a <#D5-document> ;
+    rdfs:label "D238"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D238.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D238.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D239> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D239> ;
+    rdfs:label "ED239"@fr .
+
+<document-D239> a <#D5-document> ;
+    rdfs:label "D239"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D239.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D239.jpg" ;
+    dct:type "photo".
+
+
+<extrait-D240> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D240> ;
+    rdfs:label "ED240"@fr .
+
+<document-D240> a <#D5-document> ;
+    rdfs:label "D240"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/9594/docs/D240.pdf" ;
+    dct:image "https://documents.karl-pineau.fr/corpus/9594/images/D240.jpg" ;
+    dct:type "photo".
+
+
+################################################################
+################################################################
+################################################################
+
+
+# Cycle de vie
+<cdv-9594> a <#C2-cycle-de-vie> ;
+    <#X2-est-compose-de> <strate-materielle> ;
+    <#X2-est-compose-de> <strate-culturelle> ;
+    <#X2-est-compose-de> <strate-institutionnelle> ;
+    rdfs:label "Cycle de vie de OA9594"@fr.
+
+<strate-materielle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Matérielle" ;
+    <#X7-considere-le-bien-culturel-comme> <necessaire-objet-physique> ;
+    <#X2-est-compose-de> <event-2> ;
+    <#X2-est-compose-de> <event-4> ;
+    <#X2-est-compose-de> <event-6> ;
+    <#X2-est-compose-de> <event-8> ;
+    <#X2-est-compose-de> <event-9> ;
+    <#X2-est-compose-de> <event-10> ;
+    <#X2-est-compose-de> <event-11> ;
+    <#X2-est-compose-de> <event-14> ;
+    <#X2-est-compose-de> <event-16> ;
+    <#X2-est-compose-de> <event-21> ;
+    <#X2-est-compose-de> <event-23> ;
+    <#X2-est-compose-de> <event-24> ;
+    <#X2-est-compose-de> <event-27> ;
+    <#X2-est-compose-de> <event-28> ;
+    rdfs:label "Strate matérielle"@fr.
+
+<strate-culturelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Culturelle" ;
+    <#X7-considere-le-bien-culturel-comme> <necessaire-objet-discursif> ;
+    <#X2-est-compose-de> <event-1> ;
+    <#X2-est-compose-de> <event-3> ;
+    <#X2-est-compose-de> <event-15> ;
+    <#X2-est-compose-de> <event-18> ;
+    <#X2-est-compose-de> <event-19> ;
+    <#X2-est-compose-de> <event-20> ;
+    <#X2-est-compose-de> <event-22> ;
+    <#X2-est-compose-de> <event-25> ;
+    <#X2-est-compose-de> <event-26> ;
+    rdfs:label "Strate culturelle"@fr.
+
+<strate-institutionnelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Institutionnelle" ;
+    <#X7-considere-le-bien-culturel-comme> <dossier-oeuvre-9594> ;
+    <#X2-est-compose-de> <event-5> ;
+    <#X2-est-compose-de> <event-7> ;
+    <#X2-est-compose-de> <event-12> ;
+    <#X2-est-compose-de> <event-13> ;
+    <#X2-est-compose-de> <event-17> ;
+    rdfs:label "Strate institutionnelle"@fr.
+
+################################################################
+################################################################
+################################################################
+
+# Events
+
+<event-1> a <#C6-evenement> ;
+          rdfs:label "Commande du nécessaire"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E1> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E1> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Marie-Antoinette" ;
+         <#Y1-est-documente-par> <extrait-D55> ;
+          dct:type "Conception".
+
+<date-E1> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "22/06/1780"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-2> a <#C6-evenement> ;
+          rdfs:label "Exécution du nécessaire"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E2> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Ebéniste Palma" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Orfèvre Charpenat" ;
+         <#Y1-est-documente-par> <extrait-D67> ;
+          dct:type "Conception".
+
+<date-E2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1788"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-3> a <#C6-evenement> ;
+          rdfs:label "Dénonciation de la femme de chambre au commissaire sur les préparatifs liés au nécessaire"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E3> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E3> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Femme de chambre de Marie-Antoinette" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Commissaire de la ville de Paris" ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Événement historique".
+
+<date-E3> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "21/06/1791"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-4> a <#C6-evenement> ;
+          rdfs:label "Envoi du nécessaire à Marie-Christine des Pays-Bas par le biais de Mercy-Argenteau"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E4> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E4> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Mercy-Argenteau" ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Événement historique".
+
+<date-E4> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "12/06/1791"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-5> a <#C6-evenement> ;
+          rdfs:label "Etat de l'argenterie qui a été mise de côté par le procès verbal du 26 juillet pour être vendue aux propriétaires & cie."@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E5> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E5> ;
+         <#Y1-est-documente-par> <extrait-D57> ;
+          dct:type "Inventaire".
+
+<date-E5> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "26/07/1793"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-6> a <#C6-evenement> ;
+          rdfs:label "Pose d'un poiçon de recense de Milan"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E6> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E6> ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Événement historique".
+
+<date-E6> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1794"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-7> a <#C6-evenement> ;
+          rdfs:label "Inventaire du nécessaire devant être porté à la Monnoye à Paris"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E7> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E7> ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Inventaire".
+
+<date-E7> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "17/12/1794"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-8> a <#C6-evenement> ;
+          rdfs:label "Nécessaire remis au citoyen Fouquet"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E8> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E8> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Citoyen Fouquet" ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Vente".
+
+<date-E8> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/12/1794"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "10".
+
+
+<event-9> a <#C6-evenement> ;
+          rdfs:label "Récupération du nécessaire par Ferdinand, frère de Marie-Antoinette"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E9> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E9> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Ferdinand d'Autriche" ;
+         <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Événement historique".
+
+<date-E9> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1794"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-10> a <#C6-evenement> ;
+          rdfs:label "Nécessaire offert par Ferdinand au comte de Terzi à Bergame"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E10> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E10> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Ferdinand d'Autriche" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Comte de Terzi" ;
+         <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Événement historique".
+
+<date-E10> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1794"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-11> a <#C6-evenement> ;
+          rdfs:label "Nécessaire récupéré par les Français lors de la conquête de Bergame par Bonaparte"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E11> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E11> ;
+         <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Événement historique".
+
+<date-E11> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1796"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-12> a <#C6-evenement> ;
+          rdfs:label "Nécessaire offert par Bonaparte à Joséphine"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E12> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E12> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Bonaparte" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Joséphine" ;
+         <#Y1-est-documente-par> <extrait-D15> ;
+          dct:type "Événement historique".
+
+<date-E12> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1796"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-13> a <#C6-evenement> ;
+          rdfs:label "Vente de Francesco Bighencomer à Felice Origoni"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E13> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E13> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Francesco Bighencomer" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Felice Origoni" ;
+         <#Y1-est-documente-par> <extrait-D28> ;
+          dct:type "Vente".
+
+<date-E13> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1805"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-14> a <#C6-evenement> ;
+          rdfs:label "Expédition du nécessaire en France"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E14> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E14> ;
+         <#Y1-est-documente-par> <extrait-D31> ;
+          dct:type "Régie".
+
+<date-E14> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "18/04/1894"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-15> a <#C6-evenement> ;
+          rdfs:label "Exposition \"Marie-Antoinette et son temps\" à la galerie Sedelmeyer"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E15> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E15-2> ;
+         <#Y1-est-documente-par> <extrait-D12> ;
+          dct:type "Exposition".
+
+<date-E15> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1894"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<date-E15-2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1904"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-16> a <#C6-evenement> ;
+          rdfs:label "Remise du nécessaire à l'ambassadeur de France à Rome"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E16> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E16> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Ambassadeur de France" ;
+         <#Y1-est-documente-par> <extrait-D30> ;
+         <#Y1-est-documente-par> <extrait-D32> ;
+         <#Y1-est-documente-par> <extrait-D34> ;
+         <#Y1-est-documente-par> <extrait-D45> ;
+          dct:type "Régie".
+
+<date-E16> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "30/03/1904"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-17> a <#C6-evenement> ;
+          rdfs:label "Acquisition du nécessaire par le musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E17> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E17> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Maison Bulgari" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+         <#Y1-est-documente-par> <extrait-D28> ;
+         <#Y1-est-documente-par> <extrait-D85> ;
+         <#Y1-est-documente-par> <extrait-D87> ;
+         <#Y1-est-documente-par> <extrait-D88> ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+         <#Y1-est-documente-par> <extrait-D79> ;
+         <#Y1-est-documente-par> <extrait-D84> ;
+         <#Y1-est-documente-par> <extrait-D86> ;
+         <#Y1-est-documente-par> <extrait-D93> ;
+         <#Y1-est-documente-par> <extrait-D94> ;
+         <#Y1-est-documente-par> <extrait-D98> ;
+         <#Y1-est-documente-par> <extrait-D99> ;
+         <#Y1-est-documente-par> <extrait-D100> ;
+         <#Y1-est-documente-par> <extrait-D47> ;
+          dct:type "Acquisition".
+
+<date-E17> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1955"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-19> a <#C6-evenement> ;
+          rdfs:label "Exposition \"Marie-Antoinette\" au château de Versailles"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E19> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E19-2> ;
+         <#Y1-est-documente-par> <extrait-D67> ;
+         <#Y1-est-documente-par> <extrait-D105> ;
+          dct:type "Exposition".
+
+<date-E19> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "16/05/1955"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+<date-E19-2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "02/11/1955"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "11".
+
+
+<event-20> a <#C6-evenement> ;
+          rdfs:label "Exposition \"La Révolution Française et l'Europe\", Grand Palais"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E20> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E20> ;
+         <#Y1-est-documente-par> <extrait-D78> ;
+          dct:type "Exposition".
+
+<date-E20> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1988"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-21> a <#C6-evenement> ;
+          rdfs:label "Restauration"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E21> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E21> ;
+         <#Y1-est-documente-par> <extrait-D111> ;
+          dct:type "Restauration".
+
+<date-E21> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1989"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-22> a <#C6-evenement> ;
+          rdfs:label "Exposition \"Boites à couteaux\""@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E22> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E22> ;
+         <#Y1-est-documente-par> <extrait-D77> ;
+          dct:type "Exposition".
+
+<date-E22> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2001"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-23> a <#C6-evenement> ;
+          rdfs:label "Mesure de l'objet"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E23> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E23> ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Régie".
+
+<date-E23> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2007"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-24> a <#C6-evenement> ;
+          rdfs:label "Restauration"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E24> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E24> ;
+         <#Y1-est-documente-par> <extrait-D109> ;
+          dct:type "Restauration".
+
+<date-E24> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2007"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-25> a <#C6-evenement> ;
+          rdfs:label "Exposition \"Indispensables nécessaires\", Malmaison"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E25> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E25-2> ;
+         <#Y1-est-documente-par> <extrait-D66> ;
+          dct:type "Exposition".
+
+<date-E25> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2007"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<date-E25-2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2008"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-26> a <#C6-evenement> ;
+          rdfs:label "Exposition \"Fastes de la cour de France au XVIIIe\", Musée du Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E26> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E26> ;
+         <#Y1-est-documente-par> <extrait-D67> ;
+          dct:type "Exposition".
+
+<date-E26> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2008"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-27> a <#C6-evenement> ;
+          rdfs:label "Examen de l'objet par Bertrand Jestaz"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E27> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E27> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Bertrand Jestaz" ;
+         <#Y1-est-documente-par> <extrait-D10> ;
+          dct:type "Activité de recherche".
+
+<date-E27> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2013"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<event-28> a <#C6-evenement> ;
+          rdfs:label "Restauration"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E28> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E28> ;
+         <#Y1-est-documente-par> <extrait-D112> ;
+         <#Y1-est-documente-par> <extrait-D113> ;
+          dct:type "Restauration".
+
+<date-E28> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2013"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".

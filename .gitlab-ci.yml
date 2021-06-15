@@ -1,0 +1,19 @@
+image: node:12.18.4
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  stage: deploy
+  tags:
+    - linux
+  script:
+  - npm install -g @angular/cli@10.2.0
+  - npm install
+  - ng build --prod --base-href="/tx-datavisualisation/"
+  - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public
+  only:
+  - pages

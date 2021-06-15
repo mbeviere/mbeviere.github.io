@@ -1,0 +1,83 @@
+#document-detail-hi{
+    font-size:30px;
+    /*border:3px solid red;*/
+    position:absolute;
+    height:calc(100vh - 50px - 1%);
+    top:1%;
+    left:73%;
+    float:right;
+    width:23%;
+    background-color:#50596A;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    font-family:Roboto;
+    padding:25px;
+    font-size:16px;
+}
+
+.document-detail-hi-div{
+    display:flex;
+    flex-direction:column;
+}
+
+.docTitle{
+    display:flex;
+    justify-content:center;
+    color:#FF775C;
+    font-size:21px;
+    font-weight:600;
+}
+
+.docImgDiv{
+    display:flex;
+    justify-content:center;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+
+.docZoom{
+    display:flex;
+    justify-content:center;
+    margin-bottom:2vh;
+}
+
+.docDataDiv{
+    display:flex;
+    flex-direction:column;
+    color:#EDEACF;
+    margin-left:10%;
+}
+
+.docDataName{
+    font-style:italic;
+}
+
+.docTypeDiv, .docAuthorsDiv, .docDateDiv, .docArkDiv{
+    margin-bottom:2.5vh;
+}
+
+.docData{
+    margin-left:15px;
+}
+
+.closeBtn{
+    position:absolute;
+    left:93%;
+    bottom:96%;
+    cursor:pointer;
+}
+
+.imgZoom{
+    background-color:#626A78;
+    border-radius:12px;
+    padding:4px;
+    cursor:pointer;
+}
+
+.imgZoom:active{
+    background-color:#444a54;
+}
+
+.clickableElement{
+    cursor:pointer;
+}

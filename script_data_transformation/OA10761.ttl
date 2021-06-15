@@ -1,0 +1,489 @@
+@prefix : <http://karl-pineau.fr/cdv-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://erlangen-crm.org/current/>.
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@base <http://karl-pineau.fr/cdv-ontology/> .
+
+# Oeuvre
+
+<oeuvre-10761> a <#D1-oeuvre-art> ;
+     <#Y1-est-documente-par> <dossier-oeuvre-10761> ;
+     <#X1-est-represente-par> <cdv-10761> ;
+     rdfs:label "Appareil de géodésie"@fr ;
+     dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/illustration.jpg" .
+
+
+# Dossier d'oeuvre
+
+<dossier-oeuvre-10761> a <#D2-dossier-d-oeuvre> ;
+    <#X2-est-compose-de> <dossier-1> ;
+    <#X2-est-compose-de> <extrait-D1> ;
+    <#X2-est-compose-de> <extrait-D2> ;
+    <#X2-est-compose-de> <extrait-D3> ;
+    <#X2-est-compose-de> <extrait-D4> ;
+    <#X2-est-compose-de> <extrait-D17> ;
+    rdfs:label "DO 10761"@fr .
+
+<dossier-1> a <#D3-dossier> ;
+    <#X2-est-compose-de> <extrait-D5> ;
+    <#X2-est-compose-de> <extrait-D6> ;
+    <#X2-est-compose-de> <extrait-D7> ;
+    <#X2-est-compose-de> <extrait-D8> ;
+    <#X2-est-compose-de> <extrait-D9> ;
+    <#X2-est-compose-de> <extrait-D10> ;
+    <#X2-est-compose-de> <extrait-D11> ;
+    <#X2-est-compose-de> <extrait-D12> ;
+    <#X2-est-compose-de> <extrait-D13> ;
+    <#X2-est-compose-de> <extrait-D14> ;
+    <#X2-est-compose-de> <extrait-D15> ;
+    <#X2-est-compose-de> <extrait-D16> ;
+    rdfs:label "#1 Dossier scientifique"@fr .
+
+<extrait-D1> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D1> ;
+    rdfs:label "ED1"@fr .
+
+<document-D1> a <#D5-document> ;
+    rdfs:label "Inventaire du 23/09/2010"@fr ;
+    dct:creator "Dantan (Musée du Louvre)" ;
+    dct:type "inventaire" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D1> ;
+    <#Y4-cite> <document-D2> ;
+    <#Y4-cite> <document-D5> ;
+    <#Y4-cite> <document-D6> .
+
+<date-D1> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "23/09/2010"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D1.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D1.jpg" ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+    
+<extrait-D2> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D2> ;
+    rdfs:label "ED2"@fr .
+
+<document-D2> a <#D5-document> ;
+    rdfs:label "Inventaire 18/06/2007"@fr ;
+    dct:creator "Creuzet (Musée du Louvre)" ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D2.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D2.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D2> ;
+    <#Y4-cite> <document-D5> ;
+    <#Y4-cite> <document-D6> .
+
+<date-D2> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "18/06/2007"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "11".
+    
+<extrait-D3> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D3> ;
+    rdfs:label "ED3"@fr .
+
+<document-D3> a <#D5-document> ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D3.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D3.jpg" ;
+    rdfs:label "D3"@fr .
+
+<extrait-D4> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D4> ;
+    rdfs:label "ED4"@fr .
+
+<document-D4> a <#D5-document> ;
+    rdfs:label "D4"@fr ;
+    dct:creator "RMN - J. G. Berizzi" ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D4.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D4.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D4> .
+
+<date-D4> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1999"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D17> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D17> ;
+    rdfs:label "ED17"@fr .
+
+<document-D17> a <#D5-document> ;
+    rdfs:label "D17"@fr ;
+    dct:creator "RMN - J. G. Berizzi" ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D17.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D17.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D17> .
+
+<date-D17> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1999"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D5> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D5> ;
+    <#Z1-materialise> <enonce-1> ;
+    rdfs:label "ED5"@fr .
+
+<document-D5> a <#D5-document> ;
+    rdfs:label "Les instruments de mathématiques - XVIe - XVIIIe siècle"@fr ;
+    dct:creator "Camille Frémontier-Murphy" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D5> ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D5.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D5.jpg" ;
+    <#Y4-cite> <document-D9>.
+
+<date-D5> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2002"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D6> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D6> ;
+    <#Z1-materialise> <enonce-2> ;
+    rdfs:label "ED6"@fr .
+
+<document-D6> a <#D5-document> ;
+    rdfs:label "L'objet d'art de la saison n°23 : Planchette"@fr ;
+    dct:creator "Camille Frémontier-Murphy" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D6.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D6.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D6> ;
+    <#Y4-cite> <document-D5> ;
+    <#Y4-cite> <document-D9>.
+
+<date-D6> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2003"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D7> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D6> ;
+    rdfs:label "ED7"@fr .
+
+<extrait-D8> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D8> ;
+    rdfs:label "ED8"@fr .
+
+<document-D8> a <#D5-document> ;
+    dct:type "article" ;
+    rdfs:label "Le tableau du mois n°97 : Vénus entourée de nymphes regardant une ronde d'Amours, Sebastiano Ricci"@fr ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D8.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D8.jpg" ;
+    dct:creator "Stéphane Loire" .
+
+<extrait-D9> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED9"@fr .
+
+<document-D9> a <#D5-document> ;
+    rdfs:label "Tous les savoirs du monde - Encyclopédies et bibliothèques de Sumer au XXe siècle"@fr ;
+    dct:creator "Roland Schaer" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D9.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D9.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D9> .
+
+<date-D9> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1996"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D10> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED10"@fr .
+
+<extrait-D11> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D9> ;
+    rdfs:label "ED11"@fr .
+
+<extrait-D12> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D12> ;
+    <#Z1-materialise> <enonce-3> ;
+    rdfs:label "ED12"@fr .
+
+<document-D12> a <#D5-document> ;
+    rdfs:label "Merci messieurs..."@fr ;
+    dct:creator "Daniel Alcouffe" ;
+    dct:type "article" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D12.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D12.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D12> .
+
+<date-D12> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1989"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+
+<extrait-D13> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D13> ;
+    rdfs:label "ED13"@fr .
+
+<document-D13> a <#D5-document> ;
+    rdfs:label "L'Encyclopédie Diderot et d'Alembert"@fr ;
+    dct:creator "Ministère de la Culture" ;
+    dct:type "page web" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D13.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D13.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D13> .
+
+<date-D13> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2006"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D14> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D14> ;
+    rdfs:label "ED14"@fr .
+
+<document-D14> a <#D5-document> ;
+    rdfs:label "Inventaire"@fr ;
+    dct:creator "Musée du Louvre" ;
+    dct:type "inventaire" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D14.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D14.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D14> .
+
+<date-D14> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/1979"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D15> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D15> ;
+    rdfs:label "ED15"@fr .
+
+<document-D15> a <#D5-document> ;
+    rdfs:label "D15"@fr ;
+    dct:creator "RMN" ;
+    dct:type "photo" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D15.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D15.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D15> .
+
+<date-D15> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2010"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<extrait-D16> a <#D4-extrait-documentaire> ;
+    <#Y2-est-extrait-de> <document-D16> ;
+    rdfs:label "ED16"@fr .
+
+<document-D16> a <#D5-document> ;
+    rdfs:label "Catalogue de vente"@fr ;
+    dct:creator "Christie's" ;
+    dct:type "catalogue de vente" ;
+    dct:text "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/docs/D16.pdf" ;
+    dct:image "http://karlpine.cluster014.ovh.net/KarlPerso/doctorat/corpus/enligne/10761/images/D16.jpg" ;
+    <http://erlangen-crm.org/current/P4_has_time-span> <date-D16> .
+
+<date-D16> a <http://purl.org/dc/terms/date> ;
+    rdfs:label "01/01/2013"@fr ;
+    <http://erlangen-crm.org/current/P3_has_note> "9".
+
+# Cycle de vie
+
+<cdv-10761> a <#C2-cycle-de-vie> ;
+    <#X2-est-compose-de> <strate-materielle> ;
+    <#X2-est-compose-de> <strate-culturelle> ;
+    <#X2-est-compose-de> <strate-institutionnelle> ;
+    rdfs:label "Cycle de vie de OA10761"@fr.
+
+<strate-materielle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Matérielle" ;
+    <#X7-considere-le-bien-culturel-comme> <geodesie-objet-physique> ;
+    <#X2-est-compose-de> <event-2> ;
+    rdfs:label "Strate matérielle"@fr.
+
+<strate-culturelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Culturelle" ;
+    <#X7-considere-le-bien-culturel-comme> <geodesie-objet-discursif> ;
+    <#X2-est-compose-de> <event-1> ;
+    <#X2-est-compose-de> <event-3> ;
+    <#X2-est-compose-de> <enonce-3> ;
+    <#X2-est-compose-de> <event-7> ;
+    <#X2-est-compose-de> <enonce-2> ;
+    <#X2-est-compose-de> <enonce-1> ;
+    rdfs:label "Strate culturelle"@fr.
+
+<strate-institutionnelle> a <#C3-strate> ;
+    <#X3-a-pour-type> "Institutionnelle" ;
+    <#X7-considere-le-bien-culturel-comme> <dossier-oeuvre-10761> ;
+    <#X2-est-compose-de> <event-4> ;
+    <#X2-est-compose-de> <event-5> ;
+    <#X2-est-compose-de> <event-8> ;
+    rdfs:label "Strate institutionnelle"@fr.
+
+
+# Evènements
+<event-1> a <#C6-evenement> ;
+          rdfs:label "Réalisation du modèle d'appareil"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E1> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E1> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Nicolas Bion" ;
+          dct:type "Conception".
+          # se trouve dans strate culturelle
+
+<date-E1> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1709"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-2> a <#C6-evenement> ;
+          rdfs:label "Commande et exécution de la planchette"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E2> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E2> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <#Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Jean-Jacques Langlois" ;
+          dct:type "Réalisation" .
+          # se trouve dans strate matérielle
+
+<date-E2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1727"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-3> a <#C6-evenement> ;
+          rdfs:label "Objet copié par Courtonne en gravure dans le cabinet de Bonnier de la Mosson"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E3> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E3> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Jean-Baptiste Courtonne" ;
+          dct:type "Observation" .
+          # se trouve dans strate culturelle
+
+<date-E3> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1739"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-4> a <#C6-evenement> ;
+          rdfs:label "Vendu par Bonnier de la Mosson au comte de Buffon pour 240,5 livres"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E4> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E4> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <#Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Bonnier de la Mosson" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "George-Louis Leclerc, comte de Buffon" ;
+          dct:type "Vente" .
+          # se trouve dans strate institutionnelle
+
+<date-E4> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1744"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-5> a <#C6-evenement> ;
+          rdfs:label "Don de Mme Landau au Louvre"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E5> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E5> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <#Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Madame Landau" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+          dct:type "Acquisition" .
+          # se trouve dans strate institutionnelle
+
+<date-E5> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1779"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-7> a <#C6-evenement> ;
+          rdfs:label "Exposition \"L'arpenteur du roi. Vauban et Besançon\", Besançon"@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E6> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E6> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <#Y1-est-documente-par> <extrait-D2> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée de Besançon" ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Musée du Louvre" ;
+          dct:type "Exposition" .
+          # se trouve dans strate culturelle
+
+<date-E6> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2007"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<event-8> a <#C6-evenement> ;
+          rdfs:label "Récolement \"objet vu\""@fr ;
+          <http://erlangen-crm.org/current/P118_starts> <date-E7> ;
+          <http://erlangen-crm.org/current/P115_finishes> <date-E7> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <http://erlangen-crm.org/current/P11_had_participant> "Dantan" ;
+          dct:type "Récollement" .
+          # se trouve dans strate institutionnelle
+
+<date-E7> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2009"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+# Objet discursif
+
+<geodesie-objet-discursif> a <#L1-objet-discursif> ;
+                           <#X2-est-compose-de> <enonce-1> ;
+                           <#X2-est-compose-de> <enonce-2> ;
+                           <#X2-est-compose-de> <enonce-3> ;
+                           rdfs:label "Géodésie : réprésentation en objet discursif" .
+
+
+# Enoncés
+
+<enonce-1> a <#L2-enonce> ;
+           rdfs:label "Les instruments de mathématique du XVIe au XVIIIe siècle" ;
+           <http://erlangen-crm.org/current/P4_has_time-span> <date-EN1>.
+          # se trouve dans strate culturelle
+
+<date-EN1> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2002"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<enonce-2> a <#L2-enonce> ;
+          rdfs:label "L'objet d'art de la saison (fiche du Louvre)"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> <date-EN2> ;
+          <#Y1-est-documente-par> <extrait-D1> ;
+          <#Y1-est-documente-par> <extrait-D2> .
+          # se trouve dans strate culturelle
+
+<date-EN2> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/2003"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+<enonce-3> a <#L2-enonce> ;
+          rdfs:label "Merci messieurs... (Connaissance des Arts, les derniers dons du DOA)"@fr ;
+          <http://erlangen-crm.org/current/P4_has_time-span> <date-EN3> .
+          # se trouve dans strate culturelle
+
+<date-EN3> a <http://purl.org/dc/terms/date> ;
+        rdfs:label "01/01/1989"@fr ;
+        <http://erlangen-crm.org/current/P3_has_note> "9".
+
+# Objet physique
+
+<geodesie-objet-physique> a <#L3-objet-physique> ;
+                          rdfs:label "Géodésie : réprésentation en objet physique" ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-dimension-longueur> ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-dimension-hauteur> ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-dimension-diametre> ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-materiau-1> ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-materiau-2> ;
+                          <#Z2-a-pour-propriete-physique> <propriete-physique-materiau-3> .
+
+
+# Propriétés physiques
+<propriete-physique-dimension-longueur> a <http://erlangen-crm.org/current/E54_Dimension> ;
+                                        rdfs:label "longueur" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "570" ;
+                                        <http://erlangen-crm.org/current/P91_has_unit> "millimètre" .
+
+<propriete-physique-dimension-hauteur> a <http://erlangen-crm.org/current/E54_Dimension> ;
+                                       rdfs:label "hauteur" ;
+                                       <http://erlangen-crm.org/current/P90_has_value> "265" ;
+                                       <http://erlangen-crm.org/current/P91_has_unit> "millimètre" .
+
+<propriete-physique-dimension-diametre> a crm:E54_Dimension ;
+                                        rdfs:label "diamètre" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "490" ;
+                                        <http://erlangen-crm.org/current/P90_has_value> "millimètre" .
+
+<propriete-physique-materiau-1> a crm:E57_Material ;
+                                rdfs:label "Alliage cuivreux" .
+
+<propriete-physique-materiau-2> a <http://erlangen-crm.org/current/E57_Material> ;
+                                rdfs:label "Verre" .
+
+<propriete-physique-materiau-3> a <http://erlangen-crm.org/current/E57_Material> ;
+                                rdfs:label "Acier bleui" .

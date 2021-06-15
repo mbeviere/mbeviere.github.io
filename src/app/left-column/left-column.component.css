@@ -1,0 +1,93 @@
+#left-column-div {
+  height:969px;
+}
+
+#document-list {
+  height: 75%;
+  color: #EDEAD0;
+  font-family: Roboto;
+}
+
+#types-of-event{
+  height: 20%;
+  color: #EDEAD0;
+  font-family: Roboto;
+}
+
+.block {
+  height: 28%;
+  margin-right: 4px;
+}
+.list{
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color:  #A6AAB1 #626A78;
+  overflow-x:hidden;
+}
+.doc{
+  height: 77%;
+}
+
+.types{
+    margin-right: 4px;
+    height: 80%;
+}
+
+h2{
+font-family: RobotoBOLD;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+background-color: #626A78;
+padding: 5px  0px 5px 20px;
+width: 85%;
+}
+
+h2:hover {
+  color: #FF775C;
+  cursor: pointer;
+}
+
+h1{
+  font-family: RobotoBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  background-color: #E16952;
+  padding: 8px
+}
+
+h1:hover{
+  pointer-events: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+
+}
+
+li {
+  margin-bottom: 4px;
+}
+li:hover{
+    color: #FF775C;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #626A78;        /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #A6AAB1;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #626A78;  /* creates padding around scroll thumb */
+}
+
+.left-column-title{
+  font-size:1.1rem;
+}

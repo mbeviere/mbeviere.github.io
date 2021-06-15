@@ -1,0 +1,16 @@
+<div id='document-list'>
+    <h1> LISTE DES OEUVRES </h1>
+    <div class="block">
+      <div class="doc list">
+        <div *ngFor="let w of work ; index as i">
+          <div class="work_name_item clickableElement" (click) = "changeWork(w.id)"> {{w.nom_oeuvre}}  </div>
+          <!--<div *ngFor="let folder of hierarchie[i]">
+            <div *ngIf="folder.id.indexOf('dossier-oeuvre') == -1" class="folderDocItem">{{folder.id}}</div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+ 
